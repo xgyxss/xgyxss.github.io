@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>夜行书生</title>
+  
+  <subtitle>与其心生羡慕，不如自己变得优秀。</subtitle>
+  <link href="http://www.yexingshusheng.com/atom.xml" rel="self"/>
+  
+  <link href="http://www.yexingshusheng.com/"/>
+  <updated>2022-02-28T01:49:16.154Z</updated>
+  <id>http://www.yexingshusheng.com/</id>
+  
+  <author>
+    <name>夜行书生</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写博查阅文档</title>
+    <link href="http://www.yexingshusheng.com/zh/%E5%86%99%E5%8D%9A%E6%9F%A5%E9%98%85%E6%96%87%E6%A1%A3.html"/>
+    <id>http://www.yexingshusheng.com/zh/%E5%86%99%E5%8D%9A%E6%9F%A5%E9%98%85%E6%96%87%E6%A1%A3.html</id>
+    <published>2022-02-17T21:20:00.000Z</published>
+    <updated>2022-02-28T01:49:16.154Z</updated>
+    
+    <content type="html"><![CDATA[<p>这篇文章主要是用于个人写博时，作为查阅文档用！</p><span id="more"></span><h2 id="写博查阅文档"><a href="#写博查阅文档" class="headerlink" title="写博查阅文档"></a>写博查阅文档</h2><ol><li><p>命令部分（待完善）</p><ul><li><p>生成新文章</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &#x27;【文章名】&#x27;</span><br></pre></td></tr></table></figure></li><li><p>生成新草稿</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &#x27;【文章名】&#x27; --draft</span><br></pre></td></tr></table></figure></li><li><p>将文稿发布</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv ./source/_drafts/【文章名】 ./source/_posts</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#报错不好用</span><br><span class="line">hexo publish [layout] &#x27;【文章名】&#x27;</span><br></pre></td></tr></table></figure></li><li><p>清缓存&amp;生成&amp;预览</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean;hexo g; hexo s;</span><br></pre></td></tr></table></figure></li><li><p>推送到服务器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d --message &#x27;Blog Optimization&#x27;</span><br></pre></td></tr></table></figure></li></ul></li><li><p>title</p><p>与md文件名一致即可。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: 博客优化</span><br></pre></td></tr></table></figure></li><li><p>date</p><p>写作日期。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date: 2022-02-18 05:20:00</span><br></pre></td></tr></table></figure></li><li><p>tags</p><ul><li><p>单个标签</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tags: </span><br><span class="line"><span class="bullet"> -</span> Hexo</span><br></pre></td></tr></table></figure></li><li><p>多个标签</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">方式一：</span><br><span class="line">tags: </span><br><span class="line"><span class="bullet"> -</span> Flutter</span><br><span class="line"><span class="bullet"> -</span> 视频教程</span><br><span class="line">方式二：</span><br><span class="line">tags: [Flutter, 视频教程]</span><br></pre></td></tr></table></figure></li></ul></li><li><p>categories</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">categories: </span><br><span class="line"><span class="bullet">  -</span> 博客站务</span><br></pre></td></tr></table></figure><ul><li><p>学习笔记：回顾知识的笔记。</p></li><li><p>解决方案：对某个特定问题的解决办法。</p></li><li><p>博客站务：与该博客站点的搭建、部署、修改、索引相关的文章。</p></li><li><p>日志随笔：杂记、随笔。</p></li><li><p>工具网站：聚合自用工具。</p></li><li><p>学习资源：一些资源汇总。</p></li><li><p>MonthlyReview：每月回顾总结</p></li></ul></li><li><p>为特定的文章页配置特定的顶部图和图片高度</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">top<span class="emphasis">_img: https://xxxxxxx.jpg</span></span><br><span class="line"><span class="emphasis">top_</span>img<span class="emphasis">_height: 60</span></span><br></pre></td></tr></table></figure></li><li><p>引入图片</p><ul><li>用 img 标签直接引入图床里的markdown链接。</li></ul><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/github-avatar.jpeg&quot;</span> <span class="attr">width</span>=<span class="string">&quot;200&quot;</span> <span class="attr">height</span>=<span class="string">&quot;200&quot;</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span></span></span><br></pre></td></tr></table></figure><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/github-avatar.jpeg" width="200" height="200" align=left></li><li><p>关闭文章的评论</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// :和false之间有一个空格，否则报错</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure></li><li><p>引入视频</p><ul><li><p>Youtube 视频（若不能科学上网，则无法正常显示）</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// syntax</span><br><span class="line">&#123;% youtube 【视频ID】%&#125;</span><br><span class="line">// example</span><br><span class="line">&#123;% youtube PsXWbI2Mqu0 %&#125;</span><br></pre></td></tr></table></figure><div class="video-container"><iframe src="https://www.youtube.com/embed/PsXWbI2Mqu0" frameborder="0" loading="lazy" allowfullscreen></iframe></div></li><li><p>bilibili 视频</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// syntax</span><br><span class="line">&#123;% iframe 【url】 [【width】] [【height]】] %&#125;</span><br><span class="line">// example</span><br><span class="line">&#123;% iframe https://www.bilibili.com [500] [300] %&#125;</span><br></pre></td></tr></table></figure><iframe src="https://www.bilibili.com/" width="[500]" height="[300]" frameborder="0" loading="lazy" allowfullscreen></iframe></li></ul></li><li><p>引入音乐</p></li></ol><ul><li><p>网易云音乐</p><ol><li>在<a href="https://music.163.com/">网页版</a>进入单曲、歌单、专辑、电台节目页面后，点击 <em>“生成外链播放器”</em> 链接。</li><li>歌单和专辑外链播放器可以选择大中小三种尺寸，单曲和电台节目可以选择中小两种尺寸。你可以选择最适合你网站设计的尺寸。</li><li>还可以选择是否要自动播放，打上勾后，别人访问网站时播放器会自动开始播放。</li><li>最后将播放器的代码黏贴到你的网站上，大功告成！</li></ol><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginwidth</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginheight</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">330</span> <span class="attr">height</span>=<span class="string">86</span> <span class="attr">src</span>=<span class="string">&quot;//music.163.com/outchain/player?type=2&amp;id=1404511131&amp;auto=1&amp;height=66&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1404511131&auto=1&height=66"></iframe></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这篇文章主要是用于个人写博时，作为查阅文档用！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客站务" scheme="http://www.yexingshusheng.com/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%8A%A1/"/>
+    
+    
+    <category term="Hexo" scheme="http://www.yexingshusheng.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客简介</title>
+    <link href="http://www.yexingshusheng.com/zh/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B.html"/>
+    <id>http://www.yexingshusheng.com/zh/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B.html</id>
+    <published>2022-02-15T21:20:00.000Z</published>
+    <updated>2022-02-27T08:17:09.278Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个长期的价值博客是一份很好的简历！</p><span id="more"></span><h2 id="为什么要搭建自己的博客？"><a href="#为什么要搭建自己的博客？" class="headerlink" title="为什么要搭建自己的博客？"></a>为什么要搭建自己的博客？</h2><ol><li><p>好记性不如烂笔头</p><p>人脑的记忆和精力有限，提炼、聚合信息的同时也是方便自己记忆和查阅。</p></li><li><p>教是最好的学</p><blockquote><p>参考：<a href="https://baike.baidu.com/item/%E5%AD%A6%E4%B9%A0%E9%87%91%E5%AD%97%E5%A1%94/9515094?fr=aladdin">学习金字塔</a></p></blockquote></li><li><p>成为一个持续学习和思考的人</p><p>写你真正思考和总结之后的产物，一个博客的价值也来源于此。</p></li><li><p>可能出现的问题以及应对方式</p><ul><li><p>别人认为没有价值；想法太幼稚或者有漏洞。</p></li><li><p>每个人读过的书，走过的路，经历的事，获取的信息量、质量，不尽相同，分歧难免，但总有一部分人能够从中获得启发和灵感。</p></li></ul></li><li><p>写博客的起源</p><blockquote><p>参考：<a href="https://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/">为什么你应该（从现在开始就）写博客？</a></p></blockquote></li></ol><h2 id="为什么要选择Hexo"><a href="#为什么要选择Hexo" class="headerlink" title="为什么要选择Hexo?"></a>为什么要选择Hexo?</h2><ol><li><p>初期</p><p>自购服务器、域名，centos8系统，自搭LNMP环境，搭建的Wordpress博客。写文章是用拖放式的页面构建器——Elementor，只需单击几下即可轻松构建自定义页面。社区也有很多第三方插件用于可视化后台的管理、维护。这时有几个问题不得不考虑了：到后期文章数量比较多时的数据维护？服务器到期换厂家时的数据迁移？…这类问题，想想都觉得相当麻烦。至于该框架的利弊，这里不做讨论。但写作的初衷，只想简简单单地写作，所以只能另寻其他的框架风格。</p></li><li><p>当下</p><p>动态框架的后台管理实在是不想花太多时间，想更加专注于内容，所以选用了静态框架，然后从众多轻量级静态框架里，选择了Hexo，至于服务器那块，只需要挂载在 GitHub 上即可。最终选用了「 Hexo + GitHub Pages +自定义域名」搭建个人博客。</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;一个长期的价值博客是一份很好的简历！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="http://www.yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="Hexo" scheme="http://www.yexingshusheng.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
