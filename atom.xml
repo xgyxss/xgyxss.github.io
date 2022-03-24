@@ -6,7 +6,7 @@
   <link href="http://www.yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="http://www.yexingshusheng.com/"/>
-  <updated>2022-03-23T09:53:16.331Z</updated>
+  <updated>2022-03-24T09:19:48.140Z</updated>
   <id>http://www.yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac使用技巧(四)</title>
+    <link href="http://www.yexingshusheng.com/zh/mac-shi-yong-ji-qiao-si.html"/>
+    <id>http://www.yexingshusheng.com/zh/mac-shi-yong-ji-qiao-si.html</id>
+    <published>2022-03-25T10:00:00.000Z</published>
+    <updated>2022-03-24T09:19:48.140Z</updated>
+    
+    <content type="html"><![CDATA[<p>Mac使用技巧，一篇文章写完太长，影响阅读体验，于是写成了一个系列。</p><p>该系列相对比较全面，对于Mac 0基础的小白有着很大的提升。</p><p>同时为了便于查找，将每篇文章的主要内容都会做一个简单的目录介绍和锚点跳转。</p><p><span style="color:skyblue;"><strong>————————TBC————————</strong></span></p><ul><li><a href="#target1">1</a></li><li><a href="#target2">2</a></li><li><a href="#target3">3</a></li><li><a href="#target4">4</a></li><li><a href="#target5">5</a></li><li><a href="#target6">6</a></li></ul><span id="more"></span><h3 id="1"><a href="#1" class="headerlink" title="1"></a><a name="target1">1</a></h3><p>- </p><h3 id="2"><a href="#2" class="headerlink" title="2"></a><a name="target2">2</a></h3><p>- </p><h3 id="3"><a href="#3" class="headerlink" title="3"></a><a name="target3">3</a></h3><p>- </p><h3 id="4"><a href="#4" class="headerlink" title="4"></a><a name="target4">4</a></h3><p>- </p><h3 id="5"><a href="#5" class="headerlink" title="5"></a><a name="target5">5</a></h3><p>- </p><h3 id="6"><a href="#6" class="headerlink" title="6"></a><a name="target6">6</a></h3><p>- </p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Mac使用技巧，一篇文章写完太长，影响阅读体验，于是写成了一个系列。&lt;/p&gt;
+&lt;p&gt;该系列相对比较全面，对于Mac 0基础的小白有着很大的提升。&lt;/p&gt;
+&lt;p&gt;同时为了便于查找，将每篇文章的主要内容都会做一个简单的目录介绍和锚点跳转。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:skyblue;&quot;&gt;&lt;strong&gt;————————TBC————————&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#target1&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#target2&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#target3&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#target4&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#target5&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#target6&quot;&gt;6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="学习技巧" scheme="http://www.yexingshusheng.com/categories/%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Mac" scheme="http://www.yexingshusheng.com/tags/Mac/"/>
+    
+    <category term="使用技巧" scheme="http://www.yexingshusheng.com/tags/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac使用技巧(三)</title>
