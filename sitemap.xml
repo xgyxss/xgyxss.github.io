@@ -218,20 +218,6 @@
 
   
   <url>
-    <loc>https://yexingshusheng.com/tags/Hexo/</loc>
-    <lastmod>2022-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yexingshusheng.com/tags/%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/</loc>
-    <lastmod>2022-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yexingshusheng.com/tags/Mac/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -253,7 +239,21 @@
   </url>
   
   <url>
+    <loc>https://yexingshusheng.com/tags/%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/</loc>
+    <lastmod>2022-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://yexingshusheng.com/tags/TBC/</loc>
+    <lastmod>2022-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yexingshusheng.com/tags/%E5%B7%A5%E4%BD%9C%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -267,7 +267,7 @@
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/%E5%B7%A5%E4%BD%9C%E6%84%9F%E6%82%9F/</loc>
+    <loc>https://yexingshusheng.com/tags/Hexo/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -290,13 +290,6 @@
 
   
   <url>
-    <loc>https://yexingshusheng.com/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2022-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yexingshusheng.com/categories/%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -311,7 +304,7 @@
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%8A%A1/</loc>
+    <loc>https://yexingshusheng.com/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -319,6 +312,13 @@
   
   <url>
     <loc>https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2022-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yexingshusheng.com/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%8A%A1/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
