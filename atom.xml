@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2022-04-28T06:58:17.862Z</updated>
+  <updated>2022-05-05T10:32:57.618Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>flutter状态管理</title>
+    <link href="https://yexingshusheng.com/flutter-zhuang-tai-guan-li.html"/>
+    <id>https://yexingshusheng.com/flutter-zhuang-tai-guan-li.html</id>
+    <published>2022-05-05T10:27:10.000Z</published>
+    <updated>2022-05-05T10:32:57.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>提炼归纳： 作为状态管理的入门资料。</p><p>原文参考：状态管理的<a href="https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro">官方文档</a>（英文）。</p><span id="more"></span><h2 id="声明式"><a href="#声明式" class="headerlink" title="声明式"></a>声明式</h2><p>Flutter是声明式的，是应用当前状态的反应。</p><p>状态的定义是不论何时，只要重新构建 UI 所需要的任何数据。</p><p>开发者管理的状态分为两类：临时状态和应用状态。</p><h2 id="区分临时状态和应用状态"><a href="#区分临时状态和应用状态" class="headerlink" title="区分临时状态和应用状态"></a>区分临时状态和应用状态</h2><p>服务于单一Widget的状态是临时状态，可以用State和setState()的方式实现管理。</p><p>应用状态不是临时的，在应用内是共享的。</p><h2 id="状态提升"><a href="#状态提升" class="headerlink" title="状态提升"></a>状态提升</h2><p>在 Flutter 中，把状态放在使用它的 Widget 之上是非常有帮助的。</p><p>我们不能从外部调用Widget的方法来进行修改状态，虽然可以做到，但是与框架的设计相悖。</p><p>我们只要改变内容就会构建新的Widget，我们可以使用构造方法 【 MyCart(contents) 】 代替方法调用 【 MyCart.updateWith(somethingNew) 】 。由于Widget是层序的，父组件构建子组件，所以想要通过构建来改变MyCart的显示，就需要把想要改变的contents放到MyCart的父节点或以上。</p><h2 id="为什么说Widget是不可改变的？"><a href="#为什么说Widget是不可改变的？" class="headerlink" title="为什么说Widget是不可改变的？"></a>为什么说Widget是不可改变的？</h2><p>因为想要改变的contents存活于MyApp中。只要修改了就构建MyCart，MyCart不需要担心生命周期，它只需声明出，给定什么contents就显示什么样的UI就可以了。只要contents修改了，那么旧的MyCart就会消失，新的 MyCart 显示。直接使用新的代替旧的。</p><h2 id="provider仅仅需要理解三个概念"><a href="#provider仅仅需要理解三个概念" class="headerlink" title="provider仅仅需要理解三个概念"></a>provider仅仅需要理解三个概念</h2><p>使用provider不用担心回调问题和 InheritedWidgets 。</p><h3 id="ChangeNotifier"><a href="#ChangeNotifier" class="headerlink" title="ChangeNotifier"></a>ChangeNotifier</h3><p>在provider中，ChangeNotifier是封装应用状态的一种方式。对于复杂的App，可能需要几个复杂的事件源——ChangeNotifiers。不需要担心ChangeNotifier和provider的嵌套问题。</p><p>自定义类唯一泛化的代码是：对notifyListeners()的调用。只要事件源发生改变，这个改变可能改变UI，就调用notifyListeners()方法。</p><h3 id="ChangeNotifierProvider"><a href="#ChangeNotifierProvider" class="headerlink" title="ChangeNotifierProvider"></a><strong>ChangeNotifierProvider</strong></h3><p>ChangeNotifierProvider是provider包中的一个widget，为子孙节点提供一个ChangeNotifier实例。</p><p>放置位置：需要访问实例的widget的层级之上。</p><p>如果你的事件超过一个，可以使用MultiProvider，比如：</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  runApp(</span><br><span class="line">    MultiProvider(</span><br><span class="line">      providers: [</span><br><span class="line">        ChangeNotifierProvider(create: (context) =&gt; CartModel()),</span><br><span class="line">        Provider(create: (context) =&gt; SomeOtherClass()),</span><br><span class="line">      ],</span><br><span class="line">      child: <span class="keyword">const</span> MyApp(),</span><br><span class="line">    ),</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="Consumer"><a href="#Consumer" class="headerlink" title="Consumer"></a><strong>Consumer</strong></h3><p>ChangeNotifierProvider为子孙节点提供了CartModel，现在可以使用它了。比如：</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">return</span> Consumer&lt;CartModel&gt;(</span><br><span class="line">  builder: (context, cart, child) &#123;</span><br><span class="line">    <span class="keyword">return</span> Text(<span class="string">&quot;Total price: <span class="subst">$&#123;cart.totalPrice&#125;</span>&quot;</span>);</span><br><span class="line">  &#125;,</span><br><span class="line">);</span><br></pre></td></tr></table></figure><p>我们必须指定想要访问的类型，如果不指定泛型，provider就不起作用了，因为provider的设计是基于类型的设计，如果不指定类型，那么它不知道你要啥类的数据。</p><p>Consumer widget唯一的必须参数是一个builder，builder是一个方法。只要 <code>ChangeNotifier</code> 发生了改变，那么 builder 方法就会被调用。所以只要 model 的 <code>notifyListeners()</code>方法被调用了，所有相对应的 <code>Consumer</code> 的 builder 方法都会被调用。</p><p>builder方法有三个参数。第一个参数是context，第二个是ChangeNotifier的实例，一般会包含UI想要的数据，第三个参数是child，这个参数是可选的。</p><p>最佳实践是尽可能把Consumer放置的层序足够深，个人理解就是尽可能只嵌套使用在需要用到该model数据的一个或多个Widget的上层。</p><h2 id="Provider-of"><a href="#Provider-of" class="headerlink" title="Provider.of"></a>Provider.of</h2><p>有时候，并不需要数据来改变视图，而只是单纯地访问它。对于这种情况，我们可以使用Provider.of，并且将listen的属性设置为false。</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Provider.of&lt;CartModel&gt;(context, listen: <span class="keyword">false</span>).removeAll();</span><br></pre></td></tr></table></figure><blockquote><p>Using the above line in a build method won’t cause this widget to rebuild when <code>notifyListeners</code> is called. 在构建方法中使用上述行不会导致这个widget在notifyListeners被调用时被重新构建。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;提炼归纳： 作为状态管理的入门资料。&lt;/p&gt;
+&lt;p&gt;原文参考：状态管理的&lt;a href=&quot;https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro&quot;&gt;官方文档&lt;/a&gt;（英文）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://yexingshusheng.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="flutter" scheme="https://yexingshusheng.com/tags/flutter/"/>
+    
+  </entry>
   
   <entry>
     <title>flutter报错处理-三</title>
@@ -383,9 +405,9 @@
     <category term="学习笔记" scheme="https://yexingshusheng.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="markdown" scheme="https://yexingshusheng.com/tags/markdown/"/>
-    
     <category term="查阅文档" scheme="https://yexingshusheng.com/tags/%E6%9F%A5%E9%98%85%E6%96%87%E6%A1%A3/"/>
+    
+    <category term="markdown" scheme="https://yexingshusheng.com/tags/markdown/"/>
     
   </entry>
   
