@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yexingshusheng.com/mbti-ren-ge-ce-shi.html</loc>
+    
+    <lastmod>2022-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yexingshusheng.com/flutter-zhuang-tai-guan-li-zhi-si-da-xiao-fei-zhe-shi-yong-fen-xi.html</loc>
     
     <lastmod>2022-05-16</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://yexingshusheng.com/wei-shi-me-kai-shi-xie-bo.html</loc>
     
     <lastmod>2022-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yexingshusheng.com/mbti-ren-ge-ce-shi.html</loc>
-    
-    <lastmod>2022-05-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -281,21 +281,21 @@
 
   
   <url>
-    <loc>https://yexingshusheng.com/tags/Hexo/</loc>
+    <loc>https://yexingshusheng.com/tags/MBTI/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/</loc>
+    <loc>https://yexingshusheng.com/tags/%E5%A8%B1%E4%B9%90%E6%B6%88%E9%81%A3/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/202203/</loc>
+    <loc>https://yexingshusheng.com/tags/202205/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -316,21 +316,21 @@
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/MBTI/</loc>
+    <loc>https://yexingshusheng.com/tags/202203/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/%E5%A8%B1%E4%B9%90%E6%B6%88%E9%81%A3/</loc>
+    <loc>https://yexingshusheng.com/tags/Hexo/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/202205/</loc>
+    <loc>https://yexingshusheng.com/tags/%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -379,14 +379,14 @@
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/%E5%B7%A5%E4%BD%9C%E6%84%9F%E6%82%9F/</loc>
+    <loc>https://yexingshusheng.com/tags/202202/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/tags/202202/</loc>
+    <loc>https://yexingshusheng.com/tags/%E5%B7%A5%E4%BD%9C%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -409,7 +409,7 @@
 
   
   <url>
-    <loc>https://yexingshusheng.com/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <loc>https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -423,7 +423,7 @@
   </url>
   
   <url>
-    <loc>https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://yexingshusheng.com/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
