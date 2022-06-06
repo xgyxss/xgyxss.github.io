@@ -925,7 +925,7 @@
       <link href="/2022/02/wei-shi-me-yao-xuan-ze-hexo.html"/>
       <url>/2022/02/wei-shi-me-yao-xuan-ze-hexo.html</url>
       
-        <content type="html"><![CDATA[<p>不想沦为网站维护工！</p><p>从长期来看，花费大量的时间用来管理一个仅作记录、分享的博客，实在是得不偿失！</p><span id="more"></span><h2 id="为什么要选择Hexo"><a href="#为什么要选择Hexo" class="headerlink" title="为什么要选择Hexo?"></a>为什么要选择Hexo?</h2><ol><li><p>初期<br>自购服务器、域名，centos8系统，自搭LNMP环境，搭建的Wordpress博客。写文章是用拖放式的页面构建器——Elementor，只需单击几下即可轻松构建自定义页面。社区也有很多第三方插件用于可视化后台的管理、维护。这时有几个问题不得不考虑了：到后期文章数量比较多时的数据维护？服务器到期换厂家时的数据迁移？…这类问题，想想都觉得相当麻烦。至于该框架的利弊，这里不做讨论。但写作的初衷，只想简简单单地写作，所以只能另寻其他的框架风格。</p></li><li><p>当下<br>动态框架的后台管理实在是不想花太多时间折腾，想更加专注于内容，所以选用了静态框架，然后从众多轻量级静态框架里，选择了Hexo，至于服务器那块，只需要挂载在 GitHub 上即可。最终选用了「 Hexo + GitHub Pages +自定义域名」搭建个人博客。</p></li><li><p>核心点<br>仅需两条命令，用于博客框架的升级和博客主题的升级。</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<p>从长期来看，花费大量的时间用来管理一个仅作记录、分享的静态博客，实在是得不偿失！</p><span id="more"></span><h2 id="为什么要选择Hexo"><a href="#为什么要选择Hexo" class="headerlink" title="为什么要选择Hexo?"></a>为什么要选择Hexo?</h2><ol><li><p>初期<br>自购服务器、域名，centos8系统，自搭LNMP环境，搭建Wordpress博客。写文章是用拖放式的页面构建器——Elementor，只需单击几下即可轻松构建自定义页面。社区也有很多第三方插件用于可视化后台的管理、维护。这时有几个问题不得不考虑了：到后期文章数量比较多时的数据维护？服务器到期换厂家时的数据迁移？…这类问题，想想都觉得相当麻烦。至于该框架的利弊，这里不做讨论。但写作的初衷，只想简简单单地写作，所以只能另寻其他的框架风格。</p></li><li><p>当下<br>动态框架的后台管理实在是不想花太多时间折腾，想更加专注于内容，所以选用了静态框架，然后从众多轻量级静态框架里，选择了Hexo，至于服务器那块，只需要挂载在 GitHub 上即可。最终选用了「 Hexo + GitHub Pages +自定义域名」搭建个人博客。</p></li><li><p>核心点<br>仅需两条命令，用于博客框架的升级（<code>npm install -g hexo-cli</code>）和博客主题的升级（<code>npm update hexo-theme-melody</code>）。</p></li></ol>]]></content>
       
       
       <categories>
