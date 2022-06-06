@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="flutter状态管理之八大提供者使用分析"><meta name="keywords" content="202205,flutter"><meta name="author" content="夜行书生"><meta name="copyright" content="夜行书生"><title>flutter状态管理之八大提供者使用分析 | 夜行书生</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.0"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css?version=1.9.0"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js" defer></script><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d7ad29bc3c0add1121bb460d4bb314f6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><link rel="dns-prefetch" href="https://www.google-analytics.com"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-W160D972F6', 'auto');
+ga('send', 'pageview');</script><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"QOO2KQWBJ0","apiKey":"993ede762c7225acd4669201a2ab1dca","indexName":"hexo","hits":{"per_page":10},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容:${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  hexoVersion: '6.1.0'
+} </script><meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="夜行书生" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#Provider"><span class="toc-text">Provider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ChangeNotifierProvider"><span class="toc-text">ChangeNotifierProvider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#StreamProvider"><span class="toc-text">StreamProvider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#FutureProvider"><span class="toc-text">FutureProvider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MultiProvider"><span class="toc-text">MultiProvider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ProxyProvider"><span class="toc-text">ProxyProvider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ChangeNotifierProxyProvider"><span class="toc-text">ChangeNotifierProxyProvider</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ListenableProxyProvider"><span class="toc-text">ListenableProxyProvider</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/github-avatar.webp"></div><div class="author-info__name text-center">夜行书生</div><div class="author-info__description text-center">生命的价值不在于能活多少天，而在于我们如何利用这些日子。</div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/xgyxss">交个朋友吧</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">35</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">31</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">7</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">友链</div><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://github.com">Github</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.youtube.com">YouTube</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.instagram.com">Instagram</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.twitter.com">Twitter</a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/hexo-bg.webp)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">夜行书生</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">主页</a><a class="site-page" href="/archives">归档</a><a class="site-page" href="/categories">分类</a><a class="site-page" href="/tags">标签</a><a class="site-page" href="/guestbook">留言板</a><a class="site-page" href="/history">运营历史</a><a class="site-page" href="/about">关于作者</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title">flutter状态管理之八大提供者使用分析</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2022-05-11</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">1.5k</span><span class="post-meta__separator">|</span><span>阅读时长: 5 分钟</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>出于好奇，翻看了一下源码以及源码注释文档，文中仅摘取了注释文档部分。</p>
+<blockquote>
+<p>rf.</p>
+<p><a target="_blank" rel="noopener" href="https://www.liujunmin.com/flutter/provider/provider.html#streamprovider">Flutter Provider状态管理—八种提供者使用分析</a> （文中的例子很详细）</p>
+<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000040772369#:~:text=Consumer1%2D6%3A,%E7%9A%84%E8%AF%AD%E6%B3%95%E7%B3%96%E3%80%82">状态管理基本介绍和使用</a> （对提供者和消费者的简单介绍）</p>
+<p><a target="_blank" rel="noopener" href="https://pub.dev/">pub.dev</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h4 id="Provider"><a href="#Provider" class="headerlink" title="Provider"></a>Provider</h4><p>使用它可以为组件树中的任何位置提供值，但是当该值更改的时候，它并不会更新UI。</p>
+<blockquote>
+<p>sc.</p>
+<p>provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">Creates a value, store it, and expose it to its descendants.</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">The value can be optionally disposed using [dispose] callback.</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">This callback which will be called when [Provider] is unmounted from the</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">widget tree.</span></span></span><br></pre></td></tr></table></figure>
+
+<p>创建一个值，储存它，并把它暴露给它的后代。</p>
+<p>这个回调会在<code>Provider</code>从组件树中卸载时，被调用。</p>
+</blockquote>
+<h4 id="ChangeNotifierProvider"><a href="#ChangeNotifierProvider" class="headerlink" title="ChangeNotifierProvider"></a>ChangeNotifierProvider</h4><p>它会监听模型对象的变化，而且当数据改变时，会重建<code>Consumer</code>。</p>
+<p><span style="color:red;font-weight:bold;">创建模型时<em><strong>混入</strong></em>（with）ChangeNotifier的作用：</span></p>
+<p>因为模型类使用了<code>ChangeNotifier</code>类，那么我们就可以访问<code>notifyListeners()</code>并且在调用它的任何时候，<code>ChangeNotifierProvider</code>都会收到通知并且消费者将重建UI。</p>
+<blockquote>
+<p>sc.</p>
+<p>change_notifier_provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">Listens to a [ChangeNotifier], expose it to its descendants and rebuilds</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">dependents whenever [ChangeNotifier.notifyListeners] is called.</span></span></span><br></pre></td></tr></table></figure>
+
+<p>倾听一个<code>ChangeNotifier</code>，将其暴露给它的子代，并且每当<code>ChangeNotifier.notifyListeners</code>被调用时，重建依赖。</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">A [ChangeNotifierProvider] that builds and synchronizes a [ChangeNotifier]</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">with external values.</span></span></span><br></pre></td></tr></table></figure>
+
+<p>一个<code>ChangeNotifierProvider</code>，用于建立和同步一个<code>ChangeNotifier</code>的外部值。</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown"><span class="bullet">  *</span> [ChangeNotifier], which is listened by [ChangeNotifierProvider].</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown"><span class="bullet">  *</span> [ChangeNotifierProxyProvider], to create and provide a [ChangeNotifier]</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown"><span class="code">    of variables from other providers.</span></span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown"><span class="code">  * [ListenableProvider], similar to [ChangeNotifierProvider] but works with</span></span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown"><span class="code">    any [Listenable].</span></span></span></span><br></pre></td></tr></table></figure>
+
+<p><code>ChangeNotifier</code>，它被<code>ChangeNotifierProvider</code>监听。</p>
+<p><a href="#target1">ChangeNotifierProxyProvider</a>，创建并提供来自其他提供者的<code>ChangeNotifier</code>变量。</p>
+<p><code>ListenableProvider</code>，类似于<code>ChangeNotifierProvider</code>，但与任何<code>Listenable</code>一起工作。</p>
+</blockquote>
+<h4 id="StreamProvider"><a href="#StreamProvider" class="headerlink" title="StreamProvider"></a>StreamProvider</h4><p>提供流值，围绕<code>StreamBuilder</code>，所提供的值会在传入的时候替换掉新值。</p>
+<p>和<code>FutureProvider</code>一样，主要的区别在于值会根据多次触发重新构建UI。</p>
+<blockquote>
+<p>rf.</p>
+<p><a target="_blank" rel="noopener" href="https://book.flutterchina.club/chapter7/futurebuilder_and_streambuilder.html#_7-6-2-streambuilder">StreamBuilder文档地址</a></p>
+<p>Dart中的Stream用来接收异步数据，和Future不同的是，它可以接受多个异步操作的结果，常用于会多次读取数据的异步场景。</p>
+<p>而StreamBuilder正是配合Stream来展示流上数据变化的UI组件。</p>
+<p>一般来说，Stream应该在它生成事件前等待订阅者，否则事件的生成毫无意义。</p>
+</blockquote>
+<blockquote>
+<p>sc.</p>
+<p>async_provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">Listens to a [Stream] and exposes its content to <span class="code">`child`</span> and descendants.</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">Its main use-case is to provide to a large number of a widget the content</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">of a [Stream], without caring about reacting to events.</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">A typical example would be to expose the battery level, or a Firebase query.</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">Trying to use [Stream] to replace [ChangeNotifier] is outside of the scope</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">of this class.</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">It is considered an error to pass a stream that can emit errors without</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">providing a <span class="code">`catchError`</span> method.</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="language-markdown"><span class="code">`initialData`</span> determines the value exposed until the [Stream] emits a value.</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">By default, [StreamProvider] considers that the [Stream] listened uses</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">immutable data. As such, it will not rebuild dependents if the previous and</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">the new value are <span class="code">`==`</span>.</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">To change this behavior, pass a custom <span class="code">`updateShouldNotify`</span>.</span></span></span><br></pre></td></tr></table></figure>
+
+<p>监听一个<code>Stream</code>，并且暴露它的结果给子组件。</p>
+<p>它的主要用途是向大量的小部件提供<code>Stream</code>的内容，而不关心对事件的反应。</p>
+<p>一个典型的例子是暴露电池电量或Firebase查询。</p>
+<p>试图用<code>Stream</code>来代替<code>ChangeNotifier</code>是在这个类的范围之外。</p>
+<p>在没有提供catchError方法的情况下，传递一个可以发出错误的<code>Stream</code>，被认为是一个错误。</p>
+<p><code>initialData</code>决定了在<code>Stream</code>发出一个值之前的暴露值。</p>
+<p>默认情况下，<code>StreamProvider</code>认为<code>Stream</code>监听使用的是不可变的数据。因此，如果之前的值和新的值是&#x3D;&#x3D;，它将不会重新构建依赖。</p>
+<p>要改变这种行为，可以传递一个自定义的<code>updateShouldNotify</code>。</p>
+</blockquote>
+<h4 id="FutureProvider"><a href="#FutureProvider" class="headerlink" title="FutureProvider"></a>FutureProvider</h4><p><code>FutureProvider</code>提供了一个初始值<code>initialData</code>，确保不会空值传递，在未来某一时刻子组件会需要用到，子组件可以使用该<code>Future</code>值来告诉子组件使用新的值来进行重建。</p>
+<blockquote>
+<p>⚠️注意：</p>
+<p><code>FutureProvider</code>只会重建一次；</p>
+<p>默认显示初始值；</p>
+<p>然后显示Future值；</p>
+<p>最后不会再次重建。</p>
+</blockquote>
+<blockquote>
+<p>sc.</p>
+<p>async_provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">Listens to a [Future] and exposes its result to child and its descendants.</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/// <span class="language-markdown">It is considered an error to pass a future that can emit errors without</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">providing a catchError method.</span></span></span><br></pre></td></tr></table></figure>
+
+<p>监听一个<code>Future</code>函数，并且暴露它的结果给子组件。</p>
+<p>在没有提供catchError方法的情况下，传递一个可以发出错误的future，被认为是一个错误。</p>
+</blockquote>
+<h4 id="MultiProvider"><a href="#MultiProvider" class="headerlink" title="MultiProvider"></a>MultiProvider</h4><p>将多个数据提供者合并成一个线性部件树的提供者。它被用来提高可读性，并减少最多层提供者的模板代码。</p>
+<h4 id="ProxyProvider"><a href="#ProxyProvider" class="headerlink" title="ProxyProvider"></a>ProxyProvider</h4><p>当我们有多个数据模型时，会有模型依赖另一个模型的情况，在这种情况下，我们可以使用<code>ProxyProvider</code>从另一个提供者获取值，然后将其注入到另一个提供者中。</p>
+<blockquote>
+<p>sc.</p>
+<p>proxy_provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown"><span class="bullet"> *</span> [Provider], which matches the behavior of [ProxyProvider] but has only</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown"><span class="code">    a `create` callback.</span></span></span></span><br></pre></td></tr></table></figure>
+
+<p><code>Provider</code>，它与<code>ProxyProvider</code>的行为一致，但只有一个<code>create</code>回调。</p>
+</blockquote>
+<h4 id="ChangeNotifierProxyProvider"><a href="#ChangeNotifierProxyProvider" class="headerlink" title="ChangeNotifierProxyProvider"></a><a name="target1">ChangeNotifierProxyProvider</a></h4><p>和<code>ProxyProvider</code>原理一样，唯一的区别在于它构建和同步<code>ChangeNotifier</code>的<code>ChangeNotifierProvider</code>，当提供者数据变化时，将会重构UI。</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ChangeNotifierProxyProvider&lt;MyModel, MyChangeNotifier&gt;(</span><br><span class="line">  create: (_) =&gt; MyChangeNotifier(),</span><br><span class="line">  update: (_, myModel, myNotifier) =&gt; myNotifier</span><br><span class="line">    ..update(myModel),</span><br><span class="line">  child: ...</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>rf.</p>
+<p><a target="_blank" rel="noopener" href="https://pub.dev/documentation/provider/latest/provider/ChangeNotifierProxyProvider-class.html">https://pub.dev/documentation/provider/latest/provider/ChangeNotifierProxyProvider-class.html</a></p>
+<p>sc.</p>
+<p>change_notifier_provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">  If the created object is only a combination of other objects, without</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">  http calls or similar side-effects, then it is likely that an immutable</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">  object built using [ProxyProvider] will work.</span></span></span><br></pre></td></tr></table></figure>
+
+<p>如果创建的对象只是其他对象的组合，而不涉及到http调用或类似的副作用，那么使用<code>ProxyProvider</code>构建的不可变的对象很可能会起作用。</p>
+</blockquote>
+<h4 id="ListenableProxyProvider"><a href="#ListenableProxyProvider" class="headerlink" title="ListenableProxyProvider"></a>ListenableProxyProvider</h4><blockquote>
+<p>sc.</p>
+<p>listenable_provider.dart</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// <span class="language-markdown">A variation of [ListenableProvider] that builds its value from</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">values obtained from other providers.</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">/// <span class="language-markdown">[ChangeNotifierProxyProvider] extends [ListenableProxyProvider] to make it</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">work with [ChangeNotifier], but the behavior stays the same.</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">Most of the time you&#x27;ll want to use [ChangeNotifierProxyProvider] instead.</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">But [ListenableProxyProvider] is exposed in case someone wants to use a</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">[Listenable] implementation other than [ChangeNotifier], such as</span></span></span><br><span class="line"><span class="comment">/// <span class="language-markdown">[Animation].</span></span></span><br></pre></td></tr></table></figure>
+
+<p><code>ListenableProvider</code>的一个变体，它从其他提供者获得的值中构建其值。</p>
+<p><a href="#target1">[ChangeNotifierProxyProvider]</a>扩展了<code>ListenableProxyProvider</code>，使其与<code>ChangeNotifier</code>一起工作，但其行为保持不变。</p>
+<p>大多数情况下，会想用<code>ChangeNotifierProxyProvider</code>代替。</p>
+<p>但是<code>ListenableProxyProvider</code>被暴露以备有人想要使用<code>ChangeNotifier</code>以外的<code>Listenable</code>实现，例如<code>Animation</code>。</p>
+</blockquote>
+<p>使用得比较多的是：<code>ChangeNotifierProvider</code>、<code>MultiProvider</code>、<code>ChangeNotifierProxyProvider</code>。</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">夜行书生</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://yexingshusheng.com/2022/05/flutter-zhuang-tai-guan-li-zhi-ba-da-ti-gong-zhe-shi-yong-fen-xi.html">https://yexingshusheng.com/2022/05/flutter-zhuang-tai-guan-li-zhi-ba-da-ti-gong-zhe-shi-yong-fen-xi.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://yexingshusheng.com">夜行书生</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/202205/">202205</a><a class="post-meta__tags" href="/tags/flutter/">flutter</a></div><div class="post-qr-code"><div class="post-qr-code-item"><img class="post-qr-code__img" src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/alipay.webp"><div class="post-qr-code__desc">支付宝打赏</div></div><div class="post-qr-code-item"><img class="post-qr-code__img" src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/wechatpay.webp"><div class="post-qr-code__desc">微信打赏</div></div></div><div class="addthis_inline_share_toolbox pull-right"></div><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6211fe3048a47848" async></script><nav id="pagination"><div class="prev-post pull-left"><a href="/2022/05/flutter-zhuang-tai-guan-li-zhi-si-da-xiao-fei-zhe-shi-yong-fen-xi.html"><i class="fa fa-chevron-left">  </i><span>flutter状态管理之四大消费者使用分析</span></a></div><div class="next-post pull-right"><a href="/2022/05/flutter-zhong-dui-yu-de-li-jie.html"><span>flutter中对于?、??、??=的理解</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = '' == 'true';
+var verify = '' == 'true';
+var record_ip = 'true' == 'true';
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = ''.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  recordIP:record_ip,
+  appId:'zTNuHDTR09rm7hWr9wV6Rhuw-gzGzoHsz',
+  appKey:'xoMEOMRH0kzg9UGJ6koAgm8X',
+  placeholder:'Please leave your footprints.',
+  avatar:'',
+  guest_info:guest_info,
+  pageSize:'',
+  lang: ''
+})</script></div></div><footer class="footer-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/hexo-bg.webp)"><div class="layout" id="footer"><div class="copyright">&copy;2022 By 夜行书生</div><div class="framework-info"><span>驱动 - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text"><span>It is better to be excellent than to be envious.</span><br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">鄂ICP备2020021979号-2</a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.0"></script><script src="/js/fancybox.js?version=1.9.0"></script><script src="/js/sidebar.js?version=1.9.0"></script><script src="/js/copy.js?version=1.9.0"></script><script src="/js/fireworks.js?version=1.9.0"></script><script src="/js/transition.js?version=1.9.0"></script><script src="/js/scroll.js?version=1.9.0"></script><script src="/js/head.js?version=1.9.0"></script><script src="/js/search/algolia.js"></script><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><div class="search-dialog" id="algolia-search"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
