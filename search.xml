@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>你有备案的域名过期后却忘记注销的吗?</title>
+      <link href="/2022/06/ni-you-bei-an-de-yu-ming-guo-qi-hou-que-wang-ji-zhu-xiao-de-ma.html"/>
+      <url>/2022/06/ni-you-bei-an-de-yu-ming-guo-qi-hou-que-wang-ji-zhu-xiao-de-ma.html</url>
+      
+        <content type="html"><![CDATA[<p>那可能很危险…</p><span id="more"></span><p>在注册域名并且公安备案、ICP备案后，过几年域名到期了，这个时候会有专门的流氓公司打你的主意。</p><p>他们会抢注这个域名，利用这个域名建立一个盗版电影网站，放一些热门盗版电影（不涉黄），此后他们的另一个公司（拥有电影版权的公司）对网站进行取证。</p><p>随后是去法院告你盗版要求赔偿，在公安那里这个域名的所有人还是你（或贵司）从法律流程上来说完美无缺，你一定会输掉官司，这个时候流氓公司就等着你和解（自然不会少要和解费）。</p><p>他们有专门的团队把整个过程流程化、低成本化。</p><p>如果你们有废弃的域名记得注销备案，如果是大厂更要记得这事，大厂赔得更多。</p><blockquote><p>rf.</p><p><a href="http://www.64365.com/zs/865383.aspx">域名备案号注销如何操作？</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转录归档 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202206 </tag>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 备案 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>program</title>
+      <link href="/2022/06/program.html"/>
+      <url>/2022/06/program.html</url>
+      
+        <content type="html"><![CDATA[<p>部分互联网事件梳理…</p><more><h3 id="2022-06-16"><a href="#2022-06-16" class="headerlink" title="2022-06-16"></a>2022-06-16</h3><p>IE浏览器正式退役。</p><h3 id="2022-05-19"><a href="#2022-05-19" class="headerlink" title="2022-05-19"></a>2022-05-19</h3><p>Gitee 即日起执行开源仓库审核后上线的措施，所有新上线的开源仓库需要进行人工审核后可正式公开。</p><blockquote><p>rf. </p><p>什么是开源？：<a href="https://www.redhat.com/zh/topics/open-source/what-is-open-source">https://www.redhat.com/zh/topics/open-source/what-is-open-source</a></p><p>这个措施与开源里的一些价值理念背道而驰。</p><p>so？弃！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202206 </tag>
+            
+            <tag> program </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最高级的教养，是懂得欣赏别人</title>
+      <link href="/2022/06/zui-gao-ji-de-jiao-yang-shi-dong-de-xin-shang-bie-ren.html"/>
+      <url>/2022/06/zui-gao-ji-de-jiao-yang-shi-dong-de-xin-shang-bie-ren.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>rf.</p><p><a href="https://www.aboluowang.com/2022/0607/1758638.html">最高级的教养，是懂得欣赏别人</a></p></blockquote><p>「小胜靠智，大胜靠德！」</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 归档转录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202206 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>以史为鉴，以史明志</title>
       <link href="/2022/06/yi-shi-wei-jian-yi-shi-ming-zhi.html"/>
       <url>/2022/06/yi-shi-wei-jian-yi-shi-ming-zhi.html</url>
@@ -298,9 +379,9 @@
       
         <tags>
             
-            <tag> 报错处理 </tag>
-            
             <tag> 202205 </tag>
+            
+            <tag> 报错处理 </tag>
             
             <tag> flutter </tag>
             
