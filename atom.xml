@@ -142,9 +142,9 @@
     <link href="https://yexingshusheng.com/2022/06/wei-xin-fa-song-bu-liao-avif-ge-shi-de-tu-pian.html"/>
     <id>https://yexingshusheng.com/2022/06/wei-xin-fa-song-bu-liao-avif-ge-shi-de-tu-pian.html</id>
     <published>2022-06-25T12:56:57.000Z</published>
-    <updated>2022-06-21T08:32:46.055Z</updated>
+    <updated>2022-07-18T09:46:46.272Z</updated>
     
-    <content type="html"><![CDATA[<p>当用avif格式的图片时，网站预览，网页秒开。于是，出于好奇，想看一下手机上显示的效果…</p><p>本想用手机查看一下avif格式的图片，结果用微信传输助手竟然发送不了。（设备：Mac -&gt; Android）</p><p>至于图片格式的兼容性：当前，在微信上，webp格式的图片默认发送显示为一个文件；Mac的预览打不开avif格式的图片。</p><p>经研究：原始图片-&gt;压缩-&gt;转webp的效果比直接转webp的效果好！</p><blockquote><p>压缩：每张最大5M</p><p>转webp：每张最大100M</p><p>这些压缩、转换工具在网上都可以搜到！</p></blockquote><p>所以，当前博客内的图片统一采用webp格式，兼容性效果更佳。</p>]]></content>
+    <content type="html"><![CDATA[<p>当用avif格式的图片时，网站预览，网页秒开。于是，出于好奇，想看一下手机上显示的效果…</p><p>本想用手机查看一下avif格式的图片，结果用微信传输助手竟然发送不了。（设备：Mac -&gt; Android）</p><p>至于图片格式的兼容性：当前，在微信上，webp格式的图片默认发送显示为一个文件；Mac的预览打不开avif格式的图片。</p><p>经研究：原始图片-&gt;压缩-&gt;转webp的效果比直接转webp的效果好！</p><p>这些压缩、转换工具在网上都可以搜得到。</p><p>所以，当前博客内的图片统一采用webp格式，兼容性效果更佳。</p>]]></content>
     
     
       
