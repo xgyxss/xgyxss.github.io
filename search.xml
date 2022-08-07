@@ -4,6 +4,114 @@
   
     
     <entry>
+      <title>不可思议的事</title>
+      <link href="/2022/08/bu-ke-si-yi-de-shi.html"/>
+      <url>/2022/08/bu-ke-si-yi-de-shi.html</url>
+      
+        <content type="html"><![CDATA[<p>人间那些不可思议的事都是默默地进行的，喧哗者不真诚，最深挚的怀念也是没有墓碑的形式。它抽象，它永恒。<br>——赫尔曼·麦尔维尔《白鲸》</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202208 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>互联网用户账号信息管理规定今日起生效</title>
+      <link href="/2022/08/hu-lian-wang-yong-hu-zhang-hao-xin-xi-guan-li-gui-ding-jin-ri-qi-sheng-xiao.html"/>
+      <url>/2022/08/hu-lian-wang-yong-hu-zhang-hao-xin-xi-guan-li-gui-ding-jin-ri-qi-sheng-xiao.html</url>
+      
+        <content type="html"><![CDATA[<p>《互联网用户账号信息管理规定》8月1号正式生效，随着这项规定的生效，只要你能发表评论的地方都会显示你的IP归属地，最近在QQ音乐也发现了，现在的互联网舆论十分混乱…</p><p>某些互联网媒体之前是控评、禁评，现在直接是服务器宕机，页面打不开…对于舆论的控制真是打得一手好牌…</p><p>但作为资讯来说，一旦失去了新闻的三要素，看不看都显得没那么重要了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202208 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac拆换电池指北</title>
+      <link href="/2022/07/mac-chai-huan-dian-chi-zhi-bei.html"/>
+      <url>/2022/07/mac-chai-huan-dian-chi-zhi-bei.html</url>
+      
+        <content type="html"><![CDATA[<p>省略找维修店和买零件的过程，仅记自修记录…</p><span id="more"></span><p>首先，电脑型号参考：电池型号A1708，不带touch bar，雷雳3端口*2的13.3寸MacBook Pro（即MBP）。</p><p>当前电池满负荷容量3190，循环次数333，电池健康度不是58.5%，而是66.6%（后续翻阅记录计算得知）。</p><blockquote><p>注：</p><p>官方电池标准的是54.5Wh。</p><p>健康度≥80%属于良好电池状态。</p></blockquote><h2 id="故障时间记录"><a href="#故障时间记录" class="headerlink" title="故障时间记录"></a>故障时间记录</h2><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%95%85%E9%9A%9C%E6%97%B6%E9%97%B4%E8%AE%B0%E5%BD%95.png" alt="故障时间记录"></p><h2 id="拆卸步骤图"><a href="#拆卸步骤图" class="headerlink" title="拆卸步骤图"></a>拆卸步骤图</h2><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%8B%86%E5%8D%B8%E6%AD%A5%E9%AA%A41.jpg" alt="拆卸步骤1"></p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%8B%86%E5%8D%B8%E6%AD%A5%E9%AA%A42.jpg" alt="拆卸步骤2"></p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%8B%86%E5%8D%B8%E6%AD%A5%E9%AA%A43.jpg" alt="拆卸步骤3"></p><h2 id="踩坑指北"><a href="#踩坑指北" class="headerlink" title="踩坑指北"></a>踩坑指北</h2><ol><li>留长指甲！（刮电池残胶会用到，不然会刮废至少两个指甲，另，不要用金属器具刮）</li><li>空调房操作！（防止汗液滴到零件）</li><li>不要中了“排线门”的陷阱！（铲电池时，不小心铲到触控板排线，导致触控板及排线更换）</li></ol><h2 id="一些图"><a href="#一些图" class="headerlink" title="一些图"></a>一些图</h2><h3 id="拆卸前各部件位置记录："><a href="#拆卸前各部件位置记录：" class="headerlink" title="拆卸前各部件位置记录："></a>拆卸前各部件位置记录：</h3><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%8B%86%E5%8D%B8%E5%89%8D%E5%90%84%E9%83%A8%E4%BB%B6%E4%BD%8D%E7%BD%AE%E8%AE%B0%E5%BD%95.jpg" alt="拆卸前各部件位置记录"></p><h3 id="残胶处理对比图：（指甲刮废两个，后续实在是刮不动了）"><a href="#残胶处理对比图：（指甲刮废两个，后续实在是刮不动了）" class="headerlink" title="残胶处理对比图：（指甲刮废两个，后续实在是刮不动了）"></a>残胶处理对比图：（指甲刮废两个，后续实在是刮不动了）</h3><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%AE%8B%E8%83%B6%E5%A4%84%E7%90%86%E5%89%8D.jpg" alt="残胶处理前"></p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%AE%8B%E8%83%B6%E5%A4%84%E7%90%86%E5%90%8E.jpg" alt="残胶处理后"></p><h3 id="新旧电池对比图："><a href="#新旧电池对比图：" class="headerlink" title="新旧电池对比图："></a>新旧电池对比图：</h3><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%96%B0%E6%97%A7%E7%94%B5%E6%B1%A0%E5%AF%B9%E6%AF%94%E5%9B%BE.jpg" alt="新旧电池对比图"></p><h3 id="新旧触控板对比图："><a href="#新旧触控板对比图：" class="headerlink" title="新旧触控板对比图："></a>新旧触控板对比图：</h3><p>铲中间那块电池时，铲废了。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E6%96%B0%E6%97%A7%E8%A7%A6%E6%8E%A7%E6%9D%BF%E5%AF%B9%E6%AF%94%E5%9B%BE.jpg" alt="新旧触控板对比图"></p><h3 id="干废的排线："><a href="#干废的排线：" class="headerlink" title="干废的排线："></a>干废的排线：</h3><p>有一道刮横，铲排线时弄到的。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%B9%B2%E5%BA%9F%E7%9A%84%E6%8E%92%E7%BA%BF.jpg" alt="干废的排线"></p><h3 id="等新排线和触控板时，用保鲜膜封盖，防止进灰："><a href="#等新排线和触控板时，用保鲜膜封盖，防止进灰：" class="headerlink" title="等新排线和触控板时，用保鲜膜封盖，防止进灰："></a>等新排线和触控板时，用保鲜膜封盖，防止进灰：</h3><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E9%98%B2%E6%AD%A2%E8%BF%9B%E7%81%B0.jpg" alt="防止进灰"></p><h3 id="拆装后盖和电池部分用到的工具："><a href="#拆装后盖和电池部分用到的工具：" class="headerlink" title="拆装后盖和电池部分用到的工具："></a>拆装后盖和电池部分用到的工具：</h3><ul><li>赠送工具：<ul><li>蓝色起子：后盖及螺丝</li><li>绿色起子：内部螺丝</li><li>透明小吸盘+黑胶铲（主力军）：拆电池用</li></ul></li><li>自备工具：<ul><li>两张硬纸片：少送了一个小硬卡片，拆后盖时用到；因为没买手套，垫手用，防止手汗粘到零部件</li><li>耳机清洁笔：万万没想到，这玩意儿在这里也能用到，图上的部分碎屑都来自于黑胶铲</li></ul></li></ul><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E8%87%AA%E5%A4%87%E5%B7%A5%E5%85%B7.webp" alt="自备工具"></p><h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><h3 id="换触控板及排线"><a href="#换触控板及排线" class="headerlink" title="换触控板及排线"></a>换触控板及排线</h3><p>拆触控板就是10颗螺丝的事，略。</p><p>螺丝位置参考新买部件，一目了然。</p><blockquote><p>触控板拆装小提醒：对齐，不是背面螺丝孔，而是正面键盘视觉效果！</p></blockquote><p>排查是排线还是触控板的问题，没有仪器，用零部件替换法，前前后后完整拆装电池3次，电池完好，但触控板不能使用，最终结论是排线和触控板都被铲坏了，更换排线和触控板即可。</p><p>若网购邮寄，赶时间的话，一定要反复叮嘱商家顺丰（或者有空运的快递公司）到付，次日达，非常快。不叮嘱到付的结果是：普邮！</p><h3 id="历史维修记录"><a href="#历史维修记录" class="headerlink" title="历史维修记录"></a>历史维修记录</h3><p>至于这块电池怎么这么不耐用，翻看存档记录，上次更换是在21年1月初，现在是22年7月底，前后才1年半。</p><p>回想起第一次更换电池的场景：由于升级系统11，全球范围内Mac有好几个型号的电池，出现了警告提醒，但是苹果官方的政策是免费更换维修。</p><p>仔细翻看当时的视频、图片记录，当时去了一家授权店，更换的电池总容量只有4790，所以电池健康度应该为66.6%。</p><h3 id="排线故障"><a href="#排线故障" class="headerlink" title="排线故障"></a>排线故障</h3><p>查阅了一下关于当年的那几款型号：A1706、A1707、A1708。原来这几款机型存在一个先天的设计缺陷：排线故障。</p><p>纵览这几代的Mac来看这个问题：电池阉割（此A1708就是）、MagSafe磁吸充阉割、排线门、两个雷雳三端口、4个雷雳三端口…都算是Mac电脑试错零部件。同时，这几代也是从Intel转M1、M2系列的过渡机型，也算是自主研发上的试错机型，这样对比就可以很好地理解这些问题了。同时也可以理解老库克现在为什么要加大力度研发Mac系列了。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>头一次换电池，成功踩坑“排线门”，其实在出现电池警告提醒时就应尽快更换，防止出现因为电池导致的次生损失。</p><p>个人提醒：电池健康度85%左右就应该备一块电池、一根排线、一块触控板、少量轻薄双面绝缘胶（用于粘贴部分排线绝缘绝灰），2小时内即可更换完毕，若还涉及排线和触控板，外加部分绝缘胶更换、清灰保养，半天之内满血复活。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> 202207 </tag>
+            
+            <tag> Mac维修 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>全国各省市停贷通知汇总</title>
+      <link href="/2022/07/quan-guo-ge-sheng-shi-ting-dai-tong-zhi-hui-zong.html"/>
+      <url>/2022/07/quan-guo-ge-sheng-shi-ting-dai-tong-zhi-hui-zong.html</url>
+      
+        <content type="html"><![CDATA[<p>先码住，以后再看，附上停贷地图：</p><span id="more"></span><p><img src="https://raw.githubusercontent.com/WeNeedHome/SummaryOfLoanSuspension/main/data/generated/visualization-light-wwm.png" alt="停贷地图"></p><blockquote><p>rf.</p><p><a href="https://github.com/WeNeedHome/SummaryOfLoanSuspension">全国各省市停贷通知汇总</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转录归档 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202207 </tag>
+            
+            <tag> 停贷 </tag>
+            
+            <tag> 汇总 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>个人博客——首公开</title>
       <link href="/2022/07/ge-ren-bo-ke-shou-gong-kai.html"/>
       <url>/2022/07/ge-ren-bo-ke-shou-gong-kai.html</url>
@@ -164,11 +272,11 @@
     
     
     <entry>
-      <title>IT文档中的一些术语</title>
+      <title>IT文档中的一些术语（20220721更新）</title>
       <link href="/2022/06/it-wen-dang-zhong-de-yi-xie-zhu-yu.html"/>
       <url>/2022/06/it-wen-dang-zhong-de-yi-xie-zhu-yu.html</url>
       
-        <content type="html"><![CDATA[<p>在阅读IT文档的过程中经常出现一些易忘的、非字面意思的术语，从当前日期开始记录整理。</p><span id="more"></span><h3 id="Hooks"><a href="#Hooks" class="headerlink" title="Hooks"></a>Hooks</h3><p>引用知乎上的一张著名的示意图：</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/hooks.webp" alt="引用知乎上的图"></p><p>字面理解，钩子。</p><p>专业理解，通过一系列技术，截获在软件代码之间传递的函数调用&#x2F;事件，来更改&#x2F;增强其他软件组件、应用程序或操作系统的行为，处理此类拦截的函数调用、事件或消息的代码称为“Hooks”。</p><p>简单理解，就是在消息过去之前，可以先把消息勾住，不让其传递，然后自己的操作优先处理。即在操作某行为之前，优先处理一下。</p><p>生活示例：在发朋友圈之前，P一下（即Hook操作），发朋友圈。</p><h3 id="FOSS"><a href="#FOSS" class="headerlink" title="FOSS"></a>FOSS</h3><p>软件; 自由和开源软件; 开源软件;</p><h3 id="OAOO"><a href="#OAOO" class="headerlink" title="OAOO"></a>OAOO</h3><p>Once and only once 一次且仅一次，又称DRY，Don’t repeat yourself。</p><p>一个规则，实现一次（One rule, one place）是面向对象编程中的基本原则，程序员的行事准则。旨在软件开发中，减少重复的信息。</p><h3 id="WET"><a href="#WET" class="headerlink" title="WET"></a>WET</h3><p>违反DRY原则的解决方案通常被称为WET，其有多种全称，包括“ Write everything twice ”（把每个东西写两次）、“ We enjoy typing ”（我们就是喜欢打字）或“ Waste everyone’s time ”（浪费大家的时间）。</p><p>WET大致能分成4种：<br>Imposed duplication：开发者认为不得不的重复<br>Inadvertent duplication：开发者没有意识到的重复<br>Impatient duplication：开发者复制自己或他人的程式码造成的重复<br>Interdeveloper duplication：不同开发者间共同开发或交接造成的重复<br>有时，为了可读性，或避免耦合，或过早重构，应放弃DRY原则。 </p>]]></content>
+        <content type="html"><![CDATA[<p>在阅读IT文档的过程中经常出现一些易忘的、非字面意思的术语，从当前日期开始记录整理。</p><span id="more"></span><h3 id="shebang"><a href="#shebang" class="headerlink" title="shebang"></a>shebang</h3><p>也称为Hashbang。由井号和叹号构成的字符序列<code>#!</code>，其出现在文本文件的第一行的前两个字符。在文件中存在Shebang的情况下，类Unix操作系统的程序加载器会分析Shebang后的内容，将这些内容作为解释器指令，并调用该指令，并将载有Shebang的文件路径作为该解释器的参数。</p><p>例如，以指令<code>#!/bin/sh</code>开头的文件在执行时会实际调用<code>/bin/sh</code>程序（通常是Bourne shell或兼容的shell，例如bash、dash等）来执行。这行内容也是shell脚本的标准起始行。</p><p>Unix术语中，井号通常称为<em>sharp</em>，<em>hash</em>或<em>mesh</em>；而叹号则常常称为<em>bang</em>。</p><blockquote><p>rf.<a href="https://zh.wikipedia.org/wiki/Shebang">https://zh.wikipedia.org/wiki/Shebang</a></p></blockquote><h4 id="食用方法："><a href="#食用方法：" class="headerlink" title="食用方法："></a>食用方法：</h4><h5 id="1-先添加shebang标识"><a href="#1-先添加shebang标识" class="headerlink" title="1.先添加shebang标识"></a>1.先添加shebang标识</h5><p>使Java支持使用：</p><blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/java --source <span class="number">11</span></span><br></pre></td></tr></table></figure></blockquote><p>使用<code>#!/usr/bin/env 脚本解释器名称</code>是一种常见的在不同平台上都能正确找到解释器的办法：</p><blockquote><p>使某些脚本语言(例如Python或Bash)支持使用：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br></pre></td></tr></table></figure><p>使Node.js支持JavaScript文件的shebang(#！)：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env node</span></span><br></pre></td></tr></table></figure></blockquote><h5 id="2-修改文件的可执行权限"><a href="#2-修改文件的可执行权限" class="headerlink" title="2.修改文件的可执行权限"></a>2.修改文件的可执行权限</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x [filename]</span><br></pre></td></tr></table></figure><h5 id="3-运行脚本"><a href="#3-运行脚本" class="headerlink" title="3.运行脚本"></a>3.运行脚本</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./[filename]</span><br></pre></td></tr></table></figure><p>作为单文件简单测试使用时，只要有正确的运行环境和shebang标识，对应文件后缀名可有可无，也可正确执行。</p><h3 id="Hooks"><a href="#Hooks" class="headerlink" title="Hooks"></a>Hooks</h3><p>引用知乎上的一张著名的示意图：</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/hooks.webp" alt="引用知乎上的图"></p><p>字面理解，钩子。</p><p>专业理解，通过一系列技术，截获在软件代码之间传递的函数调用&#x2F;事件，来更改&#x2F;增强其他软件组件、应用程序或操作系统的行为，处理此类拦截的函数调用、事件或消息的代码称为“Hooks”。</p><p>简单理解，就是在消息过去之前，可以先把消息勾住，不让其传递，然后自己的操作优先处理。即在操作某行为之前，优先处理一下。</p><p>生活示例：在发朋友圈之前，P一下（即Hook操作），发朋友圈。</p><h3 id="FOSS"><a href="#FOSS" class="headerlink" title="FOSS"></a>FOSS</h3><p>Free and open-source software：软件; 自由和开源软件; 开源软件;</p><h3 id="OAOO"><a href="#OAOO" class="headerlink" title="OAOO"></a>OAOO</h3><p>Once and only once 一次且仅一次，又称DRY，Don’t repeat yourself。</p><p>一个规则，实现一次（One rule, one place）是面向对象编程中的基本原则，程序员的行事准则。旨在软件开发中，减少重复的信息。</p><h3 id="WET"><a href="#WET" class="headerlink" title="WET"></a>WET</h3><p>违反DRY原则的解决方案通常被称为WET，其有多种全称，包括“ Write everything twice ”（把每个东西写两次）、“ We enjoy typing ”（我们就是喜欢打字）或“ Waste everyone’s time ”（浪费大家的时间）。</p><p>WET大致能分成4种：<br>Imposed duplication：开发者认为不得不的重复<br>Inadvertent duplication：开发者没有意识到的重复<br>Impatient duplication：开发者复制自己或他人的程式码造成的重复<br>Interdeveloper duplication：不同开发者间共同开发或交接造成的重复<br>有时，为了可读性，或避免耦合，或过早重构，应放弃DRY原则。 </p>]]></content>
       
       
       <categories>
@@ -348,11 +456,11 @@
       
         <tags>
             
+            <tag> 报错处理 </tag>
+            
             <tag> 202205 </tag>
             
             <tag> flutter </tag>
-            
-            <tag> 报错处理 </tag>
             
         </tags>
       
@@ -462,9 +570,9 @@
       
         <tags>
             
-            <tag> flutter </tag>
-            
             <tag> 报错处理 </tag>
+            
+            <tag> flutter </tag>
             
             <tag> 202204 </tag>
             
@@ -520,11 +628,11 @@
       
         <tags>
             
+            <tag> 报错处理 </tag>
+            
             <tag> 202203 </tag>
             
             <tag> flutter </tag>
-            
-            <tag> 报错处理 </tag>
             
             <tag> TBC </tag>
             
@@ -551,11 +659,11 @@
       
         <tags>
             
+            <tag> 202203 </tag>
+            
             <tag> Mac </tag>
             
             <tag> 使用技巧 </tag>
-            
-            <tag> 202203 </tag>
             
         </tags>
       
@@ -580,9 +688,9 @@
       
         <tags>
             
-            <tag> 202203 </tag>
-            
             <tag> 报错处理 </tag>
+            
+            <tag> 202203 </tag>
             
             <tag> git </tag>
             
@@ -609,11 +717,11 @@
       
         <tags>
             
+            <tag> 202203 </tag>
+            
             <tag> Mac </tag>
             
             <tag> 使用技巧 </tag>
-            
-            <tag> 202203 </tag>
             
         </tags>
       
@@ -638,11 +746,11 @@
       
         <tags>
             
+            <tag> 202203 </tag>
+            
             <tag> Mac </tag>
             
             <tag> 使用技巧 </tag>
-            
-            <tag> 202203 </tag>
             
         </tags>
       
@@ -667,11 +775,11 @@
       
         <tags>
             
+            <tag> 报错处理 </tag>
+            
             <tag> 202203 </tag>
             
             <tag> flutter </tag>
-            
-            <tag> 报错处理 </tag>
             
         </tags>
       
@@ -696,11 +804,11 @@
       
         <tags>
             
+            <tag> 202203 </tag>
+            
             <tag> Mac </tag>
             
             <tag> 使用技巧 </tag>
-            
-            <tag> 202203 </tag>
             
         </tags>
       
@@ -725,11 +833,11 @@
       
         <tags>
             
+            <tag> 202203 </tag>
+            
             <tag> Mac </tag>
             
             <tag> 使用技巧 </tag>
-            
-            <tag> 202203 </tag>
             
         </tags>
       
@@ -783,11 +891,11 @@
       
         <tags>
             
-            <tag> 202203 </tag>
+            <tag> Hexo </tag>
             
             <tag> 报错处理 </tag>
             
-            <tag> Hexo </tag>
+            <tag> 202203 </tag>
             
         </tags>
       
