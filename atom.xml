@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2022-08-07T15:41:02.803Z</updated>
+  <updated>2022-08-15T02:54:20.956Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>不能将iTerm设置为VS Code的集成终端</title>
+    <link href="https://yexingshusheng.com/2022/08/bu-neng-jiang-iterm-she-zhi-wei-vs-code-de-ji-cheng-zhong-duan.html"/>
+    <id>https://yexingshusheng.com/2022/08/bu-neng-jiang-iterm-she-zhi-wei-vs-code-de-ji-cheng-zhong-duan.html</id>
+    <published>2022-08-14T11:39:10.000Z</published>
+    <updated>2022-08-15T02:54:20.956Z</updated>
+    
+    <content type="html"><![CDATA[<p>最初问题出现在 VS Code 某一次更新后…</p><span id="more"></span><p>之前一直将 iTerm 作为 VS Code 的集成终端，此前，已经折腾过 iTerm了，在 VS Code 某一次更新后，官网里面只有关于 Windows 的 powershell 配置，没有Mac的相关配置，后续一直在 VS Code 终端上出现奇怪的报错，比如 not found npm，根本原因终于找到了。<a href="https://stackoverflow.com/users/8030861/kronos">Kronos</a> 的原文解释：</p><blockquote><p><strong>iTerm is not a shell but a terminal emulator which in your case is running the zsh shell.</strong></p><p>I believe you are confusing the terms Shell and a terminal emulator.</p><p>iTerm is a terminal emulator. Some examples of terminal emulator are Gnome terminal, Guake, Xterm etc. They provide a display to the shell which is installed in the OS.</p><p>A shell is a command line interface that reads and interprets your commands. Examples of shell are bash which comes by default in Linux and other shells like zsh, fish, sh.</p><p><strong>Visual Studio Code integrated terminals</strong> use the <strong>shell itself</strong> and not the terminal emulator. In Windows OS the distinction between shell and terminal emulator is not present so Powershell and Command Prompt are both the shell and the emulator.</p><p>But for Unix like OSes there is a distinction.</p><p>I believe you use iTerm as the terminal emulator and the shell used is zsh (pronounced Z Shell which is a fork of bash Bourne Again Shell).</p><p>Here is a wikipedia article on <a href="https://en.wikipedia.org/wiki/Unix_shell">Unix Shell</a>. This talks about what a Unix shell really is.</p><p>This link is about <a href="https://en.wikipedia.org/wiki/Terminal_emulator">Terminal emulators</a> which also talks about the history of terminals.</p><p>This link gives a <a href="https://en.wikipedia.org/wiki/List_of_terminal_emulators">list of terminal emulators</a> that are available. iTerm is a terminal emulator for Mac OS.</p></blockquote><p>摘要大意就是：</p><p>VS Code 集成终端使用 shell 本身，而 Mac OS（类Unix）上的 iTerm 是一个终端仿真器，而 Windows 中不存在 shell 和终端仿真器，因此， powershell 和命令提示符既是 shell 又是仿真器。</p><p>这也正好解释了 VS Code 官网为什么只有 Windows 下的终端配置而没有 Mac 下的终端配置的原因。</p><p>至于哪些开发软件只能采用shell，没必要去纠结判断，结论就是：Mac OS 上开发工具的终端回归默认，可以从根源上避免终端仿真器带来的bug。</p><blockquote><p>rf.</p><p><a href="https://code.visualstudio.com/docs/terminal/profiles">VS Code官网终端配置文件</a></p><p><a href="https://stackoverflow.com/questions/43900516/integrated-terminal-setting-vs-code-and-iterm-returns-zsh/44163545#44163545">不能将iTerm设置为VS Code的集成终端</a></p><p><a href="https://en.wikipedia.org/wiki/Unix_shell">Unix Shell</a></p><p><a href="https://en.wikipedia.org/wiki/Terminal_emulator">终端模拟器</a></p><p><a href="https://en.wikipedia.org/wiki/List_of_terminal_emulators">终端模拟器的列表</a></p><p><a href="https://stackoverflow.com/questions/29957456/change-default-terminal-app-in-visual-studio-code-on-mac">Change default terminal app in Visual Studio Code on Mac</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最初问题出现在 VS Code 某一次更新后…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202208" scheme="https://yexingshusheng.com/tags/202208/"/>
+    
+  </entry>
   
   <entry>
     <title>不可思议的事</title>
@@ -539,29 +560,6 @@
     <category term="GitHub" scheme="https://yexingshusheng.com/tags/GitHub/"/>
     
     <category term="2FA" scheme="https://yexingshusheng.com/tags/2FA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>program（更新至20220709）</title>
-    <link href="https://yexingshusheng.com/2022/05/program.html"/>
-    <id>https://yexingshusheng.com/2022/05/program.html</id>
-    <published>2022-05-04T11:27:46.000Z</published>
-    <updated>2022-07-31T15:03:57.294Z</updated>
-    
-    <content type="html"><![CDATA[<p>部分互联网事件梳理…</p><span id="more"></span><h3 id="2022-07-09"><a href="#2022-07-09" class="headerlink" title="2022-07-09"></a>2022-07-09</h3><p>上海数据库泄漏事件。</p><h3 id="2022-07-02"><a href="#2022-07-02" class="headerlink" title="2022-07-02"></a>2022-07-02</h3><blockquote><p>原文：<a href="https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages">2022开发者调查报告</a></p><p>中文：<a href="https://telegra.ph/2022-%E5%BC%80%E5%8F%91%E8%80%85%E8%B0%83%E6%9F%A5%E6%8A%A5%E5%91%8A-06-25">2022开发者调查报告</a></p></blockquote><h3 id="2022-07-01"><a href="#2022-07-01" class="headerlink" title="2022-07-01"></a>2022-07-01</h3><blockquote><p>rf.</p><p>PC版：<a href="https://www.cnbeta.com/articles/tech/1287625.htm">已故苹果公司联合创始人史蒂夫·乔布斯将被追授总统自由勋章</a></p><p>手机版：<a href="https://m.cnbeta.com/view/1287625.htm">已故苹果公司联合创始人史蒂夫·乔布斯将被追授总统自由勋章</a></p></blockquote><h3 id="2022-06-21"><a href="#2022-06-21" class="headerlink" title="2022-06-21"></a>2022-06-21</h3><blockquote><p>rf.</p><p><a href="https://www.bleepingcomputer.com/news/technology/massive-cloudflare-outage-caused-by-network-configuration-error/">网络配置错误导致的大规模 Cloudflare 中断</a></p><p><a href="https://www.cloudflarestatus.com/history">Cloudflare System Status Incident History</a></p><p><a href="https://blog.cloudflare.com/">The Cloudflare Blog</a></p></blockquote><p>6 月 21 日云服务平台 Cloudflare 更新系统状态，Cloudflare 正在调查该公司服务或网络的广泛问题，用户在访问 Cloudflare 的网络或服务时可能会遇到错误或超时，该问题已被确定并正在实施修复已经修复Cloudflare为互联网上许多网站和服务提供支持，这次服务中断影响了一系列不同的网站，包括 Discord、Shopify、Grindr、Fitbit 和 Peleton。</p><blockquote><p>免费DDOS防火墙，除了cloudflare之外，还真是找不到其他的替代品。</p></blockquote><p>不得不说的是：很喜欢这种透明度。</p><h3 id="2022-06-20"><a href="#2022-06-20" class="headerlink" title="2022-06-20"></a>2022-06-20</h3><blockquote><p>rf.</p><p><a href="https://www.163.com/dy/article/HAB5QI2F0517N211.html">员工向Github提交漏洞被叫到派出所</a></p><p>防风备份：<a href="https://telegra.ph/%E5%91%98%E5%B7%A5%E5%90%91Github%E6%8F%90%E4%BA%A4%E6%BC%8F%E6%B4%9E%E8%A2%AB%E5%8F%AB%E5%88%B0%E6%B4%BE%E5%87%BA%E6%89%80-07-01">员工向Github提交漏洞被叫到派出所</a></p></blockquote><p>大厂原来是这样欺负白帽的。</p><h3 id="2022-06-16"><a href="#2022-06-16" class="headerlink" title="2022-06-16"></a>2022-06-16</h3><p>IE浏览器正式退役。</p><h3 id="2022-06-15"><a href="#2022-06-15" class="headerlink" title="2022-06-15"></a>2022-06-15</h3><p><a href="https://www.fastcompany.com/90741719/inside-the-dissolution-of-apples-legacy-design-team">苹果传统设计团队解散的内部</a></p><h3 id="2022-05-19"><a href="#2022-05-19" class="headerlink" title="2022-05-19"></a>2022-05-19</h3><p>Gitee 即日起执行开源仓库审核后上线的措施，所有新上线的开源仓库需要进行人工审核后可正式公开。</p><blockquote><p>rf. </p><p>什么是开源？：<a href="https://www.redhat.com/zh/topics/open-source/what-is-open-source">https://www.redhat.com/zh/topics/open-source/what-is-open-source</a></p><p>这个措施与开源里的一些价值理念背道而驰。</p><p>so？弃！</p></blockquote><h3 id="2022-05-04"><a href="#2022-05-04" class="headerlink" title="2022-05-04"></a>2022-05-04</h3><p>GitHub要求用户在2023年底之前启用一种或多种形式的双因素身份验证（2FA）。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;部分互联网事件梳理…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="202205" scheme="https://yexingshusheng.com/tags/202205/"/>
-    
-    <category term="program" scheme="https://yexingshusheng.com/tags/program/"/>
     
   </entry>
   
