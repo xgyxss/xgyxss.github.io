@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2022-09-04T14:53:56.305Z</updated>
+  <updated>2022-09-12T23:33:40.630Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>引入尘烟</title>
+    <link href="https://yexingshusheng.com/2022/09/yin-ru-chen-yan.html"/>
+    <id>https://yexingshusheng.com/2022/09/yin-ru-chen-yan.html</id>
+    <published>2022-09-10T15:12:21.000Z</published>
+    <updated>2022-09-12T23:33:40.630Z</updated>
+    
+    <content type="html"><![CDATA[<p>如题，推荐这部电影…</p><span id="more"></span><p>个人心中的 2022 最佳文艺电影。</p><p>电影细腻入微，人性的表达淋漓尽致。</p><p>简单写几点突出的感受：</p><ol><li>保持对于生命的悲悯和尊重；</li><li>保持对于感情的纯真、理解和包容；</li><li>一切虚浮繁华，不及人性最朴素的真善美；</li><li>「从前，车马很慢，书信很远，一生只爱一人，而现在，世间喧嚣，人潮拥挤，一世也未寻得一人。」</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;如题，推荐这部电影…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="202209" scheme="https://yexingshusheng.com/tags/202209/"/>
+    
+    <category term="电影" scheme="https://yexingshusheng.com/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>everyones growth looks different</title>
@@ -507,35 +530,6 @@
     <category term="202206" scheme="https://yexingshusheng.com/tags/202206/"/>
     
     <category term="正当防卫" scheme="https://yexingshusheng.com/tags/%E6%AD%A3%E5%BD%93%E9%98%B2%E5%8D%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI工具Upscale.media——提升4倍分辨率</title>
-    <link href="https://yexingshusheng.com/2022/06/ai-gong-ju-upscale-media-ti-sheng-4-bei-fen-bian-lu.html"/>
-    <id>https://yexingshusheng.com/2022/06/ai-gong-ju-upscale-media-ti-sheng-4-bei-fen-bian-lu.html</id>
-    <published>2022-06-01T11:04:28.000Z</published>
-    <updated>2022-08-17T04:08:02.567Z</updated>
-    
-    <content type="html"><![CDATA[<p>官网网址：<a href="https://www.upscale.media/">https://www.upscale.media/</a></p><p>免费的 AI 工具 Upscale.media，它使用AI技术可以将图片分辨率提升至原始尺寸的 4 倍，而且不会降低图片清晰度和质量，没有像素化或者模糊的细节。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;官网网址：&lt;a href=&quot;https://www.upscale.media/&quot;&gt;https://www.upscale.media/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;免费的 AI 工具 Upscale.media，它使用AI技术可以将图片分辨率提升至原始尺寸的 4 倍，而且不会降</summary>
-      
-    
-    
-    
-    <category term="工具网站" scheme="https://yexingshusheng.com/categories/%E5%B7%A5%E5%85%B7%E7%BD%91%E7%AB%99/"/>
-    
-    
-    <category term="202206" scheme="https://yexingshusheng.com/tags/202206/"/>
-    
-    <category term="tools" scheme="https://yexingshusheng.com/tags/tools/"/>
-    
-    <category term="Upscale.media" scheme="https://yexingshusheng.com/tags/Upscale-media/"/>
     
   </entry>
   
