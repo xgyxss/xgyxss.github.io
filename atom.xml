@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-04-05T16:08:51.369Z</updated>
+  <updated>2023-04-06T01:21:52.119Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -17,16 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>难忘的愚人节</title>
-    <link href="https://yexingshusheng.com/2023/04/nan-wang-de-yu-ren-jie.html"/>
-    <id>https://yexingshusheng.com/2023/04/nan-wang-de-yu-ren-jie.html</id>
+    <title>更新GitHub的RSA SSH主机密钥</title>
+    <link href="https://yexingshusheng.com/2023/04/geng-xin-github-de-rsa-ssh-zhu-ji-mi-yao.html"/>
+    <id>https://yexingshusheng.com/2023/04/geng-xin-github-de-rsa-ssh-zhu-ji-mi-yao.html</id>
+    <published>2023-04-05T15:35:47.000Z</published>
+    <updated>2023-04-06T01:21:52.119Z</updated>
+    
+    <content type="html"><![CDATA[<p>连接 GitHub 时出现警告：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!</p><span id="more"></span><p>简述：GitHub.com 的 RSA SSH 私钥短暂地暴露在 GitHub 公共存储库中，官方更改了主机密钥。</p><blockquote><p>rf.</p><p><a href="https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/#newsletter">We updated our RSA SSH host key</a></p><p><a href="https://shogo82148.github.io/blog/2023/03/24/2023-03-24-github-identification-has-changed/">GitHubに接続したらWARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!と怒られる件</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;连接 GitHub 时出现警告：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202304" scheme="https://yexingshusheng.com/tags/202304/"/>
+    
+    <category term="Github" scheme="https://yexingshusheng.com/tags/Github/"/>
+    
+    <category term="SSH" scheme="https://yexingshusheng.com/tags/SSH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这节不过也罢</title>
+    <link href="https://yexingshusheng.com/2023/04/zhe-jie-bu-guo-ye-ba.html"/>
+    <id>https://yexingshusheng.com/2023/04/zhe-jie-bu-guo-ye-ba.html</id>
     <published>2023-04-02T12:13:43.000Z</published>
-    <updated>2023-04-05T16:08:51.369Z</updated>
+    <updated>2023-04-05T16:29:25.868Z</updated>
     
-    <content type="html"><![CDATA[<p>真 · 愚人节…</p><span id="more"></span><p>今年的愚人节是延迟一天过的，多年不遇的极品概率低事件，偏偏被我赶上了——额，手机卡坏了…</p><p>事情理应很简单，但是，额…</p><p>打不了车，换废旧手机&#x2F;别人手机也打不了车，而且换手机也接不了短信码登陆…</p><p>方圆几十公里内的移动店铺，其实只有几家店铺能补换卡…让这事情增加一点难度就是，异地补换…（这其实是后面才知道的）</p><p>首先，咨询移动客服，哪几家店铺能补换，而且还是能异地补换。</p><p>卡坏了打不通，周围人也不熟手机也不好借，而且还要打车过去（距离远），还好有个待注销的流量卡可以救急，不然就真的麻烦了。（主要是<del>浪费时间</del>，此时还没意识到问题的严重性）</p><p>然后，是距离偏远，出门是打不了车的，只能室内先连 Wi-Fi 打车。</p><p>最后，划重点：</p><p>异地补换的流程，需要三个 90 天内打通过的手机号，报给工作人员，然后就是服务密码。</p><p>服务密码，我想大多数人内心都是 WTF？这谁记得？</p><p>好，那先修改服务密码，仍旧需要三个 90 天内打通过的手机号，说是三个同一家电信运营商的最好，就这都折腾了好大一会儿，多久？只记得把隔壁 VIP 大爷都开始等得不耐烦了，“我 TM xxx 星用户，你让我等多久啊xx xxxxxx …”。</p><p>终于，折腾完了。</p><p>这事说起来不大但也不小。</p><p>从未遇见，我觉得有必要作为一条冷知识记录下来。</p><p>总结就是：</p><ol><li>提前搞清楚自己电话的服务密码，可以直接打客服咨询，客服会给你提供更改步骤；</li><li>能想到的应用场景是：旅游&#x2F;出差时，一般都是处于异地的状态，而现在，往往微信语音&#x2F;视频用得较多，可能会导致 90 天内没有 3 个打通过的电话号码，这时，异地补换就完成不了！！除非当地另办一张，但是很多事也会耽误；再者，要是遇到偏远旅游地&#x2F;出差地，欲哭无泪！！</li><li>经验就是：每 90 天内至少打通 3 个电话（近期不会注销的电话），要不然真遇到手机卡异地补换且搞不定的事（简直是生活中的黑天鹅事件），真的会 E M O！！</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>今年的愚人节是延迟一天过的，多年不遇的极品概率低事件给我上了一课…</p><span id="more"></span><p>额，手机卡坏了…</p><p>事情理应很简单，但是，额…且慢…</p><p>打车更换不就完了吗？额，打不了车，换废旧手机&#x2F;别人手机也打不了车，而且换手机也接不了短信码登陆…</p><p>而且方圆几十公里内的移动店铺，其实只有几家店铺能补换卡…挨家挨户打听？不现实。让这事情增加一点难度就是，异地补换…（这其实是后面才知道的）</p><p>首先，咨询移动客服，哪几家店铺能补换，而且还是能异地补换。</p><p>卡坏了打不通，周围人也不熟，手机也不好借，而且还要打车过去（距离远），还好有个待注销的流量卡可以救急，不然就真的麻烦了。（主要是<del>浪费时间</del>，此时还没意识到问题的严重性）</p><p>然后，是距离偏远，出门是打不了车的，只能室内先连 Wi-Fi 打车。</p><p>最后，划重点：</p><p>异地补换的流程，需要三个 90 天内打通过的手机号（不是打过，是通过话的那种），报给工作人员机器验证，然后就是服务密码，还有身份证。</p><p>服务密码，我想大多数人内心都是 WTF？这谁记得？</p><p>好，那先修改服务密码，仍旧需要三个 90 天内打通过的手机号，说是三个同一家电信运营商的最好，就这都折腾了好大一会儿。有多久？只记得把隔壁 VIP 大爷弄糙了，“我 xxx 星用户，你 TM 让我等多久啊 bla bla bla bla …”。</p><p>终于，折腾完了。</p><p>对于这次黑天鹅，我觉得有必要作为一条冷知识记录下来。</p><p>总结就是：</p><ol><li>提前搞清楚自己电话的服务密码，可以直接打客服咨询，客服会给你提供服务密码更改步骤；</li><li>能想到的场景是：旅游&#x2F;出差时，一般都是处于异地的状态，而现在，往往微信语音&#x2F;视频用得较多，可能会导致 90 天内没有 3 个打通过的电话号码，这时，异地补换就完成不了！！除非当地另办一张救急，但是很多事也会耽误；再者，要是遇到偏远旅游地&#x2F;出差地，欲哭无泪！！</li><li>经验就是：每 90 天内至少打通 3 个电话（近期不会注销的电话），要不然真遇到手机卡异地补换且搞不定时（简直是生活中的黑天鹅事件），真的会 E M O ！！</li></ol>]]></content>
     
     
-    <summary type="html">&lt;p&gt;真 · 愚人节…&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;今年的愚人节是延迟一天过的，多年不遇的极品概率低事件给我上了一课…&lt;/p&gt;</summary>
     
     
     
@@ -483,29 +508,6 @@
     <category term="202210" scheme="https://yexingshusheng.com/tags/202210/"/>
     
     <category term="github" scheme="https://yexingshusheng.com/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Programmer&#39;s Day</title>
-    <link href="https://yexingshusheng.com/2022/10/programmers-day.html"/>
-    <id>https://yexingshusheng.com/2022/10/programmers-day.html</id>
-    <published>2022-10-24T02:24:00.000Z</published>
-    <updated>2022-10-25T01:32:20.373Z</updated>
-    
-    <content type="html"><![CDATA[<p>Happy holidays to programmers around the world, Programmer’s Day.</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/1024.webp" alt="1024"></p><blockquote><p>rf.</p><p>图片转存于开源社区</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Happy holidays to programmers around the world, Programmer’s Day.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="202210" scheme="https://yexingshusheng.com/tags/202210/"/>
-    
-    <category term="1024" scheme="https://yexingshusheng.com/tags/1024/"/>
     
   </entry>
   
