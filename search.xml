@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>人生攻略</title>
+      <link href="/2023/04/ren-sheng-gong-lue.html"/>
+      <url>/2023/04/ren-sheng-gong-lue.html</url>
+      
+        <content type="html"><![CDATA[<p>看完再议，偶尔也许该看看「玄学」…</p><span id="more"></span><p>整个视频有种将玄学与科学融入了的感觉，既生动有趣又合乎自然。</p><blockquote><p>vlogger 总结：人生是需要努力的，但努力的方向需要注意，应该在注意安全、注意健康的前提之下，努力开拓视野，这样的话才能尽可能地减少人生的红点，增加人生的绿点。至于是否能致富，最终是要看命的，和才能、努力，就个人因素其实没有太大的关系。这个世界就不是倾向于有能力人的世界，这个自然规律不倾向能力，它倾向于运气，是因为我们的人生太短，如果人生足够长，几千年几万年的话，运气值就会趋于平均，就遇到的好事坏事差不多，那个时候就拼能力了，但是我们活不了那么长，所以在短暂的人生中，努力那么多年一点用都没有，人生这80年、90年拼的就是运气。但是基础的抓住运气的才能，还是要具备的。</p></blockquote><p>视频中提到的 0.61，也就是正态分布中的平均值靠右一点点，其实就是 vlogger 总结中的「基础的抓住运气的才能，还是要具备的」。</p><p>结合现实来看：很多人光是获得「抓住运气的才能」，就已经消耗了 10 年、20年，甚至大半生，如果再能抓住一两次运气，就能超过大部分人；而有一定背景的人，可能只需要抓住一两次机会，就已经超过了绝大多数人。为什么这么说？普通人的家境基数以 10、20 来看，就算能抓住几次运气，也只是 20、40、80、160…但这就已经超过了很多人；而有一定背景的人，家境基数以 100、1000 来看，只需要抓住一两次机会，至少也是 200、2000…这还没考虑到自然灾害、突发事件的不确定因素。所以才有一句“小富由俭大富由天”，结合实验规律和当今现实，才更能发现古人这句对于财富深刻认知的提炼与智慧。</p><p>拓展视野，改变心态。</p><p>Life is short, play more.</p><blockquote><p>rf.</p><p>视频地址：<a href="https://www.youtube.com/watch?v=qzIfQ5_gYzc">https://www.youtube.com/watch?v=qzIfQ5_gYzc</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202304 </tag>
+            
+            <tag> 人生攻略 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>卢比奥参议员国会演讲:We should ban TikTok</title>
+      <link href="/2023/04/lu-bi-ao-can-yi-yuan-guo-hui-yan-jiang-we-should-ban-tiktok.html"/>
+      <url>/2023/04/lu-bi-ao-can-yi-yuan-guo-hui-yan-jiang-we-should-ban-tiktok.html</url>
+      
+        <content type="html"><![CDATA[<p>关于禁 TikTok 的原因…</p><span id="more"></span><p>油管原视频：<a href="https://www.youtube.com/watch?v=4Jk1sfD_Vp8">美國必須禁抖音！全网最清晰最完整的解釋來了！盧比奧參議員國會演講中文版 We should ban TikTok！by Marco Rubio【公子分享】</a>（含简中字幕）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转录归档 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202304 </tag>
+            
+            <tag> TikTok </tag>
+            
+            <tag> 演讲 </tag>
+            
+            <tag> 卢比奥参议员国会演讲 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>更新GitHub的RSA SSH主机密钥</title>
       <link href="/2023/04/geng-xin-github-de-rsa-ssh-zhu-ji-mi-yao.html"/>
       <url>/2023/04/geng-xin-github-de-rsa-ssh-zhu-ji-mi-yao.html</url>
@@ -1077,11 +1135,11 @@
     
     
     <entry>
-      <title>微信发送不了avif格式的图片</title>
-      <link href="/2022/06/wei-xin-fa-song-bu-liao-avif-ge-shi-de-tu-pian.html"/>
-      <url>/2022/06/wei-xin-fa-song-bu-liao-avif-ge-shi-de-tu-pian.html</url>
+      <title>微信显示不了avif格式的图片</title>
+      <link href="/2022/06/wei-xin-xian-shi-bu-liao-avif-ge-shi-de-tu-pian.html"/>
+      <url>/2022/06/wei-xin-xian-shi-bu-liao-avif-ge-shi-de-tu-pian.html</url>
       
-        <content type="html"><![CDATA[<p>当用 avif 格式的图片时，网站预览，网页秒开。于是，出于好奇，想看一下手机上显示的效果…</p><p>本想用手机查看一下 avif 格式的图片，结果用微信传输助手竟然发送不了。（设备：Mac -&gt; Android）</p><p>至于图片格式的兼容性：当前，在微信上，webp 格式的图片默认发送显示为一个文件；Mac 的预览打不开 avif 格式的图片。</p><p>经研究：原始图片-&gt;压缩-&gt;转 webp 的效果比直接转 webp 的效果好！</p><p>这些压缩、转换工具在网上都可以搜得到。</p><p>所以，当前博客内的图片统一采用 webp 格式，兼容性效果更佳。</p>]]></content>
+        <content type="html"><![CDATA[<p>当用 avif 格式的图片时，网站预览，网页秒开。于是，出于好奇，想看一下手机上显示的效果…</p><p>本想用手机查看一下 avif 格式的图片，结果用微信传输助手竟然发送不了。（设备：Mac -&gt; Android）</p><p>至于图片格式的兼容性：当前，在微信上，webp 格式的图片默认发送显示为一个文件；Mac 的预览也打不开 avif 格式的图片。</p><p>于是，当前博客内的图片统一采用 webp 格式，兼容性效果更佳。</p><p>经研究：原始图片-&gt;压缩-&gt;转 webp 的效果比直接转 webp 的效果好！</p><p>这些压缩、转换工具在网上都可以搜得到。</p>]]></content>
       
       
       <categories>
