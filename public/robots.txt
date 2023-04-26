@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: https://xgyxss.github.io/sitemap.xml
+Sitemap: https://xgyxss.github.io/baidusitemap.xml
