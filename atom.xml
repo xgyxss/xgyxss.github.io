@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-05-19T12:26:27.642Z</updated>
+  <updated>2023-05-20T04:46:52.038Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://yexingshusheng.com/2023/05/sui-chi-dan-dao-chatgpt-wo-lai-liao.html"/>
     <id>https://yexingshusheng.com/2023/05/sui-chi-dan-dao-chatgpt-wo-lai-liao.html</id>
     <published>2023-05-19T05:14:49.000Z</published>
-    <updated>2023-05-19T12:26:27.642Z</updated>
+    <updated>2023-05-20T04:46:52.038Z</updated>
     
-    <content type="html"><![CDATA[<p>随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…</p><p>如今，又卷土重来了…</p><span id="more"></span><p>今天，ChatGPT 官方宣布 ios app 已在美区上架，后续几周会陆续上架其他地区商城。Android 版 app 也已在路上。</p><h2 id="web端（本人仍然不能访问）"><a href="#web端（本人仍然不能访问）" class="headerlink" title="web端（本人仍然不能访问）"></a>web端（本人仍然不能访问）</h2><ol><li><p>首先就是不支持所在地区</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%BD%E5%AE%B6%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA%E4%B8%8D%E6%94%AF%E6%8C%81.webp" width="75%"></li><li><p>然后就是 Ray ID 的问题</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/RayID.webp" width="75%"></li></ol><h2 id="ios-端（成功上岸）"><a href="#ios-端（成功上岸）" class="headerlink" title="ios 端（成功上岸）"></a>ios 端（成功上岸）</h2><blockquote><p>使用 <span style="color:red;font-weight:700;">美区 Apple ID</span> 下载</p></blockquote><p>延用最开始注册的账号，开始各种登录报错。节选图：</p><table style="border:none;">    <tr style="border:none;">        <th style="border:none;"></th>        <th style="border:none;"></th>    </tr>    <tr style="border:none;">        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%991.webp" width="50%" /></td>        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%992.webp" width="50%" /></td>    </tr></table><p>折腾一番后，登录成功。</p><p>试用举例：比如咨询有关非母语人士学英语的方法，它会详细列出具体的方法。还可以对结果进行反馈，Good Response&#x2F;Bad Response，或者重新生成 Regenerate Response。（PS. 触感反馈的震感交互是真不错！👍）</p><p>节选图：</p><div align="center">  <img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8.webp" width="30%"/></div><p>网页后台查看额度：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6.webp" width="75%"><p>共 5 美元的免费额度，3 个月的使用限制。</p><p>后续订阅 ChatGPT plus $19.99&#x2F;month，当前汇率折合 ¥140.48&#x2F;month，非重度用户不建议。</p><p>至此，初步解锁 AI 工具。</p><blockquote><p>rf.</p><p><a href="https://stackoverflow.com/questions/49968948/what-is-a-ray-id-cloudflare">What is a Ray ID (Cloudflare)?</a></p><p><a href="https://www.quora.com/Is-accidentally-showing-a-Ray-ID-a-problem">Is accidentally showing a Ray ID a problem?</a></p><p><a href="https://twitter.com/OpenAI/status/1659240315100995585">ChatGPT 官宣美区 ios 上架</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…</p><p>如今，又卷土重来了…</p><span id="more"></span><p>今天，ChatGPT 官方宣布 ios app 已在美区上架，后续几周会陆续上架其他地区商城。Android 版 app 也已在路上。</p><h2 id="web端（本人仍然不能访问）"><a href="#web端（本人仍然不能访问）" class="headerlink" title="web端（本人仍然不能访问）"></a>web端（本人仍然不能访问）</h2><ol><li><p>首先就是不支持所在地区</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%BD%E5%AE%B6%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA%E4%B8%8D%E6%94%AF%E6%8C%81.webp" width="75%"></li><li><p>然后就是 Ray ID 的问题</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/RayID.webp" width="75%"></li></ol><h2 id="ios-端（成功上岸）"><a href="#ios-端（成功上岸）" class="headerlink" title="ios 端（成功上岸）"></a>ios 端（成功上岸）</h2><blockquote><p>使用 <span style="color:red;font-weight:700;">美区 Apple ID</span> 下载</p></blockquote><p>延用最开始注册的账号，开始各种登录报错。节选图：</p><table style="border:none;">    <tr style="border:none;">        <th style="border:none;"></th>        <th style="border:none;"></th>    </tr>    <tr style="border:none;">        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%991.webp" width="50%" /></td>        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%992.webp" width="50%" /></td>    </tr></table><p>折腾一番后，登录成功。</p><p>试用举例：比如咨询有关非母语人士学英语的方法，它会详细列出具体的方法。还可以对结果进行反馈，Good Response&#x2F;Bad Response，或者重新生成 Regenerate Response。（PS. 触感反馈的震感交互是真不错！👍）</p><p>节选图：</p><div align="center">  <img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8.webp" width="30%"/></div><p>网页后台查看额度：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6.webp" width="75%"><p>共 5 美元的免费额度，3 个月的使用限制。</p><p>后续订阅 ChatGPT plus $19.99&#x2F;月，当前汇率折合 ¥140.48&#x2F;月，非重度用户不建议。</p><p>至此，初步稳定解锁 AI 工具。</p><blockquote><p>rf.</p><p><a href="https://stackoverflow.com/questions/49968948/what-is-a-ray-id-cloudflare">What is a Ray ID (Cloudflare)?</a></p><p><a href="https://www.quora.com/Is-accidentally-showing-a-Ray-ID-a-problem">Is accidentally showing a Ray ID a problem?</a></p><p><a href="https://twitter.com/OpenAI/status/1659240315100995585">ChatGPT 官宣美区 ios 上架</a></p></blockquote>]]></content>
     
     
     <summary type="html">&lt;p&gt;随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…&lt;/p&gt;
@@ -36,9 +36,9 @@
     
     <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
     
-    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
-    
     <category term="ChatGPT" scheme="https://yexingshusheng.com/tags/ChatGPT/"/>
+    
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
     
   </entry>
   
@@ -312,9 +312,9 @@
     <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="ChatGPT" scheme="https://yexingshusheng.com/tags/ChatGPT/"/>
-    
     <category term="202302" scheme="https://yexingshusheng.com/tags/202302/"/>
+    
+    <category term="ChatGPT" scheme="https://yexingshusheng.com/tags/ChatGPT/"/>
     
     <category term="OpenAI" scheme="https://yexingshusheng.com/tags/OpenAI/"/>
     
