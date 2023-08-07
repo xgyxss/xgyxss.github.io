@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-05-28T16:11:52.347Z</updated>
+  <updated>2023-08-07T11:06:17.732Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,102 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>改变信息获取的方式</title>
+    <link href="https://yexingshusheng.com/2023/08/gai-bian-xin-xi-huo-qu-de-fang-shi.html"/>
+    <id>https://yexingshusheng.com/2023/08/gai-bian-xin-xi-huo-qu-de-fang-shi.html</id>
+    <published>2023-08-05T22:20:00.000Z</published>
+    <updated>2023-08-07T11:06:17.732Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着对于网络的探索，我们总是期望能够及时地关注这个世界发生的变化，常常担心自己错过了什么…</p><span id="more"></span><p>慢慢地，随着平台的扩展、关注量、收藏量的提升，开始信息过载。</p><p>解决信息过载，无非就是对于信息的自动无视过滤或高效分类处理。</p><p>个人目前偏好的解决方式是 RSS。简单介绍一下 RSS，全称：Really Simple Syndication，它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的网站聚合在一起，集中查看，不用再逐个打开了，更方便高效。</p><p>想要实现信息的相对自由，目前的两大头疼问题：阅读器和订阅源。</p><h3 id="RSS-阅读器"><a href="#RSS-阅读器" class="headerlink" title="RSS 阅读器"></a>RSS 阅读器</h3><p>“工欲善其事，必先利其器”，最早尝试过 Fluent Reader（免费开源），当时的需求是 Android + Mac，这无疑是比较奇葩的方案，等于需要一个全平台的方案，但也是当时的真实需求，<a href="https://sspai.com/post/75228">这篇文章</a> 里讲述了相对正常的 Android + Windows 或 iOS + Mac 方案。目前正在使用的是 Reeder 5（付费），价格（忘了）大概在 10 刀（Mac）、5 刀（iOS）。网上也有一些其他免费开源的方案，暂不做赘述。</p><blockquote><p>rf.</p><p>Reeder 5 需要美区 ID 购买下载。</p></blockquote><h3 id="RSS-订阅源"><a href="#RSS-订阅源" class="headerlink" title="RSS 订阅源"></a>RSS 订阅源</h3><p>订阅源的平台很多，知名的像 <a href="https://docs.rsshub.app/">RSSHub</a>，覆盖范围相对较广。</p><h3 id="RSS-分类"><a href="#RSS-分类" class="headerlink" title="RSS 分类"></a>RSS 分类</h3><p>可采用杜威十进制分类法或者自定义分类法，让信息流更适应自己的阅读习惯，以便于信息整合。</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>从早期的了解和使用，就已下定决心要完善信息获取这一大块的内容。</p><p>从 21 世纪以来，从知识数量——知识获取速度——知识深度构建认知优势，随着现在又进入工业革命 4.0 时代，信息不仅仅是处于爆炸状态，未来还会有更多种形态，目前相对明显的就是仿真态（个人自定义，便于理解），由 AI 生成的文字仿真、语音仿真、视觉仿真、记忆仿真…等信息，以假乱真的信息源会开始逐步充斥在自由互联网区域，对于信息早期的获取、分类，将直接影响到信息后期的整合、利用和拓展。</p><p>临界信息（参考于临界知识），有些信息比其他信息更有用，少数的信息能够带来关键的影响，这就是临界信息。</p><blockquote><p>临界知识：知识与知识是不一样的，有些知识比其它知识的威力更大，少数的知识能够给我们带来关键的影响，这就是临界知识。</p><p>个人实例：疫情期间，在国内放开初期，提前 2 ~ 3 周囤到了布洛芬等药物，毫不夸张地说，甚至可囤到默沙东等所有药物。这就是对于临界信息的个人利用真实案例。其他个人实例暂不赘述。</p></blockquote><p>只有真切地感受过临界信息对于自身的正反馈影响，才会懂得完善信息获取能力的重要性。</p><p>如果说临界信息是信息中的黄金，那么 RSS 就是“淘金”工具之一。</p><p>在工业 4.0 时代，随着 AI 的发展，一定会出现新的、高效的“淘金”工具 🔧 ，未雨绸缪未尝不是一件好事。</p><p>临界信息不仅具有生活价值，其覆盖范围之广，足以让信息获取称得上是真正值得学习的技能之一。</p><blockquote><p>rf.</p><p><a href="https://sspai.com/post/75228">抖音受害者的反思，如何像刷抖音一样地学习</a></p><p><a href="https://reederapp.com/">Reeder 5 官网</a></p><p><a href="https://docs.rsshub.app/">RSSHub 官网</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;随着对于网络的探索，我们总是期望能够及时地关注这个世界发生的变化，常常担心自己错过了什么…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="生日作" scheme="https://yexingshusheng.com/tags/%E7%94%9F%E6%97%A5%E4%BD%9C/"/>
+    
+    <category term="202308" scheme="https://yexingshusheng.com/tags/202308/"/>
+    
+    <category term="信息获取" scheme="https://yexingshusheng.com/tags/%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站内容语言使用统计</title>
+    <link href="https://yexingshusheng.com/2023/08/wang-zhan-nei-rong-yu-yan-shi-yong-tong-ji.html"/>
+    <id>https://yexingshusheng.com/2023/08/wang-zhan-nei-rong-yu-yan-shi-yong-tong-ji.html</id>
+    <published>2023-08-03T07:19:02.000Z</published>
+    <updated>2023-08-07T07:32:43.041Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个网站算是给想学外语&#x2F;拓展中文圈外的信息提供了语言方向，是不是又多了一个学习英文的动力？</p><span id="more"></span><p>可以发现当前时间，当前互联网的中文内容仅占 1.3%，排第 13 位。</p><table><thead><tr><th align="right">53.9%</th><th><a href="https://w3techs.com/technologies/details/cl-en-">English</a></th></tr></thead><tbody><tr><td align="right">5.2%</td><td><a href="https://w3techs.com/technologies/details/cl-es-">Spanish</a></td></tr><tr><td align="right">4.8%</td><td><a href="https://w3techs.com/technologies/details/cl-ru-">Russian</a></td></tr><tr><td align="right">4.4%</td><td><a href="https://w3techs.com/technologies/details/cl-de-">German</a></td></tr><tr><td align="right">4.3%</td><td><a href="https://w3techs.com/technologies/details/cl-fr-">French</a></td></tr><tr><td align="right">3.9%</td><td><a href="https://w3techs.com/technologies/details/cl-ja-">Japanese</a></td></tr><tr><td align="right">2.7%</td><td><a href="https://w3techs.com/technologies/details/cl-pt-">Portuguese</a></td></tr><tr><td align="right">2.2%</td><td><a href="https://w3techs.com/technologies/details/cl-tr-">Turkish</a></td></tr><tr><td align="right">2.1%</td><td><a href="https://w3techs.com/technologies/details/cl-it-">Italian</a></td></tr><tr><td align="right">1.6%</td><td><a href="https://w3techs.com/technologies/details/cl-fa-">Persian</a></td></tr><tr><td align="right">1.6%</td><td><a href="https://w3techs.com/technologies/details/cl-nl-">Dutch, Flemish</a></td></tr><tr><td align="right">1.5%</td><td><a href="https://w3techs.com/technologies/details/cl-pl-">Polish</a></td></tr><tr><td align="right">1.4%</td><td><a href="https://w3techs.com/technologies/details/cl-zh-">Chinese</a></td></tr><tr><td align="right">1.2%</td><td><a href="https://w3techs.com/technologies/details/cl-vi-">Vietnamese</a></td></tr><tr><td align="right">0.8%</td><td><a href="https://w3techs.com/technologies/details/cl-id-">Indonesian</a></td></tr><tr><td align="right">0.8%</td><td><a href="https://w3techs.com/technologies/details/cl-cs-">Czech</a></td></tr><tr><td align="right">0.7%</td><td><a href="https://w3techs.com/technologies/details/cl-ko-">Korean</a></td></tr><tr><td align="right">0.7%</td><td><a href="https://w3techs.com/technologies/details/cl-ar-">Arabic</a></td></tr><tr><td align="right">0.6%</td><td><a href="https://w3techs.com/technologies/details/cl-uk-">Ukrainian</a></td></tr><tr><td align="right">0.5%</td><td><a href="https://w3techs.com/technologies/details/cl-el-">Greek</a></td></tr><tr><td align="right">0.5%</td><td><a href="https://w3techs.com/technologies/details/cl-he-">Hebrew</a></td></tr><tr><td align="right">0.5%</td><td><a href="https://w3techs.com/technologies/details/cl-hu-">Hungarian</a></td></tr><tr><td align="right">0.5%</td><td><a href="https://w3techs.com/technologies/details/cl-ro-">Romanian</a></td></tr><tr><td align="right">0.5%</td><td><a href="https://w3techs.com/technologies/details/cl-sv-">Swedish</a></td></tr><tr><td align="right">0.4%</td><td><a href="https://w3techs.com/technologies/details/cl-th-">Thai</a></td></tr><tr><td align="right">0.3%</td><td><a href="https://w3techs.com/technologies/details/cl-da-">Danish</a></td></tr><tr><td align="right">0.3%</td><td><a href="https://w3techs.com/technologies/details/cl-sk-">Slovak</a></td></tr><tr><td align="right">0.3%</td><td><a href="https://w3techs.com/technologies/details/cl-fi-">Finnish</a></td></tr><tr><td align="right">0.2%</td><td><a href="https://w3techs.com/technologies/details/cl-bg-">Bulgarian</a></td></tr><tr><td align="right">0.2%</td><td><a href="https://w3techs.com/technologies/details/cl-sr-">Serbian</a></td></tr><tr><td align="right">0.2%</td><td><a href="https://w3techs.com/technologies/details/cl-hr-">Croatian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-nb-">Norwegian Bokmål</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-lt-">Lithuanian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-sl-">Slovenian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-ca-">Catalan, Valencian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-et-">Estonian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-no-">Norwegian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-lv-">Latvian</a></td></tr><tr><td align="right">0.1%</td><td><a href="https://w3techs.com/technologies/details/cl-hi-">Hindi</a></td></tr></tbody></table><blockquote><p>rf.</p><p><a href="https://w3techs.com/technologies/overview/content_language">Usage statistics of content languages for websites</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这个网站算是给想学外语&amp;#x2F;拓展中文圈外的信息提供了语言方向，是不是又多了一个学习英文的动力？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="语言" scheme="https://yexingshusheng.com/tags/%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="202308" scheme="https://yexingshusheng.com/tags/202308/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么才是真正值得学习的知识?</title>
+    <link href="https://yexingshusheng.com/2023/06/shi-me-cai-shi-zhen-zheng-zhi-de-xue-xi-de-zhi-shi.html"/>
+    <id>https://yexingshusheng.com/2023/06/shi-me-cai-shi-zhen-zheng-zhi-de-xue-xi-de-zhi-shi.html</id>
+    <published>2023-06-30T14:15:24.000Z</published>
+    <updated>2023-07-24T11:04:47.713Z</updated>
+    
+    <content type="html"><![CDATA[<p>在校园到当下，你学到的哪些知识在今天的生活中仍然有用？</p><span id="more"></span><p>什么知识最有价值？在 19 世纪中期，实证主义哲学家赫伯特·斯宾塞便郑重地提出了这个问题，他说，科学知识最有价值。</p><p>但，在已步入的工业 4.0 时代，哪些能力是闯荡未来世界所必需的？</p><p>什么样的综合能力能为我们未来完满的生活做好准备、有助于闯荡未来？</p><p>首当其冲的应该是具有生活价值的知识，后续部分暂不延展。</p><p>那么在 21 世纪，该如何：</p><ul><li>辨别具有生活价值的知识？</li><li>选择具有生活价值的学习？</li><li>建构具有生活价值的体系？</li><li>…</li></ul><hr><p>今天突然想写这个，源于刚刚步入工业 4.0 的人生思考。生活价值的知识部分，可以去翻一本书——《<a href="https://book.douban.com/subject/26586892/">为未知而教，为未来而活</a>》。结合二者，我想，每个人都会对于学习、教育、生活有着更进一步的思考。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在校园到当下，你学到的哪些知识在今天的生活中仍然有用？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202306" scheme="https://yexingshusheng.com/tags/202306/"/>
+    
+    <category term="knowledge" scheme="https://yexingshusheng.com/tags/knowledge/"/>
+    
+    <category term="反思教育" scheme="https://yexingshusheng.com/tags/%E5%8F%8D%E6%80%9D%E6%95%99%E8%82%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome 网上应用店中的更多恶意扩展程序</title>
+    <link href="https://yexingshusheng.com/2023/06/chrome-wang-shang-ying-yong-dian-zhong-de-geng-duo-e-yi-kuo-zhan-cheng-xu.html"/>
+    <id>https://yexingshusheng.com/2023/06/chrome-wang-shang-ying-yong-dian-zhong-de-geng-duo-e-yi-kuo-zhan-cheng-xu.html</id>
+    <published>2023-06-03T12:47:40.000Z</published>
+    <updated>2023-06-05T09:56:12.508Z</updated>
+    
+    <content type="html"><![CDATA[<p>不扩展不好用，但恶意程序是真多…</p><span id="more"></span><blockquote><p>rf.</p><p>原文：<a href="https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/">More malicious extensions in Chrome Web Store</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;不扩展不好用，但恶意程序是真多…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202306" scheme="https://yexingshusheng.com/tags/202306/"/>
+    
+    <category term="Chrome" scheme="https://yexingshusheng.com/tags/Chrome/"/>
+    
+  </entry>
   
   <entry>
     <title>You can learn AI later</title>
@@ -44,9 +140,9 @@
     <link href="https://yexingshusheng.com/2023/05/sui-chi-dan-dao-chatgpt-wo-lai-liao.html"/>
     <id>https://yexingshusheng.com/2023/05/sui-chi-dan-dao-chatgpt-wo-lai-liao.html</id>
     <published>2023-05-19T05:14:49.000Z</published>
-    <updated>2023-05-20T04:46:52.038Z</updated>
+    <updated>2023-06-02T08:17:24.927Z</updated>
     
-    <content type="html"><![CDATA[<p>随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…</p><p>如今，又卷土重来了…</p><span id="more"></span><p>今天，ChatGPT 官方宣布 ios app 已在美区上架，后续几周会陆续上架其他地区商城。Android 版 app 也已在路上。</p><h2 id="web端（本人仍然不能访问）"><a href="#web端（本人仍然不能访问）" class="headerlink" title="web端（本人仍然不能访问）"></a>web端（本人仍然不能访问）</h2><ol><li><p>首先就是不支持所在地区</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%BD%E5%AE%B6%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA%E4%B8%8D%E6%94%AF%E6%8C%81.webp" width="75%"></li><li><p>然后就是 Ray ID 的问题</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/RayID.webp" width="75%"></li></ol><h2 id="ios-端（成功上岸）"><a href="#ios-端（成功上岸）" class="headerlink" title="ios 端（成功上岸）"></a>ios 端（成功上岸）</h2><blockquote><p>使用 <span style="color:red;font-weight:700;">美区 Apple ID</span> 下载</p></blockquote><p>延用最开始注册的账号，开始各种登录报错。节选图：</p><table style="border:none;">    <tr style="border:none;">        <th style="border:none;"></th>        <th style="border:none;"></th>    </tr>    <tr style="border:none;">        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%991.webp" width="50%" /></td>        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%992.webp" width="50%" /></td>    </tr></table><p>折腾一番后，登录成功。</p><p>试用举例：比如咨询有关非母语人士学英语的方法，它会详细列出具体的方法。还可以对结果进行反馈，Good Response&#x2F;Bad Response，或者重新生成 Regenerate Response。（PS. 触感反馈的震感交互是真不错！👍）</p><p>节选图：</p><div align="center">  <img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8.webp" width="30%"/></div><p>网页后台查看额度：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6.webp" width="75%"><p>共 5 美元的免费额度，3 个月的使用限制。</p><p>后续订阅 ChatGPT plus $19.99&#x2F;月，当前汇率折合 ¥140.48&#x2F;月，非重度用户不建议。</p><p>至此，初步稳定解锁 AI 工具。</p><blockquote><p>rf.</p><p><a href="https://stackoverflow.com/questions/49968948/what-is-a-ray-id-cloudflare">What is a Ray ID (Cloudflare)?</a></p><p><a href="https://www.quora.com/Is-accidentally-showing-a-Ray-ID-a-problem">Is accidentally showing a Ray ID a problem?</a></p><p><a href="https://twitter.com/OpenAI/status/1659240315100995585">ChatGPT 官宣美区 ios 上架</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…</p><p>如今，又卷土重来了…</p><span id="more"></span><p>今天，ChatGPT 官方宣布 ios app 已在美区上架，后续几周会陆续上架其他地区商城。Android 版 app 也已在路上。</p><h2 id="web端（本人仍然不能访问）"><a href="#web端（本人仍然不能访问）" class="headerlink" title="web端（本人仍然不能访问）"></a>web端（本人仍然不能访问）</h2><ol><li><p>首先就是不支持所在地区</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%BD%E5%AE%B6%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA%E4%B8%8D%E6%94%AF%E6%8C%81.webp" width="75%"></li><li><p>然后就是 Ray ID 的问题</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/RayID.webp" width="75%"></li></ol><h2 id="ios-端（成功上岸）"><a href="#ios-端（成功上岸）" class="headerlink" title="ios 端（成功上岸）"></a>ios 端（成功上岸）</h2><blockquote><p>使用 <span style="color:red;font-weight:700;">美区 Apple ID</span> 下载</p></blockquote><p>延用最开始注册的账号，开始各种登录报错。节选图：</p><table style="border:none;">    <tr style="border:none;">        <th style="border:none;"></th>        <th style="border:none;"></th>    </tr>    <tr style="border:none;">        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%991.webp" width="50%" /></td>        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%992.webp" width="50%" /></td>    </tr></table><p>折腾一番后，登录成功。</p><p>试用举例：比如咨询有关非母语人士学英语的方法，它会详细列出具体的方法。还可以对结果进行反馈，Good Response&#x2F;Bad Response，或者重新生成 Regenerate Response。（PS. 触感反馈的震感交互是真不错！👍）</p><p>节选图：</p><div align="center">  <img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8.webp" width="30%"/></div><p>网页后台查看额度：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6.webp" width="75%"><p>共 5 美元的免费额度，3 个月的使用限制。</p><p>后续订阅 ChatGPT plus $19.99&#x2F;月，当前汇率折合 ¥140.48&#x2F;月，非重度用户不建议。</p><p>至此，初步稳定解锁 AI 工具。</p><blockquote><p>rf.</p><p><a href="https://stackoverflow.com/questions/49968948/what-is-a-ray-id-cloudflare">What is a Ray ID (Cloudflare)?</a></p><p><a href="https://www.quora.com/Is-accidentally-showing-a-Ray-ID-a-problem">Is accidentally showing a Ray ID a problem?</a></p><p><a href="https://twitter.com/OpenAI/status/1659240315100995585">ChatGPT 官宣美区 ios 上架</a></p></blockquote><hr><p>Jun 1st. 续更…</p><p>更正：上文中不是号被封，而是 ip 被封。</p><p>网页版再现（自用记录：K 节点）：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E7%BD%91%E9%A1%B5%E7%89%88%E9%87%8D%E7%8E%B0.webp" width="75%"><p>在官方基础版本上额外附加上语音功能栏，距离解锁 ChatGPT plus 多了一个理由——相当于请了私人外语教练。但是美中不足的是，</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…&lt;/p&gt;
@@ -411,106 +507,6 @@
     
     
     <category term="202212" scheme="https://yexingshusheng.com/tags/202212/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一张白纸</title>
-    <link href="https://yexingshusheng.com/2022/11/yi-zhang-bai-zhi.html"/>
-    <id>https://yexingshusheng.com/2022/11/yi-zhang-bai-zhi.html</id>
-    <published>2022-11-26T11:16:47.000Z</published>
-    <updated>2023-01-16T15:17:26.676Z</updated>
-    
-    <content type="html"><![CDATA[<p>一张白纸！！！</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E4%B8%80%E5%BC%A0%E7%99%BD%E7%BA%B8.webp" alt="一张白纸"></p><hr><p>深痛悼念乌鲁木齐火灾中的逝者！</p><p>BTW.</p><p>大概早在7、8月份的时候，从各方面渠道看到当地的一些视频，我也一度担心地问了在乌鲁木齐的网友，但消息可能被拦截了还是什么情况，也一直没有回复！</p><blockquote><p>rf.</p><ol><li>白纸图片素材 <a href="https://www.reddit.com/r/real_China_irl/comments/z5vpw5/%E7%99%BD%E7%BA%B8%E8%BF%90%E5%8A%A8%E5%81%9A%E4%BA%86%E4%B8%80%E7%82%B9%E7%B4%A0%E6%9D%90%E4%BE%9B%E5%A4%A7%E5%AE%B6%E4%BD%BF%E7%94%A8/">来源</a>。</li><li>简要概述白纸运动，在新疆乌鲁木齐一栋被封控的大楼里，一场大火引发 10 死 9 伤，政府将部分原因归咎于死者自救能力不足，引发愤怒加剧，举白纸抗议。在此之前，各地都有举横幅、贴告示等形式控诉不当封控。所以，现在哪怕是举白纸，大家也都心照不宣地明白写了什么！</li><li>勇敢发声的 <a href="https://xiancangzai.github.io/1124/xuexiao.html">学校名单</a>。</li></ol></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;一张白纸！！！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="一张白纸" scheme="https://yexingshusheng.com/tags/%E4%B8%80%E5%BC%A0%E7%99%BD%E7%BA%B8/"/>
-    
-    <category term="乌鲁木齐" scheme="https://yexingshusheng.com/tags/%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90/"/>
-    
-    <category term="白纸运动" scheme="https://yexingshusheng.com/tags/%E7%99%BD%E7%BA%B8%E8%BF%90%E5%8A%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>卡塔尔世界杯</title>
-    <link href="https://yexingshusheng.com/2022/11/qia-ta-er-shi-jie-bei.html"/>
-    <id>https://yexingshusheng.com/2022/11/qia-ta-er-shi-jie-bei.html</id>
-    <published>2022-11-21T11:33:07.000Z</published>
-    <updated>2022-11-22T12:18:55.030Z</updated>
-    
-    <content type="html"><![CDATA[<p>卡塔尔、世界杯相关资讯…</p><span id="more"></span><h2 id="卡塔尔"><a href="#卡塔尔" class="headerlink" title="卡塔尔"></a>卡塔尔</h2><p>先简要地了解一下这个国家：</p><p>1.国家面积特别小，东西 80 公里，南北 130 公里。</p><p>2.人口仅有 294 万，其中卡塔尔公民约 44 万，其他皆为外籍人口。</p><p>3.依靠油气资源，卡塔尔是世界上最富有的国家之一，亚洲位列第二，仅次于新加坡（2021 官方数据），人均GDP，6.8 万美元。</p><p>4.没有四季，只有冬夏，特别是 6 到 7 月份，气温高得离谱，平均气温 40 度，最高可达 49 度。</p><p>5.君主制国家，君主就是元首，君主拥有至高无上的权利，君主的意志就是法律，不受任何权利的约束，禁止任何政党行动，君主是终身世袭制。</p><p>6.本届世界杯的总决赛场馆是由中国铁建耗时 6 年建设而成，决赛当天也就卡塔尔的国庆日。</p><p>7.交通规则和中国类似，靠左舵，但是罚款非常重，比如超速会罚款折合人民币 2 到 10 万元。</p><p>7.在这次世界杯场馆外 40 公里，是美国最大的海外基地：乌代德空军基地。</p><blockquote><p>rf.</p><p>了解它从“屌丝” - “半岛暴发户” - “世界高富帅”的发展史：</p><p><a href="https://finance.sina.com.cn/china/2022-11-20/doc-imqqsmrp6912342.shtml?tg_rhash=c396da0be90594">卡塔尔不亏！花3000亿美元造世界杯，迎众神谢幕战！</a>（时长 6:10）</p></blockquote><h2 id="世界杯"><a href="#世界杯" class="headerlink" title="世界杯"></a>世界杯</h2><p>不得不提的两大点是：1.卡塔尔世界杯是史上最贵世界杯，狂撒 3000 亿美元；2.梅西、C 罗、内马尔将在卡塔尔迎来他们的最后一届世界杯。</p><h3 id="手机端"><a href="#手机端" class="headerlink" title="手机端"></a>手机端</h3><ul><li>央视频</li><li>咪咕视频</li><li>抖音</li></ul><h3 id="网页直播"><a href="#网页直播" class="headerlink" title="网页直播"></a>网页直播</h3><ul><li><p><a href="https://live.douyin.com/fifaworldcup/7081590255274606628">抖音视频直播</a></p></li><li><p><a href="https://www.miguvideo.com/mgs/website/prd/detail.html?cid=713599117">咪咕视频直播</a></p></li><li><p><a href="https://tv.cctv.com/live/cctv5/">CCTV视频直播</a></p></li><li><p><a href="https://www.youtube.com/watch?v=jDNRKNNN_r0">Youtube视频直播</a></p></li><li><p><a href="https://kbs.sports.qq.com/#4">QQ体育文字直播</a></p></li><li><p><a href="https://www.zhiboz.com/">直播站</a></p></li></ul><h3 id="直播源"><a href="#直播源" class="headerlink" title="直播源"></a>直播源</h3><ul><li><p><a href="https://raw.githubusercontent.com/YueChan/IPTV/main/IPTV.m3u">视频直播源地址1</a></p></li><li><p><a href="http://117.169.124.149:8080/live/HD-4000k-1080P-cctv16/1.m3u8">视频直播源地址2</a></p></li><li><p><a href="http://111.20.105.192:6610/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3">CCTV16-4K-SDR源</a></p></li><li><p><a href="http://27.36.62.163:9090/live/4010.m3u8">CCTV16-4K-HLG源</a></p><blockquote><p>直播源食用方式：</p><ol><li><p>浏览器在线播放</p><p>先安装浏览器插件，在 Chrome 应用商店搜索关键词：「Native HLS Playback」「Play HLS M3u8」，找到能用的即可。</p></li><li><p>直播源播放器</p><p>直接将链接导入即可。例：potplayer、VLC等。</p></li></ol></blockquote></li></ul><h3 id="实时得分"><a href="#实时得分" class="headerlink" title="实时得分"></a>实时得分</h3><p>百度：<a href="https://tiyu.baidu.com/match/%E4%B8%96%E7%95%8C%E6%9D%AF/tab/%E6%8E%92%E5%90%8D/childTab/teamRank/from/baidu_aladdin">2022卡塔尔世界杯</a>   </p><p>谷歌：<a href="https://www.google.com/search?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%AE%9E%E6%97%B6%E5%BE%97%E5%88%86&sxsrf=ALiCzsa7RO-IhsXjyQIoYuQqRik46Jfa5Q:1668946992447&source=hp&ei=MBx6Y7KiGMmphwP4sJ_wDA&iflsig=AJiK0e8AAAAAY3oqQHadHwTgLalYn1NYcwHyjP8qiRUC&ved=0ahUKEwiy-oWF4Lz7AhXJ1GEKHXjYB84Q4dUDCAk&uact=5&oq=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%AE%9E%E6%97%B6%E5%BE%97%E5%88%86&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEB4QogQyBQgAEKIEMgUIABCiBDIFCAAQogQyBQgAEKIEOgQIIxAnOgUIABCABDoLCC4QgAQQxwEQ0QM6BQguEIAEOgcIABCABBAMUABY9iZg9yloAHAAeACAAacCiAHrH5IBBjAuMTkuNJgBAKABAQ&sclient=gws-wiz#sie=lg;/m/0fp_8fm;2;/m/030q7;mt;fp;1;;;">2022卡塔尔国际足协世界杯</a></p><h3 id="赛事安排日历"><a href="#赛事安排日历" class="headerlink" title="赛事安排日历"></a>赛事安排日历</h3><p>网上某大神制作：<a href="https://calendar.google.com/calendar/ical/6523d8b79644ac76276871d4dbc595b0fae5076dcd166ef87b09817f45a71d3a%40group.calendar.google.com/public/basic.ics">订阅链接</a>。（Google链接，网络问题未必能食用）</p><p>订阅方式（不同设备略有差异）：复制链接 — 打开日历 App — 找到新增日历订阅入口 — 粘贴链接即可。</p><p>如可以选择刷新时间：建议不要超过一周，防止在赛程中后半段更新「淘汰赛」时出现延迟。</p><p>注意不要用浏览器下载 ics 文件导入，会导致后续「淘汰赛」无法同步。</p><h3 id="零基础看球基本规则"><a href="#零基础看球基本规则" class="headerlink" title="零基础看球基本规则"></a>零基础看球基本规则</h3><ol><li><p>基本规则</p><p>足球场分为两个半场，通过进对面球来决定胜负，一球一分。</p><p>每队场下有 3-7 位候补球员，场上则有 11 名球员。在上场的 11 人中，除了 1 位门将（俗称守门员），剩下 10 名球员组成后卫、中场、前锋，后卫主要负责防守，中场负责进行传球，前锋负责进球。（有时候你可能会听到球迷说的神秘数字，比如 “433”，对应的就是这三个位置的人数）。</p><p>球员如果有犯规动作会吃黄牌，严重的会被直接红牌罚下，累计两张黄牌的球员下一场会被停赛。</p></li><li><p>小组赛、淘汰赛</p><p>世界杯一共进行 64 场。前 48 场为小组赛，后 16 场为淘汰赛。小组赛由 32 支参赛队抽签均分为 8 个小组，组内四个队单循环比赛，胜 3 分平 1 分负 0 分，积分前两名出线。</p><p>淘汰赛是小组第一打对应小组的小组第二，一场定胜负。若九十分钟平局就进行加时赛，加时赛仍平局会进入点球大战。点球大战是双方各派场上队员轮番在点球点附近踢点球，规定轮数内进球少的队伍被淘汰。</p></li><li><p>“吃饼”？</p><p>球迷或解说在赛事中提到的“喂饼”是指球员配合队友进攻，帮助队友进球达成助攻，“吐饼”是指得到队友帮助，却未能进球而浪费机会。</p></li><li><p>“越位”？“造越位”？</p><p>“越位”，即进攻方队员在传球的瞬间，接球队员比球和对方倒数第二个球员更靠近对方底线。</p><p>“造越位”，顾名思义，就是防守队员利用越位规则，在对方传球瞬间，突然向前一跑，造成对方接球队员与本方底线之间只剩一个防守队员，使对方越位犯规。</p></li></ol><h3 id="梗"><a href="#梗" class="headerlink" title="梗"></a>梗</h3><ol><li><p>梅罗合影</p><p>某品牌 LV 发布广告图（其实是 PS 合成），梅罗同框。但双方球迷常有争吵，合影却表现二人关系不错。然后网友就制作了各种骚图：打麻将、吃火锅。</p></li><li><p>都赖本泽马</p><p>卡里姆 · 本泽马早期效力皇马时，名气远低于其他的队友，故皇马球迷输球时都会把锅甩给本泽马。之后本泽马背锅梗很快流传开来，逐渐演变成任何事件按因果推理都能赖到本泽马头上，“<strong>都赖本泽马</strong>”也成了球迷的口头禅。</p><blockquote><p>BTW.</p><p>今年开赛前夕，法国国家队宣布，本泽马因训练受伤，不得不退出世界杯。</p><p>假如法国今年输球，可别怪本泽马了！！！</p></blockquote></li><li><p>半场开香槟</p><p>“没有人会记住亚军，除非你半场开香槟”，指 2004 - 05 赛季伊斯坦布尔的欧冠决赛，AC 米兰在前半场 3-0 领先的情况下，提前开香槟庆祝夺冠，结果下半场被利物浦连追三球，最后点球大战 2-3 遭逆转。</p><p>开香槟一事后来被证实是由媒体编造，被球迷以讹传讹的谣言，但由于本场逆风翻盘局太过经典，球迷们还是将这个梗保留了，现可用于各种赛事中大比分领先，又被落后方翻盘的场面。</p></li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;卡塔尔、世界杯相关资讯…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="卡塔尔" scheme="https://yexingshusheng.com/tags/%E5%8D%A1%E5%A1%94%E5%B0%94/"/>
-    
-    <category term="世界杯" scheme="https://yexingshusheng.com/tags/%E4%B8%96%E7%95%8C%E6%9D%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mozilla 旨在让互联网变得更好</title>
-    <link href="https://yexingshusheng.com/2022/11/mozilla-zhi-zai-rang-hu-lian-wang-bian-de-geng-hao.html"/>
-    <id>https://yexingshusheng.com/2022/11/mozilla-zhi-zai-rang-hu-lian-wang-bian-de-geng-hao.html</id>
-    <published>2022-11-19T11:01:32.000Z</published>
-    <updated>2022-11-18T07:46:14.559Z</updated>
-    
-    <content type="html"><![CDATA[<p>来自 Mozilla 的年终报告…</p><span id="more"></span><p>整篇报道看完。</p><p>看到 Mozilla “将人置于利润之上”、“确保互联网是一种全球公共资源，向所有人开放，所有人都能访问”的理念以及收入增长 25%，这种稳中向好的形势，很是欣慰。</p><p>BTW. 致敬每一个贡献自己的时间、金钱和智慧来改善互联网的人！</p><blockquote><p>rf.</p><p>Mozilla 的年度报告：<a href="https://www.mozilla.org/en-US/foundation/annualreport/2021/">State of Mozilla 21-22</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;来自 Mozilla 的年终报告…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="Mozilla" scheme="https://yexingshusheng.com/tags/Mozilla/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>movies</title>
-    <link href="https://yexingshusheng.com/2022/11/movies.html"/>
-    <id>https://yexingshusheng.com/2022/11/movies.html</id>
-    <published>2022-11-12T01:10:33.000Z</published>
-    <updated>2022-11-18T08:08:01.999Z</updated>
-    
-    <content type="html"><![CDATA[<p>更一波近几个月的电影…</p><span id="more"></span><h3 id="罪证子弹-2"><a href="#罪证子弹-2" class="headerlink" title="罪证子弹 2"></a>罪证子弹 2</h3><ul><li>上映日期: 2022-11-10(新加坡)</li><li>类型：动作</li><li><a href="https://www.aliyundrive.com/s/Nkyb7gUt24Y">阿里盘（含第 1 部）</a></li></ul><h3 id="疯狂动物城-2022"><a href="#疯狂动物城-2022" class="headerlink" title="疯狂动物城 2022"></a>疯狂动物城 2022</h3><ul><li>首播: 2022-11-09(美国网络)</li><li>类型：喜剧 &#x2F; 爱情 &#x2F; 动画 &#x2F; 短片 &#x2F; 歌舞 &#x2F; 犯罪 &#x2F; 冒险</li><li><a href="https://www.aliyundrive.com/s/qUWPWdiP7Gq">阿里盘（含《疯狂动物城 2016》）</a></li></ul><h3 id="天才少女福尔摩斯-2"><a href="#天才少女福尔摩斯-2" class="headerlink" title="天才少女福尔摩斯 2"></a>天才少女福尔摩斯 2</h3><ul><li>上映日期: 2022-11-04(美国网络)</li><li>类型: 剧情 &#x2F; 动作 &#x2F; 悬疑 &#x2F; 犯罪 &#x2F; 冒险</li><li><a href="https://pan.quark.cn/s/d215f5f1f88b">夸克盘（含第 1 部）</a></li></ul><h3 id="意外杀手-2"><a href="#意外杀手-2" class="headerlink" title="意外杀手 2"></a>意外杀手 2</h3><ul><li>上映日期: 2022-10-14(美国)</li><li>类型: 喜剧 &#x2F; 动作 &#x2F; 犯罪</li><li><a href="https://pan.quark.cn/s/37a07df0a871">夸克盘（含第 1 部）</a></li></ul><h3 id="20-世纪少女"><a href="#20-世纪少女" class="headerlink" title="20 世纪少女"></a>20 世纪少女</h3><ul><li>上映日期: 2022-10-06(釜山电影节) &#x2F; 2022-10-21(韩国网络)</li><li>类型: 爱情</li><li><a href="https://pan.quark.cn/s/6c8da9d8c3fb">夸克盘</a></li></ul><h3 id="维斯珀-Vesper"><a href="#维斯珀-Vesper" class="headerlink" title="维斯珀 Vesper"></a>维斯珀 Vesper</h3><ul><li>上映日期: 2022-07-03(纳沙泰尔国际奇幻影展) &#x2F; 2022-09-30(美国)</li><li>类型: 剧情 &#x2F; 科幻 &#x2F; 冒险</li><li><a href="https://mypikpak.com/s/VNDE9sGMP3sxqczyGV8mJWvho1">pikpak盘</a></li></ul><h3 id="西线无战事"><a href="#西线无战事" class="headerlink" title="西线无战事"></a>西线无战事</h3><ul><li>上映日期: 2022-09-12(多伦多电影节) &#x2F; 2022-09-29(德国) &#x2F; 2022-10-28(德国网络)</li><li>类型: 剧情 &#x2F; 动作 &#x2F; 战争</li><li><a href="https://pan.quark.cn/s/241487cfbca6">夸克盘</a></li></ul><h3 id="堕落"><a href="#堕落" class="headerlink" title="堕落"></a>堕落</h3><ul><li>上映日期: 2022-11-18(中国大陆) &#x2F; 2022-08-12(美国)</li><li>类型: 动作 &#x2F; 惊悚 &#x2F; 冒险 &#x2F; 运动</li><li><a href="https://www.aliyundrive.com/s/7Yy6yTo7CGh">阿里盘</a></li></ul><div style="color:skyblue;font-weight:bold;text-align:center;padding-top:5rem;padding-bottom:5rem;">————————TBC————————</div><h3 id="忍者神龟：崛起"><a href="#忍者神龟：崛起" class="headerlink" title="忍者神龟：崛起"></a>忍者神龟：崛起</h3><ul><li>上映日期: 2022-11-19(中国大陆) &#x2F; 2022-08-05(美国网络)</li><li>类型: 动作 &#x2F; 动画 &#x2F; 奇幻 &#x2F; 冒险</li><li><a href="https://www.aliyundrive.com/s/qMp81TBBuNg">阿里盘</a></li></ul><h3 id="名侦探柯南：万圣节的新娘"><a href="#名侦探柯南：万圣节的新娘" class="headerlink" title="名侦探柯南：万圣节的新娘"></a>名侦探柯南：万圣节的新娘</h3><ul><li>上映日期：2022-11-18(中国大陆) &#x2F; 2022-04-15(日本)</li><li>类型：动作 &#x2F; 动画 &#x2F; 悬疑</li><li><a href="https://www.aliyundrive.com/s/1KbxCPucSru">阿里盘</a></li></ul><h3 id="共助2：国际"><a href="#共助2：国际" class="headerlink" title="共助2：国际"></a>共助2：国际</h3><ul><li><p>上映日期：2022-09-07(韩国)</p></li><li><p>类型：动作</p></li><li><p><a href="https://www.aliyundrive.com/s/1hUjuAjn9hx">阿里盘</a></p></li><li><p>补档1：<a href="https://www.aliyundrive.com/s/Y343XjzqorS">阿里盘</a></p></li></ul><h3 id="6-x2F-45"><a href="#6-x2F-45" class="headerlink" title="6&#x2F;45"></a>6&#x2F;45</h3><ul><li>上映日期: 2022-08-24(韩国)</li><li>类型：剧情 &#x2F; 喜剧</li><li><a href="https://www.aliyundrive.com/s/3fiVe3qQDWV">阿里盘</a></li></ul><h3 id="黑亚当"><a href="#黑亚当" class="headerlink" title="黑亚当"></a>黑亚当</h3><ul><li>上映日期: 2022-10-19(法国) &#x2F; 2022-10-21(美国)</li><li>类型：动作 &#x2F; 科幻 &#x2F; 奇幻 &#x2F; 冒险</li><li><a href="https://www.aliyundrive.com/s/cAzSrfxSuKw">阿里盘</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;更一波近几个月的电影…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="movies" scheme="https://yexingshusheng.com/tags/movies/"/>
-    
-    <category term="Continuously update" scheme="https://yexingshusheng.com/tags/Continuously-update/"/>
     
   </entry>
   
