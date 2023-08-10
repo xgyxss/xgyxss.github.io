@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-04-26T01:34:35.205Z</updated>
+  <updated>2023-08-08T10:07:12.754Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,174 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>改变信息获取的方式</title>
+    <link href="https://yexingshusheng.com/2023/08/gai-bian-xin-xi-huo-qu-de-fang-shi.html"/>
+    <id>https://yexingshusheng.com/2023/08/gai-bian-xin-xi-huo-qu-de-fang-shi.html</id>
+    <published>2023-08-05T22:20:00.000Z</published>
+    <updated>2023-08-08T10:07:12.754Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着对于网络的探索，我们总是期望能够及时地关注这个世界发生的变化，常常担心自己错过了什么…</p><span id="more"></span><blockquote><p>本文仅简要介绍自身对于信息获取的探索过程。</p></blockquote><p>慢慢地，随着平台的扩展、关注量、收藏量的提升，开始信息过载。</p><p>解决信息过载，无非就是对于信息的自动无视过滤或高效分类处理。</p><p>个人目前偏好的解决方式是 RSS。简单介绍一下 RSS，全称：Really Simple Syndication，它把新闻、博客等的标题、摘要和内容按一定要求整理推送，用户通过 RSS 阅读器订阅查看。我们可以把 RSS 看作是一种信息订阅服务，把经常浏览的网站聚合在一起，集中查看，不用再逐个打开了，更方便高效。</p><p>想要实现信息的相对自由，目前的两大头疼问题：阅读器和订阅源。</p><h3 id="RSS-阅读器"><a href="#RSS-阅读器" class="headerlink" title="RSS 阅读器"></a>RSS 阅读器</h3><p>“工欲善其事，必先利其器”，最早尝试过 Fluent Reader（免费开源），当时的需求是 Android + Mac，这无疑是比较奇葩的方案，等于需要一个全平台的方案，但也是当时的真实需求，<a href="https://sspai.com/post/75228">这篇文章</a> 里讲述了相对正常的 Android + Windows 或 iOS + Mac 方案。目前正在使用的是 Reeder 5（付费），价格（忘了）大概在 10 刀（Mac）、5 刀（iOS）。网上也有一些其他免费开源的方案，暂不做赘述。</p><blockquote><p>rf.</p><p>Reeder 5 需要美区 ID 购买下载。</p></blockquote><h3 id="RSS-订阅源"><a href="#RSS-订阅源" class="headerlink" title="RSS 订阅源"></a>RSS 订阅源</h3><p>订阅源的平台很多，知名的像 <a href="https://docs.rsshub.app/">RSSHub</a>，覆盖范围相对较广。</p><h3 id="RSS-分类"><a href="#RSS-分类" class="headerlink" title="RSS 分类"></a>RSS 分类</h3><p>可采用杜威十进制分类法或者自定义分类法，让信息流更适应自己的阅读习惯，以便于信息整合。</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>从早期的了解和使用，就已下定决心要完善信息获取这一大块的内容。</p><p>从 21 世纪以来，从知识数量——知识获取速度——知识深度构建认知优势，随着现在又进入工业革命 4.0 时代，信息不仅仅是处于爆炸状态，未来还会有更多种形态，目前相对明显的就是仿真态（个人自定义，便于理解），由 AI 生成的文字仿真、语音仿真、视觉仿真、记忆仿真…等信息，以假乱真的信息源会开始逐步充斥在自由互联网区域，对于信息早期的获取、分类，将直接影响到信息后期的整合、利用和拓展。</p><p>临界信息（参考于临界知识），有些信息比其他信息更有用，少数的信息能够带来关键的影响，这就是临界信息。</p><blockquote><p>临界知识：知识与知识是不一样的，有些知识比其它知识的威力更大，少数的知识能够给我们带来关键的影响，这就是临界知识。</p><p>个人实例：疫情期间，在国内放开初期，提前 2 ~ 3 周囤到了布洛芬等药物，毫不夸张地说，甚至可囤到默沙东等所有药物。这就是对于临界信息的个人利用真实案例。其他个人实例暂不赘述。</p></blockquote><p>只有真切地感受过临界信息对于自身的正反馈影响，才会懂得完善信息获取能力的重要性。</p><p>如果说临界信息是信息中的黄金，那么 RSS 就是“淘金”工具之一。</p><p>在工业 4.0 时代，随着 AI 的发展，一定会出现新的、高效的“淘金”工具 🔧 ，未雨绸缪未尝不是一件好事。</p><p>临界信息不仅具有生活价值，其覆盖范围之广，足以让信息获取称得上是真正值得学习的技能之一。</p><blockquote><p>rf.</p><p><a href="https://sspai.com/post/75228">抖音受害者的反思，如何像刷抖音一样地学习</a></p><p><a href="https://reederapp.com/">Reeder 5 官网</a></p><p><a href="https://docs.rsshub.app/">RSSHub 官网</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;随着对于网络的探索，我们总是期望能够及时地关注这个世界发生的变化，常常担心自己错过了什么…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="生日作" scheme="https://yexingshusheng.com/tags/%E7%94%9F%E6%97%A5%E4%BD%9C/"/>
+    
+    <category term="202308" scheme="https://yexingshusheng.com/tags/202308/"/>
+    
+    <category term="信息获取" scheme="https://yexingshusheng.com/tags/%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站内容语言使用统计</title>
+    <link href="https://yexingshusheng.com/2023/08/wang-zhan-nei-rong-yu-yan-shi-yong-tong-ji.html"/>
+    <id>https://yexingshusheng.com/2023/08/wang-zhan-nei-rong-yu-yan-shi-yong-tong-ji.html</id>
+    <published>2023-08-03T07:19:02.000Z</published>
+    <updated>2023-08-08T10:06:14.483Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个网站算是给想学外语&#x2F;拓展中文圈外的信息提供了语言方向，是不是又多了一个学习英文的动力？</p><span id="more"></span><p>可以发现当前时间，当前互联网的中文内容仅占 1.4%，排第 13 位。</p><table><thead><tr><th align="right">53.9%</th><th align="left"><a href="https://w3techs.com/technologies/details/cl-en-">English</a></th></tr></thead><tbody><tr><td align="right">5.2%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-es-">Spanish</a></td></tr><tr><td align="right">4.8%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-ru-">Russian</a></td></tr><tr><td align="right">4.4%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-de-">German</a></td></tr><tr><td align="right">4.3%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-fr-">French</a></td></tr><tr><td align="right">3.9%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-ja-">Japanese</a></td></tr><tr><td align="right">2.7%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-pt-">Portuguese</a></td></tr><tr><td align="right">2.2%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-tr-">Turkish</a></td></tr><tr><td align="right">2.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-it-">Italian</a></td></tr><tr><td align="right">1.6%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-fa-">Persian</a></td></tr><tr><td align="right">1.6%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-nl-">Dutch, Flemish</a></td></tr><tr><td align="right">1.5%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-pl-">Polish</a></td></tr><tr><td align="right">1.4%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-zh-">Chinese</a></td></tr><tr><td align="right">1.2%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-vi-">Vietnamese</a></td></tr><tr><td align="right">0.8%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-id-">Indonesian</a></td></tr><tr><td align="right">0.8%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-cs-">Czech</a></td></tr><tr><td align="right">0.7%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-ko-">Korean</a></td></tr><tr><td align="right">0.7%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-ar-">Arabic</a></td></tr><tr><td align="right">0.6%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-uk-">Ukrainian</a></td></tr><tr><td align="right">0.5%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-el-">Greek</a></td></tr><tr><td align="right">0.5%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-he-">Hebrew</a></td></tr><tr><td align="right">0.5%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-hu-">Hungarian</a></td></tr><tr><td align="right">0.5%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-ro-">Romanian</a></td></tr><tr><td align="right">0.5%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-sv-">Swedish</a></td></tr><tr><td align="right">0.4%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-th-">Thai</a></td></tr><tr><td align="right">0.3%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-da-">Danish</a></td></tr><tr><td align="right">0.3%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-sk-">Slovak</a></td></tr><tr><td align="right">0.3%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-fi-">Finnish</a></td></tr><tr><td align="right">0.2%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-bg-">Bulgarian</a></td></tr><tr><td align="right">0.2%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-sr-">Serbian</a></td></tr><tr><td align="right">0.2%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-hr-">Croatian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-nb-">Norwegian Bokmål</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-lt-">Lithuanian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-sl-">Slovenian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-ca-">Catalan, Valencian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-et-">Estonian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-no-">Norwegian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-lv-">Latvian</a></td></tr><tr><td align="right">0.1%</td><td align="left"><a href="https://w3techs.com/technologies/details/cl-hi-">Hindi</a></td></tr></tbody></table><blockquote><p>rf.</p><p><a href="https://w3techs.com/technologies/overview/content_language">Usage statistics of content languages for websites</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这个网站算是给想学外语&amp;#x2F;拓展中文圈外的信息提供了语言方向，是不是又多了一个学习英文的动力？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="语言" scheme="https://yexingshusheng.com/tags/%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="202308" scheme="https://yexingshusheng.com/tags/202308/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么才是真正值得学习的知识?</title>
+    <link href="https://yexingshusheng.com/2023/06/shi-me-cai-shi-zhen-zheng-zhi-de-xue-xi-de-zhi-shi.html"/>
+    <id>https://yexingshusheng.com/2023/06/shi-me-cai-shi-zhen-zheng-zhi-de-xue-xi-de-zhi-shi.html</id>
+    <published>2023-06-30T14:15:24.000Z</published>
+    <updated>2023-07-24T11:04:47.713Z</updated>
+    
+    <content type="html"><![CDATA[<p>在校园到当下，你学到的哪些知识在今天的生活中仍然有用？</p><span id="more"></span><p>什么知识最有价值？在 19 世纪中期，实证主义哲学家赫伯特·斯宾塞便郑重地提出了这个问题，他说，科学知识最有价值。</p><p>但，在已步入的工业 4.0 时代，哪些能力是闯荡未来世界所必需的？</p><p>什么样的综合能力能为我们未来完满的生活做好准备、有助于闯荡未来？</p><p>首当其冲的应该是具有生活价值的知识，后续部分暂不延展。</p><p>那么在 21 世纪，该如何：</p><ul><li>辨别具有生活价值的知识？</li><li>选择具有生活价值的学习？</li><li>建构具有生活价值的体系？</li><li>…</li></ul><hr><p>今天突然想写这个，源于刚刚步入工业 4.0 的人生思考。生活价值的知识部分，可以去翻一本书——《<a href="https://book.douban.com/subject/26586892/">为未知而教，为未来而活</a>》。结合二者，我想，每个人都会对于学习、教育、生活有着更进一步的思考。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在校园到当下，你学到的哪些知识在今天的生活中仍然有用？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202306" scheme="https://yexingshusheng.com/tags/202306/"/>
+    
+    <category term="knowledge" scheme="https://yexingshusheng.com/tags/knowledge/"/>
+    
+    <category term="反思教育" scheme="https://yexingshusheng.com/tags/%E5%8F%8D%E6%80%9D%E6%95%99%E8%82%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome 网上应用店中的更多恶意扩展程序</title>
+    <link href="https://yexingshusheng.com/2023/06/chrome-wang-shang-ying-yong-dian-zhong-de-geng-duo-e-yi-kuo-zhan-cheng-xu.html"/>
+    <id>https://yexingshusheng.com/2023/06/chrome-wang-shang-ying-yong-dian-zhong-de-geng-duo-e-yi-kuo-zhan-cheng-xu.html</id>
+    <published>2023-06-03T12:47:40.000Z</published>
+    <updated>2023-06-05T09:56:12.508Z</updated>
+    
+    <content type="html"><![CDATA[<p>不扩展不好用，但恶意程序是真多…</p><span id="more"></span><blockquote><p>rf.</p><p>原文：<a href="https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/">More malicious extensions in Chrome Web Store</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;不扩展不好用，但恶意程序是真多…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202306" scheme="https://yexingshusheng.com/tags/202306/"/>
+    
+    <category term="Chrome" scheme="https://yexingshusheng.com/tags/Chrome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>You can learn AI later</title>
+    <link href="https://yexingshusheng.com/2023/05/you-can-learn-ai-later.html"/>
+    <id>https://yexingshusheng.com/2023/05/you-can-learn-ai-later.html</id>
+    <published>2023-05-28T02:18:33.000Z</published>
+    <updated>2023-05-28T16:11:52.347Z</updated>
+    
+    <content type="html"><![CDATA[<p>你可以慢点学习 AI …</p><span id="more"></span><p>这篇文章的作者是 Jason Fried，37Signals 的联合创始人兼 CEO，这家公司开发了 Basecamp 和 HEY。曾被连线杂志评为《十大最值得关注的新创公司》。</p><p>原文：</p><h2 id="You-can-learn-AI-later"><a href="#You-can-learn-AI-later" class="headerlink" title="You can learn AI later"></a>You can learn AI later</h2><p>Throw a dart on LinkedIn, or toss one into the ether on Twitter, and you’ll likely hit a post proclaiming that you better “learn AI” or you’re falling behind.</p><p>Master the tools and become a prompt engineer or someone else will tell the AI to summarize the long documents, kick off initial first drafts, and rewrite the headlines for you!</p><p>Nonsense.</p><p>This isn’t saying AI, ChatGPT, or whatever comes next is nonsense. It’s very real, very powerful, and very here.</p><p>But there’s nothing you need to learn, or do, right now, other than be curious. Play around, kick the tires, poke and prod. Get a feel for what this new sauce tastes like. Have fun, it’s not a test.</p><p>But become a master at once or you’re going to lose your job to some AI expert? Nah. That’s pure FUD. The stuff that everyone’s talking about is barely 6 months old — there are no experts, there are just people playing experts on the internet.</p><p>Besides, the best way to learn something is to need that something. Learning when you don’t really need to is a good way to give up early. Learning when there’s something you truly need to do, but can’t, but could, is the right time to figure something out.</p><p>They say necessity is the mother of invention, but it’s really the impetus for learning. The time will come, and you can figure it out then. If anything, it’ll be easier to learn how to use AI once it settles in a bit. Currently it’s a moving target.</p><p>So wait on it. Pop the pressure. Don’t feel like you’re falling behind. And don’t drop everything to dig in. Start curious, stay curious, know what it’s capable of, and, when the necessity strikes, figure it out. Until then, ignore the demands and focus on doing what you’re already good at.</p><p>-Jason</p><blockquote><p>rf.</p><p><a href="https://world.hey.com/jason/you-can-learn-ai-later-08fce896">You can learn AI later</a></p></blockquote><hr><p>强烈赞同，也符合当前本人的状态——初步了解 AI 工具的功能，非刻意地搜集整理 AI 工具即可。</p><p>BTW. 当前无论是花 1 个小时，还是 100 个小时用于学习 ChatGPT，也仅仅在简历上多一行「知悉&#x2F;熟练使用 ChatGPT」而已，对于当前个体生活无太大的影响，最终做分辨、整理、判断的还得是自己。</p><blockquote><p>另外发现一个有意思的 AI 赚钱案例。</p><p>加拿大的超现实主义 AI 艺术家和作家，已经用 AI 写作和做图并出版了97本书。</p><p>9个月的时间赚了 2000 美元。</p><p>他的写书过程也很简单。</p><p>就是用 gpt 和 claude 来写故事，然后用 midjourney 为故事配图。</p><p>gpt 和 claude 都是目前比较牛逼的 AI 聊天对话机器人🤖️。</p><p>而 midjourney 则是目前非常实用的艺术感超强的绘画工具，十分适合用来制作插图。</p><p>看了一下他的几个采访，写的都是短篇小说。</p><p>大多在 2000-80000 字之间。</p><p>书卖的售价也不贵，标的价格在 1.99-5.99 美元之间。</p><p>这人厉害的地方在于：1.信息差把握得很好；2.学习能力很强；3.执行力。</p><p>rf.</p><p>博客地址：<a href="http://www.timboucher.ca/">Tim Boucher</a></p><p>购书地址：<a href="https://lostbooks.gumroad.com/">https://lostbooks.gumroad.com/</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;你可以慢点学习 AI …&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
+    
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虽迟但到，ChatGPT，我来了</title>
+    <link href="https://yexingshusheng.com/2023/05/sui-chi-dan-dao-chatgpt-wo-lai-liao.html"/>
+    <id>https://yexingshusheng.com/2023/05/sui-chi-dan-dao-chatgpt-wo-lai-liao.html</id>
+    <published>2023-05-19T05:14:49.000Z</published>
+    <updated>2023-06-02T08:17:24.927Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…</p><p>如今，又卷土重来了…</p><span id="more"></span><p>今天，ChatGPT 官方宣布 ios app 已在美区上架，后续几周会陆续上架其他地区商城。Android 版 app 也已在路上。</p><h2 id="web端（本人仍然不能访问）"><a href="#web端（本人仍然不能访问）" class="headerlink" title="web端（本人仍然不能访问）"></a>web端（本人仍然不能访问）</h2><ol><li><p>首先就是不支持所在地区</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%BD%E5%AE%B6%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA%E4%B8%8D%E6%94%AF%E6%8C%81.webp" width="75%"></li><li><p>然后就是 Ray ID 的问题</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/RayID.webp" width="75%"></li></ol><h2 id="ios-端（成功上岸）"><a href="#ios-端（成功上岸）" class="headerlink" title="ios 端（成功上岸）"></a>ios 端（成功上岸）</h2><blockquote><p>使用 <span style="color:red;font-weight:700;">美区 Apple ID</span> 下载</p></blockquote><p>延用最开始注册的账号，开始各种登录报错。节选图：</p><table style="border:none;">    <tr style="border:none;">        <th style="border:none;"></th>        <th style="border:none;"></th>    </tr>    <tr style="border:none;">        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%991.webp" width="50%" /></td>        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%90%84%E7%A7%8D%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%992.webp" width="50%" /></td>    </tr></table><p>折腾一番后，登录成功。</p><p>试用举例：比如咨询有关非母语人士学英语的方法，它会详细列出具体的方法。还可以对结果进行反馈，Good Response&#x2F;Bad Response，或者重新生成 Regenerate Response。（PS. 触感反馈的震感交互是真不错！👍）</p><p>节选图：</p><div align="center">  <img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8.webp" width="30%"/></div><p>网页后台查看额度：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6.webp" width="75%"><p>共 5 美元的免费额度，3 个月的使用限制。</p><p>后续订阅 ChatGPT plus $19.99&#x2F;月，当前汇率折合 ¥140.48&#x2F;月，非重度用户不建议。</p><p>至此，初步稳定解锁 AI 工具。</p><blockquote><p>rf.</p><p><a href="https://stackoverflow.com/questions/49968948/what-is-a-ray-id-cloudflare">What is a Ray ID (Cloudflare)?</a></p><p><a href="https://www.quora.com/Is-accidentally-showing-a-Ray-ID-a-problem">Is accidentally showing a Ray ID a problem?</a></p><p><a href="https://twitter.com/OpenAI/status/1659240315100995585">ChatGPT 官宣美区 ios 上架</a></p></blockquote><hr><p>Jun 1st. 续更…</p><p>更正：上文中不是号被封，而是 ip 被封。</p><p>网页版再现（自用记录：K 节点）：</p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/ChatGPT%E7%BD%91%E9%A1%B5%E7%89%88%E9%87%8D%E7%8E%B0.webp" width="75%"><p>在官方基础版本上额外附加上语音功能栏，距离解锁 ChatGPT plus 多了一个理由——相当于请了私人外语教练。但是美中不足的是，</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;随着亚洲节点的 ChatGPT 账号大面积被封，我的号也被 ban 了有一段时间了…&lt;/p&gt;
+&lt;p&gt;如今，又卷土重来了…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
+    
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
+    
+    <category term="ChatGPT" scheme="https://yexingshusheng.com/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub 新代码搜索 GA</title>
+    <link href="https://yexingshusheng.com/2023/05/github-xin-dai-ma-sou-suo-ga.html"/>
+    <id>https://yexingshusheng.com/2023/05/github-xin-dai-ma-sou-suo-ga.html</id>
+    <published>2023-05-09T13:54:19.000Z</published>
+    <updated>2023-05-09T09:01:54.472Z</updated>
+    
+    <content type="html"><![CDATA[<p>此前记录过一篇搜索指南，但是新版更智能。</p><span id="more"></span><p>此前记录过一篇：<a href="https://yexingshusheng.com/2022/10/how-to-effectively-search-github.html">How to Effectively Search GitHub</a></p><p>GitHub 称新代码搜索的速度是旧版的两倍，改进对上下文的感知，能将最相关的结果展示在搜索前列。新搜索界面提供了建议和代码补全，能更智能的对结果进行分类和格式化。代码视图会在侧面板显示引用，类似 Visual Studio。新代码搜索还支持子串查询、正则表达式和符号搜索。</p><p>GitHub 还发布了一份语法指南：<a href="https://cs.github.com/about/syntax">Search syntax reference</a>。</p><blockquote><p>rf.</p><p><a href="https://github.blog/2023-05-08-github-code-search-is-generally-available/">GitHub code search is generally available</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;此前记录过一篇搜索指南，但是新版更智能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
+    
+    <category term="Github" scheme="https://yexingshusheng.com/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>人生攻略</title>
@@ -83,9 +251,9 @@
     <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
     
     
-    <category term="202304" scheme="https://yexingshusheng.com/tags/202304/"/>
-    
     <category term="Github" scheme="https://yexingshusheng.com/tags/Github/"/>
+    
+    <category term="202304" scheme="https://yexingshusheng.com/tags/202304/"/>
     
     <category term="SSH" scheme="https://yexingshusheng.com/tags/SSH/"/>
     
@@ -133,11 +301,11 @@
     
     <category term="202303" scheme="https://yexingshusheng.com/tags/202303/"/>
     
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
+    
     <category term="比尔盖茨" scheme="https://yexingshusheng.com/tags/%E6%AF%94%E5%B0%94%E7%9B%96%E8%8C%A8/"/>
     
     <category term="公开信" scheme="https://yexingshusheng.com/tags/%E5%85%AC%E5%BC%80%E4%BF%A1/"/>
-    
-    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
     
   </entry>
   
@@ -339,175 +507,6 @@
     
     
     <category term="202212" scheme="https://yexingshusheng.com/tags/202212/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一张白纸</title>
-    <link href="https://yexingshusheng.com/2022/11/yi-zhang-bai-zhi.html"/>
-    <id>https://yexingshusheng.com/2022/11/yi-zhang-bai-zhi.html</id>
-    <published>2022-11-26T11:16:47.000Z</published>
-    <updated>2023-01-16T15:17:26.676Z</updated>
-    
-    <content type="html"><![CDATA[<p>一张白纸！！！</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E4%B8%80%E5%BC%A0%E7%99%BD%E7%BA%B8.webp" alt="一张白纸"></p><hr><p>深痛悼念乌鲁木齐火灾中的逝者！</p><p>BTW.</p><p>大概早在7、8月份的时候，从各方面渠道看到当地的一些视频，我也一度担心地问了在乌鲁木齐的网友，但消息可能被拦截了还是什么情况，也一直没有回复！</p><blockquote><p>rf.</p><ol><li>白纸图片素材 <a href="https://www.reddit.com/r/real_China_irl/comments/z5vpw5/%E7%99%BD%E7%BA%B8%E8%BF%90%E5%8A%A8%E5%81%9A%E4%BA%86%E4%B8%80%E7%82%B9%E7%B4%A0%E6%9D%90%E4%BE%9B%E5%A4%A7%E5%AE%B6%E4%BD%BF%E7%94%A8/">来源</a>。</li><li>简要概述白纸运动，在新疆乌鲁木齐一栋被封控的大楼里，一场大火引发 10 死 9 伤，政府将部分原因归咎于死者自救能力不足，引发愤怒加剧，举白纸抗议。在此之前，各地都有举横幅、贴告示等形式控诉不当封控。所以，现在哪怕是举白纸，大家也都心照不宣地明白写了什么！</li><li>勇敢发声的 <a href="https://xiancangzai.github.io/1124/xuexiao.html">学校名单</a>。</li></ol></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;一张白纸！！！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="一张白纸" scheme="https://yexingshusheng.com/tags/%E4%B8%80%E5%BC%A0%E7%99%BD%E7%BA%B8/"/>
-    
-    <category term="乌鲁木齐" scheme="https://yexingshusheng.com/tags/%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90/"/>
-    
-    <category term="白纸运动" scheme="https://yexingshusheng.com/tags/%E7%99%BD%E7%BA%B8%E8%BF%90%E5%8A%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>卡塔尔世界杯</title>
-    <link href="https://yexingshusheng.com/2022/11/qia-ta-er-shi-jie-bei.html"/>
-    <id>https://yexingshusheng.com/2022/11/qia-ta-er-shi-jie-bei.html</id>
-    <published>2022-11-21T11:33:07.000Z</published>
-    <updated>2022-11-22T12:18:55.030Z</updated>
-    
-    <content type="html"><![CDATA[<p>卡塔尔、世界杯相关资讯…</p><span id="more"></span><h2 id="卡塔尔"><a href="#卡塔尔" class="headerlink" title="卡塔尔"></a>卡塔尔</h2><p>先简要地了解一下这个国家：</p><p>1.国家面积特别小，东西 80 公里，南北 130 公里。</p><p>2.人口仅有 294 万，其中卡塔尔公民约 44 万，其他皆为外籍人口。</p><p>3.依靠油气资源，卡塔尔是世界上最富有的国家之一，亚洲位列第二，仅次于新加坡（2021 官方数据），人均GDP，6.8 万美元。</p><p>4.没有四季，只有冬夏，特别是 6 到 7 月份，气温高得离谱，平均气温 40 度，最高可达 49 度。</p><p>5.君主制国家，君主就是元首，君主拥有至高无上的权利，君主的意志就是法律，不受任何权利的约束，禁止任何政党行动，君主是终身世袭制。</p><p>6.本届世界杯的总决赛场馆是由中国铁建耗时 6 年建设而成，决赛当天也就卡塔尔的国庆日。</p><p>7.交通规则和中国类似，靠左舵，但是罚款非常重，比如超速会罚款折合人民币 2 到 10 万元。</p><p>7.在这次世界杯场馆外 40 公里，是美国最大的海外基地：乌代德空军基地。</p><blockquote><p>rf.</p><p>了解它从“屌丝” - “半岛暴发户” - “世界高富帅”的发展史：</p><p><a href="https://finance.sina.com.cn/china/2022-11-20/doc-imqqsmrp6912342.shtml?tg_rhash=c396da0be90594">卡塔尔不亏！花3000亿美元造世界杯，迎众神谢幕战！</a>（时长 6:10）</p></blockquote><h2 id="世界杯"><a href="#世界杯" class="headerlink" title="世界杯"></a>世界杯</h2><p>不得不提的两大点是：1.卡塔尔世界杯是史上最贵世界杯，狂撒 3000 亿美元；2.梅西、C 罗、内马尔将在卡塔尔迎来他们的最后一届世界杯。</p><h3 id="手机端"><a href="#手机端" class="headerlink" title="手机端"></a>手机端</h3><ul><li>央视频</li><li>咪咕视频</li><li>抖音</li></ul><h3 id="网页直播"><a href="#网页直播" class="headerlink" title="网页直播"></a>网页直播</h3><ul><li><p><a href="https://live.douyin.com/fifaworldcup/7081590255274606628">抖音视频直播</a></p></li><li><p><a href="https://www.miguvideo.com/mgs/website/prd/detail.html?cid=713599117">咪咕视频直播</a></p></li><li><p><a href="https://tv.cctv.com/live/cctv5/">CCTV视频直播</a></p></li><li><p><a href="https://www.youtube.com/watch?v=jDNRKNNN_r0">Youtube视频直播</a></p></li><li><p><a href="https://kbs.sports.qq.com/#4">QQ体育文字直播</a></p></li><li><p><a href="https://www.zhiboz.com/">直播站</a></p></li></ul><h3 id="直播源"><a href="#直播源" class="headerlink" title="直播源"></a>直播源</h3><ul><li><p><a href="https://raw.githubusercontent.com/YueChan/IPTV/main/IPTV.m3u">视频直播源地址1</a></p></li><li><p><a href="http://117.169.124.149:8080/live/HD-4000k-1080P-cctv16/1.m3u8">视频直播源地址2</a></p></li><li><p><a href="http://111.20.105.192:6610/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3">CCTV16-4K-SDR源</a></p></li><li><p><a href="http://27.36.62.163:9090/live/4010.m3u8">CCTV16-4K-HLG源</a></p><blockquote><p>直播源食用方式：</p><ol><li><p>浏览器在线播放</p><p>先安装浏览器插件，在 Chrome 应用商店搜索关键词：「Native HLS Playback」「Play HLS M3u8」，找到能用的即可。</p></li><li><p>直播源播放器</p><p>直接将链接导入即可。例：potplayer、VLC等。</p></li></ol></blockquote></li></ul><h3 id="实时得分"><a href="#实时得分" class="headerlink" title="实时得分"></a>实时得分</h3><p>百度：<a href="https://tiyu.baidu.com/match/%E4%B8%96%E7%95%8C%E6%9D%AF/tab/%E6%8E%92%E5%90%8D/childTab/teamRank/from/baidu_aladdin">2022卡塔尔世界杯</a>   </p><p>谷歌：<a href="https://www.google.com/search?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%AE%9E%E6%97%B6%E5%BE%97%E5%88%86&sxsrf=ALiCzsa7RO-IhsXjyQIoYuQqRik46Jfa5Q:1668946992447&source=hp&ei=MBx6Y7KiGMmphwP4sJ_wDA&iflsig=AJiK0e8AAAAAY3oqQHadHwTgLalYn1NYcwHyjP8qiRUC&ved=0ahUKEwiy-oWF4Lz7AhXJ1GEKHXjYB84Q4dUDCAk&uact=5&oq=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%AE%9E%E6%97%B6%E5%BE%97%E5%88%86&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEB4QogQyBQgAEKIEMgUIABCiBDIFCAAQogQyBQgAEKIEOgQIIxAnOgUIABCABDoLCC4QgAQQxwEQ0QM6BQguEIAEOgcIABCABBAMUABY9iZg9yloAHAAeACAAacCiAHrH5IBBjAuMTkuNJgBAKABAQ&sclient=gws-wiz#sie=lg;/m/0fp_8fm;2;/m/030q7;mt;fp;1;;;">2022卡塔尔国际足协世界杯</a></p><h3 id="赛事安排日历"><a href="#赛事安排日历" class="headerlink" title="赛事安排日历"></a>赛事安排日历</h3><p>网上某大神制作：<a href="https://calendar.google.com/calendar/ical/6523d8b79644ac76276871d4dbc595b0fae5076dcd166ef87b09817f45a71d3a%40group.calendar.google.com/public/basic.ics">订阅链接</a>。（Google链接，网络问题未必能食用）</p><p>订阅方式（不同设备略有差异）：复制链接 — 打开日历 App — 找到新增日历订阅入口 — 粘贴链接即可。</p><p>如可以选择刷新时间：建议不要超过一周，防止在赛程中后半段更新「淘汰赛」时出现延迟。</p><p>注意不要用浏览器下载 ics 文件导入，会导致后续「淘汰赛」无法同步。</p><h3 id="零基础看球基本规则"><a href="#零基础看球基本规则" class="headerlink" title="零基础看球基本规则"></a>零基础看球基本规则</h3><ol><li><p>基本规则</p><p>足球场分为两个半场，通过进对面球来决定胜负，一球一分。</p><p>每队场下有 3-7 位候补球员，场上则有 11 名球员。在上场的 11 人中，除了 1 位门将（俗称守门员），剩下 10 名球员组成后卫、中场、前锋，后卫主要负责防守，中场负责进行传球，前锋负责进球。（有时候你可能会听到球迷说的神秘数字，比如 “433”，对应的就是这三个位置的人数）。</p><p>球员如果有犯规动作会吃黄牌，严重的会被直接红牌罚下，累计两张黄牌的球员下一场会被停赛。</p></li><li><p>小组赛、淘汰赛</p><p>世界杯一共进行 64 场。前 48 场为小组赛，后 16 场为淘汰赛。小组赛由 32 支参赛队抽签均分为 8 个小组，组内四个队单循环比赛，胜 3 分平 1 分负 0 分，积分前两名出线。</p><p>淘汰赛是小组第一打对应小组的小组第二，一场定胜负。若九十分钟平局就进行加时赛，加时赛仍平局会进入点球大战。点球大战是双方各派场上队员轮番在点球点附近踢点球，规定轮数内进球少的队伍被淘汰。</p></li><li><p>“吃饼”？</p><p>球迷或解说在赛事中提到的“喂饼”是指球员配合队友进攻，帮助队友进球达成助攻，“吐饼”是指得到队友帮助，却未能进球而浪费机会。</p></li><li><p>“越位”？“造越位”？</p><p>“越位”，即进攻方队员在传球的瞬间，接球队员比球和对方倒数第二个球员更靠近对方底线。</p><p>“造越位”，顾名思义，就是防守队员利用越位规则，在对方传球瞬间，突然向前一跑，造成对方接球队员与本方底线之间只剩一个防守队员，使对方越位犯规。</p></li></ol><h3 id="梗"><a href="#梗" class="headerlink" title="梗"></a>梗</h3><ol><li><p>梅罗合影</p><p>某品牌 LV 发布广告图（其实是 PS 合成），梅罗同框。但双方球迷常有争吵，合影却表现二人关系不错。然后网友就制作了各种骚图：打麻将、吃火锅。</p></li><li><p>都赖本泽马</p><p>卡里姆 · 本泽马早期效力皇马时，名气远低于其他的队友，故皇马球迷输球时都会把锅甩给本泽马。之后本泽马背锅梗很快流传开来，逐渐演变成任何事件按因果推理都能赖到本泽马头上，“<strong>都赖本泽马</strong>”也成了球迷的口头禅。</p><blockquote><p>BTW.</p><p>今年开赛前夕，法国国家队宣布，本泽马因训练受伤，不得不退出世界杯。</p><p>假如法国今年输球，可别怪本泽马了！！！</p></blockquote></li><li><p>半场开香槟</p><p>“没有人会记住亚军，除非你半场开香槟”，指 2004 - 05 赛季伊斯坦布尔的欧冠决赛，AC 米兰在前半场 3-0 领先的情况下，提前开香槟庆祝夺冠，结果下半场被利物浦连追三球，最后点球大战 2-3 遭逆转。</p><p>开香槟一事后来被证实是由媒体编造，被球迷以讹传讹的谣言，但由于本场逆风翻盘局太过经典，球迷们还是将这个梗保留了，现可用于各种赛事中大比分领先，又被落后方翻盘的场面。</p></li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;卡塔尔、世界杯相关资讯…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="卡塔尔" scheme="https://yexingshusheng.com/tags/%E5%8D%A1%E5%A1%94%E5%B0%94/"/>
-    
-    <category term="世界杯" scheme="https://yexingshusheng.com/tags/%E4%B8%96%E7%95%8C%E6%9D%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mozilla 旨在让互联网变得更好</title>
-    <link href="https://yexingshusheng.com/2022/11/mozilla-zhi-zai-rang-hu-lian-wang-bian-de-geng-hao.html"/>
-    <id>https://yexingshusheng.com/2022/11/mozilla-zhi-zai-rang-hu-lian-wang-bian-de-geng-hao.html</id>
-    <published>2022-11-19T11:01:32.000Z</published>
-    <updated>2022-11-18T07:46:14.559Z</updated>
-    
-    <content type="html"><![CDATA[<p>来自 Mozilla 的年终报告…</p><span id="more"></span><p>整篇报道看完。</p><p>看到 Mozilla “将人置于利润之上”、“确保互联网是一种全球公共资源，向所有人开放，所有人都能访问”的理念以及收入增长 25%，这种稳中向好的形势，很是欣慰。</p><p>BTW. 致敬每一个贡献自己的时间、金钱和智慧来改善互联网的人！</p><blockquote><p>rf.</p><p>Mozilla 的年度报告：<a href="https://www.mozilla.org/en-US/foundation/annualreport/2021/">State of Mozilla 21-22</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;来自 Mozilla 的年终报告…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="Mozilla" scheme="https://yexingshusheng.com/tags/Mozilla/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>movies</title>
-    <link href="https://yexingshusheng.com/2022/11/movies.html"/>
-    <id>https://yexingshusheng.com/2022/11/movies.html</id>
-    <published>2022-11-12T01:10:33.000Z</published>
-    <updated>2022-11-18T08:08:01.999Z</updated>
-    
-    <content type="html"><![CDATA[<p>更一波近几个月的电影…</p><span id="more"></span><h3 id="罪证子弹-2"><a href="#罪证子弹-2" class="headerlink" title="罪证子弹 2"></a>罪证子弹 2</h3><ul><li>上映日期: 2022-11-10(新加坡)</li><li>类型：动作</li><li><a href="https://www.aliyundrive.com/s/Nkyb7gUt24Y">阿里盘（含第 1 部）</a></li></ul><h3 id="疯狂动物城-2022"><a href="#疯狂动物城-2022" class="headerlink" title="疯狂动物城 2022"></a>疯狂动物城 2022</h3><ul><li>首播: 2022-11-09(美国网络)</li><li>类型：喜剧 &#x2F; 爱情 &#x2F; 动画 &#x2F; 短片 &#x2F; 歌舞 &#x2F; 犯罪 &#x2F; 冒险</li><li><a href="https://www.aliyundrive.com/s/qUWPWdiP7Gq">阿里盘（含《疯狂动物城 2016》）</a></li></ul><h3 id="天才少女福尔摩斯-2"><a href="#天才少女福尔摩斯-2" class="headerlink" title="天才少女福尔摩斯 2"></a>天才少女福尔摩斯 2</h3><ul><li>上映日期: 2022-11-04(美国网络)</li><li>类型: 剧情 &#x2F; 动作 &#x2F; 悬疑 &#x2F; 犯罪 &#x2F; 冒险</li><li><a href="https://pan.quark.cn/s/d215f5f1f88b">夸克盘（含第 1 部）</a></li></ul><h3 id="意外杀手-2"><a href="#意外杀手-2" class="headerlink" title="意外杀手 2"></a>意外杀手 2</h3><ul><li>上映日期: 2022-10-14(美国)</li><li>类型: 喜剧 &#x2F; 动作 &#x2F; 犯罪</li><li><a href="https://pan.quark.cn/s/37a07df0a871">夸克盘（含第 1 部）</a></li></ul><h3 id="20-世纪少女"><a href="#20-世纪少女" class="headerlink" title="20 世纪少女"></a>20 世纪少女</h3><ul><li>上映日期: 2022-10-06(釜山电影节) &#x2F; 2022-10-21(韩国网络)</li><li>类型: 爱情</li><li><a href="https://pan.quark.cn/s/6c8da9d8c3fb">夸克盘</a></li></ul><h3 id="维斯珀-Vesper"><a href="#维斯珀-Vesper" class="headerlink" title="维斯珀 Vesper"></a>维斯珀 Vesper</h3><ul><li>上映日期: 2022-07-03(纳沙泰尔国际奇幻影展) &#x2F; 2022-09-30(美国)</li><li>类型: 剧情 &#x2F; 科幻 &#x2F; 冒险</li><li><a href="https://mypikpak.com/s/VNDE9sGMP3sxqczyGV8mJWvho1">pikpak盘</a></li></ul><h3 id="西线无战事"><a href="#西线无战事" class="headerlink" title="西线无战事"></a>西线无战事</h3><ul><li>上映日期: 2022-09-12(多伦多电影节) &#x2F; 2022-09-29(德国) &#x2F; 2022-10-28(德国网络)</li><li>类型: 剧情 &#x2F; 动作 &#x2F; 战争</li><li><a href="https://pan.quark.cn/s/241487cfbca6">夸克盘</a></li></ul><h3 id="堕落"><a href="#堕落" class="headerlink" title="堕落"></a>堕落</h3><ul><li>上映日期: 2022-11-18(中国大陆) &#x2F; 2022-08-12(美国)</li><li>类型: 动作 &#x2F; 惊悚 &#x2F; 冒险 &#x2F; 运动</li><li><a href="https://www.aliyundrive.com/s/7Yy6yTo7CGh">阿里盘</a></li></ul><div style="color:skyblue;font-weight:bold;text-align:center;padding-top:5rem;padding-bottom:5rem;">————————TBC————————</div><h3 id="忍者神龟：崛起"><a href="#忍者神龟：崛起" class="headerlink" title="忍者神龟：崛起"></a>忍者神龟：崛起</h3><ul><li>上映日期: 2022-11-19(中国大陆) &#x2F; 2022-08-05(美国网络)</li><li>类型: 动作 &#x2F; 动画 &#x2F; 奇幻 &#x2F; 冒险</li><li><a href="https://www.aliyundrive.com/s/qMp81TBBuNg">阿里盘</a></li></ul><h3 id="名侦探柯南：万圣节的新娘"><a href="#名侦探柯南：万圣节的新娘" class="headerlink" title="名侦探柯南：万圣节的新娘"></a>名侦探柯南：万圣节的新娘</h3><ul><li>上映日期：2022-11-18(中国大陆) &#x2F; 2022-04-15(日本)</li><li>类型：动作 &#x2F; 动画 &#x2F; 悬疑</li><li><a href="https://www.aliyundrive.com/s/1KbxCPucSru">阿里盘</a></li></ul><h3 id="共助2：国际"><a href="#共助2：国际" class="headerlink" title="共助2：国际"></a>共助2：国际</h3><ul><li><p>上映日期：2022-09-07(韩国)</p></li><li><p>类型：动作</p></li><li><p><a href="https://www.aliyundrive.com/s/1hUjuAjn9hx">阿里盘</a></p></li><li><p>补档1：<a href="https://www.aliyundrive.com/s/Y343XjzqorS">阿里盘</a></p></li></ul><h3 id="6-x2F-45"><a href="#6-x2F-45" class="headerlink" title="6&#x2F;45"></a>6&#x2F;45</h3><ul><li>上映日期: 2022-08-24(韩国)</li><li>类型：剧情 &#x2F; 喜剧</li><li><a href="https://www.aliyundrive.com/s/3fiVe3qQDWV">阿里盘</a></li></ul><h3 id="黑亚当"><a href="#黑亚当" class="headerlink" title="黑亚当"></a>黑亚当</h3><ul><li>上映日期: 2022-10-19(法国) &#x2F; 2022-10-21(美国)</li><li>类型：动作 &#x2F; 科幻 &#x2F; 奇幻 &#x2F; 冒险</li><li><a href="https://www.aliyundrive.com/s/cAzSrfxSuKw">阿里盘</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;更一波近几个月的电影…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="movies" scheme="https://yexingshusheng.com/tags/movies/"/>
-    
-    <category term="Continuously update" scheme="https://yexingshusheng.com/tags/Continuously-update/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>103 Bits of Advice I Wish I Had Known</title>
-    <link href="https://yexingshusheng.com/2022/11/103-bits-of-advice-i-wish-i-had-known.html"/>
-    <id>https://yexingshusheng.com/2022/11/103-bits-of-advice-i-wish-i-had-known.html</id>
-    <published>2022-11-12T01:05:40.000Z</published>
-    <updated>2022-11-12T01:13:37.024Z</updated>
-    
-    <content type="html"><![CDATA[<p>治愈系、气质修炼系人生忠告来了…</p><span id="more"></span><p>2022 年 4 月 28 日，凯文·凯利（Kevin Kelly）在他的网站上发布了 70 岁生日的文章：103 Bits of Advice I Wish I Had Known，意为： 103 条我希望早点知道的人生忠告，转译如下：</p><blockquote><ol><li>99% 的时间里，真正关键的时刻就是此刻。</li><li>除了你以外，没有人会真的记得你拥有什么东西。</li><li>一定不要为你不希望成为的人工作。</li><li>好好耕耘 12 个爱你的人的关系，因为这 12 个人远比 1200 万人喜欢你重要得多。</li><li>不要一直重复犯错；试着去犯新的错。</li><li>如果你在街上停下来聆听音乐人或街头艺人的表演一分钟，那么你欠他们一美元。</li><li>“但是”之前的话都是废话。</li><li>当你原谅其他人的时候，他们不一定会知道这件事，但你自己却会被治愈。原谅不是我们给予他人的东西；而是我们给自己的礼物。</li><li>礼貌几乎没有成本。上完厕所之后，把马桶座放下。进电梯之前，让里面人先出来。把购物车推回到商场指定的位置。借了别人的东西，让它以比借到的时候更好的状态（比如把消耗了的材料装满，比如把东西清洁好）还回去。</li><li>无论什么时候，看到争论基于两个对立面进行时，要找到第三个面。</li><li>“效率”被过度高估；“偷懒”被过度贬低。有规律地安排休息日、休假、度假、小憩、漫无目的地散步和暂停时间对任何一种高产出状态都至关重要。最佳职业伦理需要具备一个好的休闲伦理。</li><li>当你在领导时，你真正的任务是创造出更多领导者，而不是更多追随者。</li><li>私下批评，公开赞扬。</li><li>人生的课程将以它们需要的顺序出现在你面前。任何你需要掌握的课程其实都在你身上。当你真正掌握了一节课之后，下一节课就会出现。如果你还活着，这就意味着你还有课程需要学习。</li><li>学生的责任是从老师身上学会一切，老师的责任是从学生身上学会一切。</li><li>如果在一个游戏中，获胜变得过于重要，那么我们可以修改游戏规则以便从中获得更多乐趣。而修改规则本身就可以成为一个新的游戏。</li><li>当你跟投资人要钱的时候，他会给你建议；而如果你跟他要建议，他会给你钱。</li><li>生产力反而经常分散我们的注意力。不要试图寻找更快完成任务的方法，而是把精力放在你根本不想停下来的任务上。</li><li>及时支付你的欠款给卖主，员工，承包商。下一次他们会第一时间跑来跟你合作。</li><li>我们对自己说的最大的谎言就是：“我不需要把这些写下来，我会记得的。”</li><li>你作为一个意识生物的成长，将以你愿意接受的令人不舒服的对话的次数来衡量。</li><li>自信的发言就像你是对的一样，仔细的聆听就像你是错的一样。</li><li>方便的测量方法：双手展开与肩膀平齐，此时从左手指尖到右手指尖的长度就是你的身高。</li><li>你的努力（锻炼、陪伴、工作）的一致性远比数量重要。没有什么可以击败每天坚持做的小事，这比偶然做的事情重要得多。</li><li>艺术创造并不自私；它是为我们其他人而作的。如果你不好好创作，你就是在欺骗我们。</li><li>永远不要问一位女士她是否怀孕了。等她自己告诉你。</li><li>你必须具备的三种能力: 在确认一件事情能运作之前永不言弃的能力，在确认一件事情无法工作下去时放弃他的能力，以及信任能帮助你区分二者的人。</li><li>公开演讲的时候，常作暂停。开始讲新内容的之前暂停一下，讲完你觉得重要的内容之后暂停一下，把暂停作为让听众吸收内容的缓冲。</li><li>“准时”从不存在。你要嘛迟到要嘛早到。这是你的选择。</li><li>请教一位你崇拜的人: 他们的幸运转折往往来自于跟主要目标无关的弯路。所以拥抱这种弯路。对任何人来说，人生都不是一条直线。</li><li>在互联网上寻找正确答案的最佳实践是发布一个明显错误的答案，然后等待其他人纠正你。</li><li>奖励好行为比惩罚坏行为带来的结果要好上十倍，尤其对象是小孩和动物时。</li><li>要花跟写邮件正文一样的时间来雕琢邮件标题，因为很多时候邮件标题是人们唯一会读的东西。</li><li>不要等着暴风雨自己过去；要在雨中跳舞。</li><li>老板&#x2F;雇主在查看求职者的推荐信时，一般不太愿意或者被禁止说出负面评价。这时候你可以留言说：“如果你觉得这位求职者很不错的话请通知我哦。”如果他们没有回复的话那就是负评价。</li><li>使用密码管理器: 更安全，更易用，更好。</li><li>教育的一半作用是学习哪些东西可以被忽略。</li><li>设定一个野心得荒谬的目标的好处是，上限足够高，这样即使最后失败了，以通常的标准来衡量也可以算某种程度上的成功。</li><li>了解自己的一个好办法是，仔细地分析自己做的会惹怒其他人的每一件事情。</li><li>住酒店的时候记得把所有的东西都放在可以看得到的地方，不要放进抽屉里，都堆在一个地方。这样你在离店的时候永远不会忘记任何东西。如果有些东西需要放在一边的，比如充电器，那你可以放多两件大的东西在它隔壁，因为相比起一件东西，你更不可能同时忘记拿三件。</li><li>拒绝或转移别人的赞美是不礼貌的。可以用感谢接受它，即使你相信你根本不值得这个赞美。</li><li>纪念碑旁的那块说明，必读。</li><li>当你获得某种成功的时候，你可能会有种自己的能力不配这个位置，自己是个骗子感觉。我在骗人吗？但如果你创造了某种只有你独特的天赋与经验才做得到的东西，那你就绝对不是一个骗子。你是注定要做这件事情的。做好只有你才能做的事情，这是你的责任所在。</li><li>你在低谷时做的事情比在好日子时做的更重要。</li><li>做对人有益的东西。</li><li>当你打开一罐油漆时，无论你有多么小心，你的衣服一定会沾上一点，即便只是很小一点。所以记得穿合适的衣服。</li><li>在汽车旅行的路上让小孩子乖乖听话的办法：捎一袋他们最喜欢的糖果，每次只要不乖就扔一把出去。</li><li>你无法让聪明的人只为了钱而特别努力地工作。</li><li>当你不知道应该为了某件工作给人支付多少费用的时候，你可以问他“你觉得给多少是合适的”，他们通常会给出合适的报价。</li><li>所有东西的 90% 都是垃圾。如果你觉得自己不喜欢歌剧，浪漫小说，抖音，乡村音乐，素食，NFTs，那你可以试试看自己能否找出不是垃圾的 10%。</li><li>你如何对待那些对你无能为力的人，将成为评价你的标准。</li><li>我们向来高估了一天能做的事情，也低估了十年能达成的事情。只要给十年时间，奇迹也能达成。长期坚持能累计大量小成就，攻克大问题。</li><li>感谢改变了你人生的那位老师。</li><li>你无法说服一个人接受一个他自己也无法说服他自己的理念。</li><li>最好的工作是你需要努力跳起来都不一定够得着工作。其实最好只申请你的能力尚不匹配的工作。</li><li>购买二手书。它们和新书有一样的文字。图书馆的书也是。</li><li>你可以成为任何你想成为的人，所以让自己成为那个早点结束会议的人吧。</li><li>一个智者曾经说过，“在你开口之前，先让你的语言经过三道门的检验。第一道门是问你自己，‘这是真话吗？’第二道门是‘这是必要的吗？’第三道门是‘这是善的吗？’”</li><li>走楼梯。</li><li>你支付给某样东西的钱事实上是它标价的两倍，因为你还需要付出额外的能源，时间，和金钱来安装它，学习使用它，维护它，修复它，以及最后丢掉它。不是所有的价格都打在标签上。真正的付出是标价的两倍。</li><li>当你到达你酒店房间时，记得看一眼紧急出口在哪里。只需要一分钟。</li><li>”我现在该做什么？”的唯一有效回答是，先找出“我想成为什么人？”的答案。</li><li>在一段超过平均水平的时间里，一直保持平均水平的回报，也会产生超凡的结果。买入并一直持有。</li><li>对粗鲁的陌生人表现得特别礼貌是一件令人毛骨悚然的事情。</li><li>一个不太聪明但能很好沟通的人，是可以做得比很聪明但不善沟通的人更好的。这是一个好消息，因为提高你的沟通技巧要比提高智力容易得多。</li><li>偶尔被骗是信任所有人的一个很小的代价，因为当你以最大诚意信任其他人的时候，他们通常会给你最好的对待。</li><li>艺术是你无论如何都能超然避世的东西。</li><li>为了让你的孩子获得最好的成长，你应该只花你认为应该花的一半的钱给他们，但花两倍的时间陪他们。</li><li>购买你的家乡或所在区域的最新的旅游指南。你会在每年的旅游中学会很多。</li><li>不要排长队等着吃某样很有名的东西。因为几乎没有哪样出名的食物值得这份等待。</li><li>想要快速了解一个刚认识的人的真实性格，让他们使用一个超级慢的网络，然后观察他们。</li><li>达成世俗成功的良方：做点奇怪的事情。培养自己独特的奇怪的习惯。</li><li>要成为一个专家。记得备份你的备份。至少有一份物理备份与一份云端备份。每个备份不要少于一份。当你丢失了你的数据，照片，与笔记时，你愿意花多少钱把他们找回来呢？相比于后悔，备份一定是更便宜的选项。</li><li>不要相信你认为你相信的一切。</li><li>发出紧急信号请使用“三次法则”: 三次大喊，三次喇叭，或三次口哨。</li><li>你在一家餐馆里会点吃过的好吃的菜，还是尝试新的？你会做你知道有销路的东西，还是会尝试新的？你会一直跟新的人约会还是会尝试跟已经认识的人确立关系？最理想的探索新事物与找到了之后在其中深耕的平衡是: 1&#x2F;3。用 1&#x2F;3 的时间去探索，用 2&#x2F;3 的时间去深耕。随着年龄的增长，花时间去探索新事物会越来越难，因为那看起来并不高效，但试着做到 1&#x2F;3 吧。</li><li>真正的好机会不会在额头上大书“好机会”三个字。</li><li>在你被介绍给别人的时候，看着对方的眼睛，数到四。这样你们都会很好地记住对方。</li><li>在你思考“我的好刀在哪里？或者我的好笔在哪里？”时，记下来。这意味着你还有坏的刀或笔。把它们都丢掉吧。</li><li>当你在某件事情卡住了时候，试着给其他人描述你的问题。经常你只需要简单地把问题描述出来，答案就会自然呈现。把“描述这个问题”作为你解决问题的的一部分。</li><li>在购买一根花园水管，一根延长线，或者一把梯子的时候，选那个比你认为需要长度更长的。通常那个就是正确的尺寸。</li><li>不要和旧事物作斗争；直接建设新的。</li><li>你只需要向大家赞扬你的团队做得很好，他们就会做出远超预期的成就。</li><li>当一个人跟你提起人类历史的巅峰一年，那段时间所有的事情都极其美好，然后就开始走下坡路。这一年永远是他们10岁的时候──这也是人类个体的巅峰。</li><li>你跟那些惹怒你的事物一样大。</li><li>当你对着听众们演讲时，眼神注视某几个人比扫描全场更好。你的眼神会告诉在场的人，你是不是真的相信你所说的东西。</li><li>习惯远比灵感来得可靠。要为培养习惯而努力。不要关注身材变好的样子，要专注成为那个永不缺席训练的人。</li><li>当你跟别人谈判的时候，不要把目光瞄准蛋糕中最大的一片；要瞄准如何把蛋糕做大。</li><li>如果你重复今天你做的事情365天，那一年后你会成为你想成为的人吗？</li><li>你只能看到其他人的 2%，别人也只能看到你的 2%。所以调整好自己的 98%。</li><li>你的时间和空间都是有限的。移除，送人，或者直接丢掉那些在你的人生中不再带来幸福的东西，把时间与空间留给那些能带来幸福的。</li><li>我们的后代将创造令我们惊叹的成就，但其实只要我们有足够的想象力，他们会创造的部分东西，用今天的材料和工具就已经能实现了。所以，要想得更大一点。</li><li>为了丰厚的回报，请对你完全不感兴趣的事物保持好奇。</li><li>专注于方向而不是目的地。毕竟有谁能知道他的命运终点呢？但只要保持一个正确的方向，你终会到达你想到的地方。</li><li>所有的突破在一开始都是看起来很可笑和荒谬的。事实上如果它在一开始看起来不够可笑和荒谬的话，它也称不上是一种突破。</li><li>如果你借给别人 20 美元并且你再也见不到这个人了，因为他不想还钱，那么这 20 美元花得值。</li><li>重复别人是一个很好的开始。重复你自己则是一个令人失望的终点。</li><li>找工作跟别人商量薪酬的最佳时机是在他们说要请你了之后，而不是之前。从这时开始就变成了一场胆小鬼博弈，双方都等着对方先开口报价，但这时你的优势就是可以让对方先开出价码。</li><li>与其让你的人生规避“出人意料”，还不如直接瞄着它们而去。</li><li>如果你是用信用卡租的车，不要购买额外的保险。</li><li>如果你关于一个主题的意见可以根据你另一个主题的意见预测得出，那你可能陷入了某种意识形态的掌控。如果你认真审视你自己的意识，你的结论其实是无法预测的。</li><li>争取在死前破产。在你死掉之前，把你所有的财产交给你的受益人；这很有趣而且很有用。把所有的财产花光。你的最后一张支票应该支付给殡仪馆，它应该会被退回。</li><li>防止变老的最佳实践是保持惊讶。</li></ol></blockquote><p>BTW.</p><p>大概在 2015 年时，看过类似题材的一本书——《25 岁知道就晚了》，小福勒写的，写给全球年轻人的 90 条幸福定律。大道至简，朴实。封面是白底黑字的，这书是国内 2010 年引入，可能是第一版。</p><blockquote><p>rf.</p><p>70岁写的：<a href="https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/">103 Bits of Advice I Wish I Had Known</a></p><p>69岁时写的：<a href="https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/">99 Additional Bits of Unsolicited Advice</a></p><p>68岁时写的<a href="https://kk.org/thetechnium/68-bits-of-unsolicited-advice/">68 Bits of Unsolicited Advice</a></p><p>译文取自：<a href="https://justinyan.me/post/4911">凯文·凯利70岁生日写的103条人生忠告（中文翻译）</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;治愈系、气质修炼系人生忠告来了…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="advice" scheme="https://yexingshusheng.com/tags/advice/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Handbook for Writers</title>
-    <link href="https://yexingshusheng.com/2022/11/handbook-for-writers.html"/>
-    <id>https://yexingshusheng.com/2022/11/handbook-for-writers.html</id>
-    <published>2022-11-12T01:01:46.000Z</published>
-    <updated>2022-11-12T01:11:01.907Z</updated>
-    
-    <content type="html"><![CDATA[<p>先码后看</p><span id="more"></span><p>目录部分：</p><ul><li><h3 id="Chapter-1-Writing-to-Think-and-Writing-to-Learn"><a href="#Chapter-1-Writing-to-Think-and-Writing-to-Learn" class="headerlink" title="Chapter 1: Writing to Think and Writing to Learn"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s05-writing-to-think-and-writing-t.html">Chapter 1: Writing to Think and Writing to Learn</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s05-01-examining-the-status-quo.html">Examining the Status Quo</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s05-02-posing-productive-questions.html">Posing Productive Questions</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s05-03-slowing-down-your-thinking.html">Slowing Down Your Thinking</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s05-04-withholding-judgment.html">Withholding Judgment</a></li></ul></li><li><h3 id="Chapter-2-Becoming-a-Critical-Reader"><a href="#Chapter-2-Becoming-a-Critical-Reader" class="headerlink" title="Chapter 2: Becoming a Critical Reader"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s06-becoming-a-critical-reader.html">Chapter 2: Becoming a Critical Reader</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s06-01-browsing-the-gallery-of-web-ba.html">Browsing the Gallery of Web-Based Texts</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s06-02-understanding-how-critical-thi.html">Understanding How Critical Thinking Works</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s06-03-reading-a-text-carefully-and-c.html">Reading a Text Carefully and Closely</a></li></ul></li><li><h3 id="Chapter-3-Thinking-through-the-Disciplines"><a href="#Chapter-3-Thinking-through-the-Disciplines" class="headerlink" title="Chapter 3: Thinking through the Disciplines"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s07-thinking-through-the-disciplin.html">Chapter 3: Thinking through the Disciplines</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s07-01-exploring-academic-disciplines.html">Exploring Academic Disciplines</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s07-02-seeing-and-making-connections-.html">Seeing and Making Connections across Disciplines</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s07-03-articulating-multiple-sides-of.html">Articulating Multiple Sides of an Issue</a></li></ul></li><li><h3 id="Chapter-4-Joining-the-Conversation"><a href="#Chapter-4-Joining-the-Conversation" class="headerlink" title="Chapter 4: Joining the Conversation"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s08-joining-the-conversation.html">Chapter 4: Joining the Conversation</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s08-01-raising-the-stakes-by-going-pu.html">Raising the Stakes by Going Public</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s08-02-recognizing-the-rhetorical-sit.html">Recognizing the Rhetorical Situation</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s08-03-rhetoric-and-argumentation.html">Rhetoric and Argumentation</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s08-04-developing-a-rhetorical-habit-.html">Developing a Rhetorical Habit of Mind</a></li></ul></li><li><h3 id="Chapter-5-Planning"><a href="#Chapter-5-Planning" class="headerlink" title="Chapter 5: Planning"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s09-planning.html">Chapter 5: Planning</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s09-01-choosing-a-topic.html">Choosing a Topic</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s09-02-freewriting-and-mapping.html">Freewriting and Mapping</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s09-03-developing-your-purposes-for-w.html">Developing Your Purposes for Writing</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s09-04-outlining.html">Outlining</a></li></ul></li><li><h3 id="Chapter-6-Drafting"><a href="#Chapter-6-Drafting" class="headerlink" title="Chapter 6: Drafting"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-drafting.html">Chapter 6: Drafting</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-01-forming-a-thesis.html">Forming a Thesis</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-02-testing-a-thesis.html">Testing a Thesis</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-03-supporting-a-thesis.html">Supporting a Thesis</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-04-learning-from-your-writing.html">Learning from Your Writing</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-05-learning-from-your-reading.html">Learning from Your Reading</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-06-generating-further-questions.html">Generating Further Questions</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-07-using-a-variety-of-sentence-fo.html">Using a Variety of Sentence Formats</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s10-08-creating-paragraphs.html">Creating Paragraphs</a></li></ul></li><li><h3 id="Chapter-7-Researching"><a href="#Chapter-7-Researching" class="headerlink" title="Chapter 7: Researching"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-researching.html">Chapter 7: Researching</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-01-organizing-research-plans.html">Organizing Research Plans</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-02-finding-print-online-and-field.html">Finding Print, Online, and Field Sources</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-03-choosing-search-terms.html">Choosing Search Terms</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-04-conducting-research.html">Conducting Research</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-05-evaluating-sources.html">Evaluating Sources</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-06-taking-notes.html">Taking Notes</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-07-making-ethical-and-effective-c.html">Making Ethical and Effective Choices</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-08-creating-an-annotated-bibliogr.html">Creating an Annotated Bibliography</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s11-09-managing-information.html">Managing Information</a></li></ul></li><li><h3 id="Chapter-8-Revising"><a href="#Chapter-8-Revising" class="headerlink" title="Chapter 8: Revising"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s12-revising.html">Chapter 8: Revising</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s12-01-reviewing-for-purpose.html">Reviewing for Purpose</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s12-02-editing-and-proofreading.html">Editing and Proofreading</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s12-03-making-a-final-overview.html">Making a Final Overview</a></li></ul></li><li><h3 id="Chapter-9-Designing"><a href="#Chapter-9-Designing" class="headerlink" title="Chapter 9: Designing"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s13-designing.html">Chapter 9: Designing</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s13-01-general-text-formatting-consid.html">General Text Formatting Considerations</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s13-02-creating-and-finding-visuals.html">Creating and Finding Visuals</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s13-03-incorporating-images-charts-an.html">Incorporating Images, Charts, and Graphs</a></li></ul></li><li><h3 id="Chapter-10-Publishing"><a href="#Chapter-10-Publishing" class="headerlink" title="Chapter 10: Publishing"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s14-publishing.html">Chapter 10: Publishing</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s14-01-choosing-a-document-design.html">Choosing a Document Design</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s14-02-developing-digital-presentatio.html">Developing Digital Presentations</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s14-03-presenting-orally.html">Presenting Orally</a></li></ul></li><li><h3 id="Chapter-11-Academic-Writing"><a href="#Chapter-11-Academic-Writing" class="headerlink" title="Chapter 11: Academic Writing"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s15-academic-writing.html">Chapter 11: Academic Writing</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s15-01-meeting-college-writing-expect.html">Meeting College Writing Expectations</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s15-02-using-strategies-for-writing-c.html">Using Strategies for Writing College Essays</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s15-03-collaborating-on-academic-writ.html">Collaborating on Academic Writing Projects</a></li></ul></li><li><h3 id="Chapter-12-Professional-Writing"><a href="#Chapter-12-Professional-Writing" class="headerlink" title="Chapter 12: Professional Writing"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s16-professional-writing.html">Chapter 12: Professional Writing</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s16-01-writing-business-letters.html">Writing Business Letters</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s16-02-writing-to-apply-for-jobs.html">Writing to Apply for Jobs</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s16-03-composing-memos.html">Composing Memos</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s16-04-e-mail-and-online-networking.html">E-mail and Online Networking</a></li></ul></li><li><h3 id="Chapter-13-Writing-on-and-for-the-Web"><a href="#Chapter-13-Writing-on-and-for-the-Web" class="headerlink" title="Chapter 13: Writing on and for the Web"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s17-writing-on-and-for-the-web.html">Chapter 13: Writing on and for the Web</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s17-01-composing-in-web-based-environ.html">Composing in Web-Based Environments</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s17-02-creating-websites.html">Creating Websites</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s17-03-collaborating-online.html">Collaborating Online</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s17-04-creating-an-e-portfolio.html">Creating an E-portfolio</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s17-05-using-web-links-effectively.html">Using Web Links Effectively</a></li></ul></li><li><h3 id="Chapter-14-Public-and-Personal-Writing"><a href="#Chapter-14-Public-and-Personal-Writing" class="headerlink" title="Chapter 14: Public and Personal Writing"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s18-public-and-personal-writing.html">Chapter 14: Public and Personal Writing</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s18-01-writing-newsletters.html">Writing Newsletters</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s18-02-creating-flyers-and-brochures.html">Creating Flyers and Brochures</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s18-03-developing-ads.html">Developing Ads</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s18-04-writing-personal-letters.html">Writing Personal Letters</a></li></ul></li><li><h3 id="Chapter-15-Sentence-Building"><a href="#Chapter-15-Sentence-Building" class="headerlink" title="Chapter 15: Sentence Building"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-sentence-building.html">Chapter 15: Sentence Building</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-01-incorporating-core-sentence-co.html">Incorporating Core Sentence Components (Avoiding Fragments)</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-02-choosing-appropriate-verb-tens.html">Choosing Appropriate Verb Tenses</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-03-making-sure-subjects-and-verbs.html">Making Sure Subjects and Verbs Agree</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-04-avoiding-misplaced-modifiers-d.html">Avoiding Misplaced Modifiers, Dangling Modifiers, and Split Infinitives</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-05-preventing-mixed-constructions.html">Preventing Mixed Constructions</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s19-06-connecting-pronouns-and-antece.html">Connecting Pronouns and Antecedents Clearly</a></li></ul></li><li><h3 id="Chapter-16-Sentence-Style"><a href="#Chapter-16-Sentence-Style" class="headerlink" title="Chapter 16: Sentence Style"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-sentence-style.html">Chapter 16: Sentence Style</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-01-using-varied-sentence-lengths-.html">Using Varied Sentence Lengths and Styles</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-02-writing-in-active-voice-and-us.html">Writing in Active Voice and Uses of Passive Voice</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-03-using-subordination-and-coordi.html">Using Subordination and Coordination</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-04-using-parallelism.html">Using Parallelism</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-05-avoiding-sexist-and-offensive-.html">Avoiding Sexist and Offensive Language</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s20-06-managing-mood.html">Managing Mood</a></li></ul></li><li><h3 id="Chapter-17-Word-Choice"><a href="#Chapter-17-Word-Choice" class="headerlink" title="Chapter 17: Word Choice"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s21-word-choice.html">Chapter 17: Word Choice</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s21-01-controlling-wordiness-and-writ.html">Controlling Wordiness and Writing Concisely</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s21-02-using-appropriate-language.html">Using Appropriate Language</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s21-03-choosing-precise-wording.html">Choosing Precise Wording</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s21-04-using-the-dictionary-and-thesa.html">Using the Dictionary and Thesaurus Effectively</a></li></ul></li><li><h3 id="Chapter-18-Punctuation"><a href="#Chapter-18-Punctuation" class="headerlink" title="Chapter 18: Punctuation"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-punctuation.html">Chapter 18: Punctuation</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-01-using-commas-properly.html">Using Commas Properly</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-02-avoiding-unnecessary-commas.html">Avoiding Unnecessary Commas</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-03-eliminating-comma-splices-and-.html">Eliminating Comma Splices and Fused Sentences</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-04-writing-with-semicolons-and-co.html">Writing with Semicolons and Colons</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-05-using-apostrophes.html">Using Apostrophes</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-06-using-quotation-marks.html">Using Quotation Marks</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-07-incorporating-dashes-and-paren.html">Incorporating Dashes and Parentheses</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-08-choosing-correct-end-punctuati.html">Choosing Correct End Punctuation</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s22-09-knowing-when-to-use-hyphens.html">Knowing When to Use Hyphens</a></li></ul></li><li><h3 id="Chapter-19-Mechanics"><a href="#Chapter-19-Mechanics" class="headerlink" title="Chapter 19: Mechanics"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s23-mechanics.html">Chapter 19: Mechanics</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s23-01-mastering-commonly-misspelled-.html">Mastering Commonly Misspelled Words</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s23-02-using-capital-letters.html">Using Capital Letters</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s23-03-abbreviating-words-and-using-a.html">Abbreviating Words and Using Acronyms</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s23-04-inserting-numbers-into-text.html">Inserting Numbers into Text</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s23-05-marking-words-with-italics.html">Marking Words with Italics</a></li></ul></li><li><h3 id="Chapter-20-Grammar"><a href="#Chapter-20-Grammar" class="headerlink" title="Chapter 20: Grammar"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-grammar.html">Chapter 20: Grammar</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-01-making-sure-subject-and-verbs-.html">Making Sure Subject and Verbs Agree</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-02-avoiding-general-verb-problems.html">Avoiding General Verb Problems</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-03-choosing-the-correct-pronoun-a.html">Choosing the Correct Pronoun and Noun Cases</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-04-making-pronouns-and-antecedent.html">Making Pronouns and Antecedents Agree</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-05-using-relative-pronouns-and-cl.html">Using Relative Pronouns and Clauses</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s24-06-using-adverbs-and-adjectives.html">Using Adverbs and Adjectives</a></li></ul></li><li><h3 id="Appendix-A-Writing-for-Nonnative-English-Speakers"><a href="#Appendix-A-Writing-for-Nonnative-English-Speakers" class="headerlink" title="Appendix A: Writing for Nonnative English Speakers"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-appendix-a-writing-for-nonnati.html">Appendix A: Writing for Nonnative English Speakers</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-00-appendix-a-writing-for-nonnati.html">Appendix Introduction</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-01-parts-of-speech.html">Parts of Speech</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-02-english-word-order.html">English Word Order</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-03-count-and-noncount-nouns.html">Count and Noncount Nouns</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-04-articles.html">Articles</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-05-singulars-and-plurals.html">Singulars and Plurals</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-06-verb-tenses.html">Verb Tenses</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-07-correct-verbs.html">Correct Verbs</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-08-modal-auxiliary-verbs.html">Modal Auxiliary Verbs</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-09-gerunds-and-infinitives.html">Gerunds and Infinitives</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-10-forming-participles.html">Forming Participles</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-11-adverbs-and-adjectives.html">Adverbs and Adjectives</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-12-irregular-adjectives.html">Irregular Adjectives</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-13-indefinite-adjectives.html">Indefinite Adjectives</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-14-predicate-adjectives.html">Predicate Adjectives</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-15-clauses-and-phrases.html">Clauses and Phrases</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-16-relative-pronouns-and-clauses.html">Relative Pronouns and Clauses</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-17-prepositions-and-prepositional.html">Prepositions and Prepositional Phrases</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-18-omitted-words.html">Omitted Words</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-19-not-and-other-negative-words.html">Not and Other Negative Words</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-20-idioms.html">Idioms</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-21-spelling-tips.html">Spelling Tips</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s25-22-american-writing-styles-argume.html">American Writing Styles, Argument, and Structure</a></li></ul></li><li><h3 id="Appendix-B-A-Guide-to-Research-and-Documentation"><a href="#Appendix-B-A-Guide-to-Research-and-Documentation" class="headerlink" title="Appendix B: A Guide to Research and Documentation"></a><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-appendix-b-a-guide-to-research.html">Appendix B: A Guide to Research and Documentation</a></h3><ul><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-00-appendix-b-a-guide-to-research.html">Appendix Introduction</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-01-choosing-a-documentation-forma.html">Choosing a Documentation Format</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-02-integrating-sources.html">Integrating Sources</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-03-quoting-paraphrasing-and-summa.html">Quoting, Paraphrasing, and Summarizing</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-04-formatting-in-text-references.html">Formatting In-Text References</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-05-developing-a-list-of-sources.html">Developing a List of Sources</a></li><li><a href="https://saylordotorg.github.io/text_handbook-for-writers/s26-06-using-other-formats.html">Using Other Formats</a></li></ul></li></ul><blockquote><p>rf.</p><p>原文：<a href="https://saylordotorg.github.io/text_handbook-for-writers/index.html">Handbook for Writers</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;先码后看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="writer" scheme="https://yexingshusheng.com/tags/writer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对于博客的误区</title>
-    <link href="https://yexingshusheng.com/2022/11/dui-yu-bo-ke-de-wu-qu.html"/>
-    <id>https://yexingshusheng.com/2022/11/dui-yu-bo-ke-de-wu-qu.html</id>
-    <published>2022-11-05T10:08:01.000Z</published>
-    <updated>2022-11-05T15:35:13.657Z</updated>
-    
-    <content type="html"><![CDATA[<p>一些偏执的误区。</p><span id="more"></span><ol><li><p>博客只能写技术性文章嘛？</p><p>在早期，博客基本都是由于精通编程的程序员搭建的，所以现在很多人对于博客似乎总是有一种刻板印象：我写不出什么技术性文章，我要博客好像也没什么用。其实，个人博客记录什么完全是从自己出发，而不是从别人出发。你可以在自己的博客上分享生活、摄影、日常吐槽、或者是把他视为一个在线笔记，用于记录自己的学习心得。在 telegram 有一个频道专门收集各类独立博客（<a href="https://t.me/personal_hub/2909">@FindBlog</a>），在上面你可以看到各种各样内容的博客。所以，博客并不是只是用来展示技术性文章，博客重在思考、记录、分享和坚持。</p></li><li><p>搭建博客很难？</p><p>早期搭建博客确实比较难，因为那个时候还没有像现在那么多的选择，互联网也没有那么发达，人们分享建站经验也并没有很容易，但是现在举手间你就能拥有一个自己的博客。wordpress 这样的建站平台已经非常成熟，就算你完全不懂编程也完全不影响你拥有一个自己的博客。如果你想自己购买服务器、域名搭建一个博客也有很多的教程可以供你参考，基本只要复制粘贴命令就可以快速启动自己的博客。现在搭建一个自己的博客真的没有想象的那么困难。不要害怕尝试，有想法就应该去行动。</p></li><li><p>数量重要还是质量重要？</p><p>我觉得这个问题不应该问别人，而应该问自己。如果你的博客主要是技术性文章或者科普性知识类文章，那么势必是需要找不少资料，花费不少时间的。如果你只是将其作为日记，笔记，那么你完全可以想到什么就记录什么。不过我的建议是：尽量别把一篇博客的时间拉到太长，因为时间越长，你就越难继续下去，尽量给自己设定一个预定期限，然后在这个期限内完成它。刚开始写博客可能会有些不知道怎么下手，这是很正常的事情，万事开头难，但是只要你有坚持下去的想法，你就会渐入佳境。</p></li></ol><blockquote><p>rf.</p><p>转录来源：心灵魔法站（10.28）</p><p><a href="https://wpjian.com/wordpress-seo/201906032840.html">博客的历史：从1997年到现在（附图）</a></p><p><a href="https://online.ndm.edu/news/communication/history-of-blogging/">history-of-blogging–a timeline</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;一些偏执的误区。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客站务" scheme="https://yexingshusheng.com/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%8A%A1/"/>
-    
-    
-    <category term="202211" scheme="https://yexingshusheng.com/tags/202211/"/>
-    
-    <category term="博客" scheme="https://yexingshusheng.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
