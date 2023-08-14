@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-08-10T07:58:58.638Z</updated>
+  <updated>2023-08-12T16:22:46.421Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何禁止OpenAI爬取或部分爬取</title>
+    <link href="https://yexingshusheng.com/2023/08/ru-he-jin-zhi-openai-pa-qu-huo-bu-fen-pa-qu.html"/>
+    <id>https://yexingshusheng.com/2023/08/ru-he-jin-zhi-openai-pa-qu-huo-bu-fen-pa-qu.html</id>
+    <published>2023-08-12T16:19:41.000Z</published>
+    <updated>2023-08-12T16:22:46.421Z</updated>
+    
+    <content type="html"><![CDATA[<p>额，作用就是防止 OpenAI 爬虫抓取你网站的内容去训练 AI …</p><span id="more"></span><p>OpenAI 文档 GPTBot 禁止抓取网站的说明，修改文件 robots.txt。</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">User-agent: GPTBot</span><br><span class="line"></span><br><span class="line">Disallow: /</span><br></pre></td></tr></table></figure><p>或者部分爬取</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">User-agent: GPTBot</span><br><span class="line"></span><br><span class="line">Allow: /directory-1/</span><br><span class="line"></span><br><span class="line">Disallow: /directory-2/</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;额，作用就是防止 OpenAI 爬虫抓取你网站的内容去训练 AI …&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="OpenAI" scheme="https://yexingshusheng.com/tags/OpenAI/"/>
+    
+    <category term="202308" scheme="https://yexingshusheng.com/tags/202308/"/>
+    
+  </entry>
   
   <entry>
     <title>改变信息获取的方式</title>
@@ -484,27 +507,6 @@
     <category term="202212" scheme="https://yexingshusheng.com/tags/202212/"/>
     
     <category term="经验之谈" scheme="https://yexingshusheng.com/tags/%E7%BB%8F%E9%AA%8C%E4%B9%8B%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后疫情时代来临</title>
-    <link href="https://yexingshusheng.com/2022/12/hou-yi-qing-shi-dai-lai-lin.html"/>
-    <id>https://yexingshusheng.com/2022/12/hou-yi-qing-shi-dai-lai-lin.html</id>
-    <published>2022-12-08T12:19:46.000Z</published>
-    <updated>2023-01-04T02:26:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>今晚地铁没扫码，停滞的物流信息开始运送，只是……</p><span id="more"></span><p>只是在 2022 年末到来，没有料到是那么地突兀。</p><p>我的感受如同这段话：</p><blockquote><p>可以封锁我们的，也可以轻易解锁，这翻云覆雨的力量何其恐怖…</p><p>我不庆祝，我只感念那些勇敢的朋友。</p></blockquote><p>明天或许有些微高兴，时代的灰开始慢慢扫除，但许多人的生命、生活已经彻底蒙尘、彻底改变。</p><p>哪怕现在有解封的欢呼，依然有深埋于心底的恐惧。</p><p>涌流信息下，互联网的记忆总是被洗刷得很快，总觉得有必要记录一些真实的事件，以至于未来提起这三年，不至于只剩下 404 不可访问：</p><blockquote><p>（部分）</p><p>……</p><p>说唱歌曲《New Slave》</p><p>100+ 边境小镇封控无讯</p><p>刚从方舱回来，她养了 10 年的狗被消杀死了</p><p>瑞丽解封第九次</p><p>“我们是最后一代”</p><p>丹东 93 岁老人不堪侮辱上吊自杀</p><p>贵阳隔离转运大巴侧翻事故致 27 死 20 伤</p><p>为众人烤面包的巴黎贝甜被罚 58 万</p><p>核酸检测造假</p><p>在隔离点发烧的 14 岁汝州女孩死亡</p><p>郑州一天两检</p><p>河南核酸赋码</p><p>睡在桥洞里的骑手</p><p>西宁孕晚期女性走在大街上，羡慕垃圾可以乘车</p><p>“给你贴封条，但我没办法”</p><p>兰州三岁小孩需要急救，被防疫人员阻挠，未等到救护车最终离世</p><p>河北父亲，有些奶粉，需要持刀购买</p><p>我只知道，在荒野跋涉的不止是富士康员工</p><p>一条人命换来了深圳大学的解封</p><p>宁夏银川民警暴力执法，用膝盖顶住一男子脖子，官方通报称“已取得谅解”，网友：“‘谅解’成风，国法何在？”</p><p>新疆乌鲁木齐天山区吉祥苑小区大火 10 死 9 伤</p><p>广州南沙体育馆方舱一名新冠感染者自缢身亡</p><p>乌鲁木齐火灾和由此引发的反封控抗议潮（白纸运动）</p><p>……</p></blockquote><p>这三年很长，煎熬得宛如一个时代，姑且简记为“疫情时代”。</p><p>这三年也很短，正常生活被切割成了无数分段，独立思考的时间很短。</p><p>虽然新的防疫政策出台，但并没有所谓的真正放开，所以也不必过于乐观。</p><p>当整个世界像一艘船一样沉下去的时候，其实你最大的责任是要先救起自己。</p><p>尤指救赎那个真正的自己，而不是那个被灌输了标准答案的自己。</p><p>人世间最难沟通的是被灌输了标准答案的人，没有必要去说服一个不愿相信真相的人。</p><p>对此我只想说：STFW。</p><p>后疫情时代才刚刚开始，<strong>积患</strong>清理也才刚刚开始，每个人该如何应对，这是一个值得深思的问题。</p><blockquote><p>rf.</p><p>微信公众号——基本常识</p><p>微信公众号——自然折叠</p><p><a href="https://chinadigitaltimes.net/">CDT 官网</a></p><p>STFW，search the fucking web.（Not <del>Baidu</del>, but <u><em>Google</em></u>.）</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;今晚地铁没扫码，停滞的物流信息开始运送，只是……&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202212" scheme="https://yexingshusheng.com/tags/202212/"/>
     
   </entry>
   
