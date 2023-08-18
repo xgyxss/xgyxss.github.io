@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="HTTP/3初体验"><meta name="keywords" content="202308,HTTP/3,Wappalyzer,caniuse,nginx,CentOS,QUIC"><meta name="author" content="夜行书生"><meta name="copyright" content="夜行书生"><title>HTTP/3初体验 | 夜行书生</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js" defer></script><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d7ad29bc3c0add1121bb460d4bb314f6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><link rel="dns-prefetch" href="https://www.google-analytics.com"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-W160D972F6', 'auto');
+ga('send', 'pageview');</script><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"QOO2KQWBJ0","apiKey":"993ede762c7225acd4669201a2ab1dca","indexName":"hexo","hits":{"per_page":10},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容:${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  hexoVersion: '5.4.2'
+} </script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="夜行书生" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%9B%B4%E6%96%B0-nginx%EF%BC%881-16-1-gt-1-25-2%EF%BC%89"><span class="toc-text">1.更新 nginx（1.16.1 -&gt; 1.25.2）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BF%AE%E6%94%B9-nginx-%E9%85%8D%E7%BD%AE"><span class="toc-text">2.修改 nginx 配置</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/github-avatar.webp"></div><div class="author-info__name text-center">夜行书生</div><div class="author-info__description text-center">为众人抱薪者，不可使其冻毙于风雪。</div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/xgyxss">交个朋友吧</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">76</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">106</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">7</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">友链</div><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://github.com">Github</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.youtube.com">YouTube</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.instagram.com">Instagram</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.twitter.com">Twitter</a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/hexo-bg.webp)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">夜行书生</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">主页</a><a class="site-page" href="/archives">归档</a><a class="site-page" href="/categories">分类</a><a class="site-page" href="/tags">标签</a><a class="site-page" href="/guestbook">留言板</a><a class="site-page" href="/history">运营历史</a><a class="site-page" href="/about">关于作者</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title">HTTP/3初体验</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2023-08-18</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/">日志随笔</a><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">1.2k</span><span class="post-meta__separator">|</span><span>阅读时长: 4 分钟</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>HTTP/3试用…</p>
+<span id="more"></span>
+
+<blockquote>
+<p>如果 nginx 已经是支持 HTTP/3 的版本，并且已经编译了相关模块，省流：看文末！</p>
+</blockquote>
+<p>先上图：</p>
+<table style="border:none;">
+    <tr style="border:none;">
+        <th style="border:none;">Wappalyzer检测到的HTTP/3</th>
+        <th style="border:none;">http3check检测到的HTTP:3</th>
+    </tr>
+    <tr style="border:none;">
+        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/Wappalyzer%E6%A3%80%E6%B5%8B%E5%88%B0%E7%9A%84HTTP:3.webp" width="200" height="200" /></td>
+        <td style="border:none;"><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/http3check%E6%A3%80%E6%B5%8B%E5%88%B0%E7%9A%84HTTP:3.webp" width="200" height="200" /></td>
+    </tr>
+</table>
+
+<p>成功在 CentOS 云服务器开启 HTTP/3，关键步骤在于：</p>
+<blockquote>
+<p>当前是 CentOS 环境！</p>
+</blockquote>
+<h2 id="1-更新-nginx（1-16-1-gt-1-25-2）"><a href="#1-更新-nginx（1-16-1-gt-1-25-2）" class="headerlink" title="1.更新 nginx（1.16.1 -&gt; 1.25.2）"></a>1.更新 nginx（1.16.1 -&gt; 1.25.2）</h2><blockquote>
+<p>需要至少 1.25.0 版本才支持相关模块。</p>
+</blockquote>
+<ul>
+<li>查看当前版本：<code>nginx -V</code>（当前版本已安装的所有模块名称，防止云服务器突然断联，用记事本记下，后续会用到）。</li>
+<li>添加 nginx 的官方库：<ul>
+<li><code>sudo yum install -y epel-release</code>（安装 epel-release 软件包，获得 EPEL 项目中的额外软件包）。</li>
+<li><code>sudo yum-config-manager --enable nginx-mainline</code>（最新 nginx 的主线版本）。</li>
+</ul>
+</li>
+<li>安装更新 nginx：<code>sudo yum install -y nginx</code></li>
+<li>升级操作软件包：<code>sudo yum update</code></li>
+<li>为了编译 nginx，安装的必要依赖：<code>sudo yum install -y gcc make zlib-devel pcre-devel openssl-devel</code></li>
+<li>下载和解压源代码（<a target="_blank" rel="noopener" href="https://nginx.org/en/download.html">官网</a> 查阅最新版本号）：<ul>
+<li><code>wget https://nginx.org/download/nginx-*1.x.x*.tar.gz</code></li>
+<li><code>tar -xzvf nginx-*1.x.x*.tar.gz</code></li>
+<li><code>cd nginx-1.x.x</code></li>
+</ul>
+</li>
+<li>查看默认路径：<code>ls /usr/sbin/nginx</code></li>
+<li>备份原有配置文件：<code>cp -r /etc/nginx /etc/nginx_backup</code></li>
+<li>停止 nginx 服务：<code>systemctl stop nginx</code></li>
+<li>编译：<ul>
+<li><del>./configure –with-http_v3_module</del>（NO）</li>
+<li>应该添加上前面 <code>nginx -V</code> 中的所有参数，然后再加上开启 HTTP/3 的必要模块：–with-http_v3_module，全部弄到一行，中间不要有换行符，否则模块缺失，即使编译成功也会看到很多 not found。</li>
+<li>然后，继续：</li>
+<li><code>make</code></li>
+<li><code>sudo make install</code></li>
+</ul>
+</li>
+<li>覆盖安装：<code>cp /usr/local/nginx/sbin/nginx /usr/sbin/nginx</code><ul>
+<li>这里踩到的坑就是在执行 ./configure 命令中，有换行符，导致模块缺失，查看状态<code>systemctl status nginx.service</code>可以发现报错：<code>Job for nginx.service failed because the control process exited with error code. See &quot;systemctl status nginx.service&quot; and &quot;journalctl -xe&quot; for details.</code>，重新编译即可。</li>
+</ul>
+</li>
+<li>验证版本：<code>nginx -V</code>：1.25.2 …</li>
+<li>重新启动即可：<code>sudo systemctl restart nginx</code></li>
+</ul>
+<h2 id="2-修改-nginx-配置"><a href="#2-修改-nginx-配置" class="headerlink" title="2.修改 nginx 配置"></a>2.修改 nginx 配置</h2><ul>
+<li><p>试错过程：</p>
+<p>根据网上各种开启版本，配置，即使用 Wappalyzer 工具检测到了，也可能在 <a target="_blank" rel="noopener" href="https://http3check.net/">https://http3check.net</a> 网站检测到：<code>server does not advertise supported http/3 or quic version on the same port.</code>，根据 <a target="_blank" rel="noopener" href="https://github.com/cloudflare/quiche/issues/330">该网址</a> 分析可能是由于配置文件中 <code>h3-版本号</code>，版本号过低，修改后，重新检测，继续提示：<code>QUIC connection could not be established</code>，QUIC 连接的问题。</p>
+<p>并且还发现启用 HTTP/3 时，QUIC 出错的原因：</p>
+<blockquote>
+<p>必须在 GUI/conf 中启用 QUIC</p>
+<p>必须使用启用了 QUIC 的 Chrome 或 Opera</p>
+<p>不得使用自签名证书，只有受信任的证书才能工作</p>
+<p>必须正确配置SSL设置</p>
+<p>必须在防火墙上打开 UDP 端口 443</p>
+<p>QUIC 无法与CloudFlare 等代理前端一起使用</p>
+<p>QUIC 仅适用于 HTTPS，不适用于 HTTP</p>
+<p>QUIC 可以在服务器级别、侦听器级别或虚拟主机级别启用</p>
+<p>QUIC 不再适用于 LSWS 5.2.8，因为 Chrome 只支持“quic/43”，而 LSWS 5.2.8 最多只支持“quic/39”</p>
+</blockquote>
+<p>查找资料，发现 HTTP/3 是走的 UDP 协议，云服务器默认是未开启的，需要在云服务器的安全组中加入 UDP 出入端口，继续检测，继续报错；其实，只需要在配置文件中删掉 h3 后面的版本号，然后添加监听<code>listen 443 quic reuseport;</code>即可。http3check 成功检测到 HTTP/3 后，还会有 Certificate Chain 板块（该域名下的证书相关信息）、QLog Output 板块。</p>
+<p>其实，搜索的帖子大多都是早期未更新帖子，导致浪费了很多时间，在 nginx 官网的相关模块中就有正确的配置示例。</p>
+<blockquote>
+<p>考虑到：</p>
+<p>1.部分浏览器的支持不是很好，可以查看 <a target="_blank" rel="noopener" href="https://caniuse.com/?search=HTTP/3">这里</a> ，可以看到 Safari 和 Safari on iOS 仅部分支持，所以，需要 TLS 版本向下兼容，所以在 nginx 配置文件中，要多配置几个版本向下兼容：<code>ssl_protocols       TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;</code></p>
+<p>2.在同一服务器下，配置多站点且支持 HTTP/3 时，需要避免同时使用一个端口（比如 443），nginx 检测配置会报错，配置的端口需要在 云服务器上同步开启 UDP 出入端口：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">nginx: [emerg] duplicate listen options <span class="keyword">for</span> 0.0.0.0:【端口号】 <span class="keyword">in</span> /etc/nginx/conf.d/【配置文件名】:【行号】</span><br><span class="line">nginx: configuration file /etc/nginx/nginx.conf <span class="built_in">test</span> failed</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>至此，HTTP/3 初体验结束 🔚。</p>
+</li>
+</ul>
+<blockquote>
+<p>rf.</p>
+<p><a target="_blank" rel="noopener" href="https://nginx.org/en/download.html">nginx 下载地址</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.iana.org/assignments/http-alt-svc-parameters/http-alt-svc-parameters.xhtml">HTTP Alternative Services (Alt-Svc) Parameters</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.rfc-editor.org/rfc/rfc7838.html#section-3.1">HTTP Alternative Services</a></p>
+<p><a target="_blank" rel="noopener" href="https://datatracker.ietf.org/doc/html/draft-ietf-quic-http-32#name-discovering-an-http-3-endpo">Discovering an HTTP/3 Endpoint</a></p>
+<p><a target="_blank" rel="noopener" href="https://datatracker.ietf.org/doc/rfc8446/">The Transport Layer Security (TLS) Protocol Version 1.3</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/cloudflare/quiche/issues/330">QUIC problems!</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/easylife206/article/details/112975714">如何在 Nginx 中启用 HTTP 3.0/QUIC 支持</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.litespeedtech.com/support/forum/threads/quic-problems.18986/">QUIC problems!</a></p>
+<p><a target="_blank" rel="noopener" href="https://docs.litespeedtech.com/lsws/cp/cpanel/quic-http3/?_gl=1*biwjex*_gcl_au*MTc2NTc4NDg3MS4xNjkyMjcyNzQ5#enable-or-disable-quic:~:text=%E7%9A%84%E6%96%B0%E5%89%AF%E6%9C%AC%E3%80%82-,%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%B8%85%E5%8D%95,-%C2%B6">QUIC故障排查清单</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.litespeedtech.com/http3-faq?_gl=1*biwjex*_gcl_au*MTc2NTc4NDg3MS4xNjkyMjcyNzQ5">HTTP/3 and QUIC FAQ</a></p>
+<p><a target="_blank" rel="noopener" href="https://caniuse.com/?search=HTTP/3">Can I use Search HTTP/3 ?</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=_QQX0Ezpq8U">Everything You Need to Know About Qulc and HTTP3</a>（nginx 油管视频）</p>
+<p><a target="_blank" rel="noopener" href="http://nginx.org/en/docs/http/ngx_http_v3_module.html">nginx 官网配置</a>（省流：只看此网址即可）</p>
+</blockquote>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">夜行书生</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://yexingshusheng.com/2023/08/http-3-chu-ti-yan.html">https://yexingshusheng.com/2023/08/http-3-chu-ti-yan.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://yexingshusheng.com">夜行书生</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/202308/">202308</a><a class="post-meta__tags" href="/tags/HTTP-3/">HTTP/3</a><a class="post-meta__tags" href="/tags/Wappalyzer/">Wappalyzer</a><a class="post-meta__tags" href="/tags/caniuse/">caniuse</a><a class="post-meta__tags" href="/tags/nginx/">nginx</a><a class="post-meta__tags" href="/tags/CentOS/">CentOS</a><a class="post-meta__tags" href="/tags/QUIC/">QUIC</a></div><div class="post-qr-code"><div class="post-qr-code-item"><img class="post-qr-code__img" src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/alipay.webp"><div class="post-qr-code__desc">支付宝打赏</div></div><div class="post-qr-code-item"><img class="post-qr-code__img" src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/wechatpay.webp"><div class="post-qr-code__desc">微信打赏</div></div></div><nav id="pagination"><div class="next-post pull-right"><a href="/2023/08/ru-he-jin-zhi-openai-pa-qu-huo-bu-fen-pa-qu.html"><span>如何禁止OpenAI爬取或部分爬取</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = '' == 'true';
+var verify = '' == 'true';
+var record_ip = 'true' == 'true';
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = ''.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  recordIP:record_ip,
+  appId:'zTNuHDTR09rm7hWr9wV6Rhuw-gzGzoHsz',
+  appKey:'xoMEOMRH0kzg9UGJ6koAgm8X',
+  placeholder:'Please leave your footprints.',
+  avatar:'',
+  guest_info:guest_info,
+  pageSize:'',
+  lang: ''
+})</script></div></div><footer class="footer-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/hexo-bg.webp)"><div class="layout" id="footer"><div class="copyright">&copy;2022 - 2023 By 夜行书生</div><div class="framework-info"><span>驱动 - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text"><span>It is better to be excellent than to be envious.<span><br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">鄂ICP备2020021979号-2</a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script src="/js/search/algolia.js"></script><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><div class="search-dialog" id="algolia-search"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
