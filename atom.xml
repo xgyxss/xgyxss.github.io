@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-10-31T08:24:13.736Z</updated>
+  <updated>2023-11-04T17:47:05.576Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2023最黑暗的一周</title>
+    <link href="https://yexingshusheng.com/2023/11/2023-zui-hei-an-de-yi-zhou.html"/>
+    <id>https://yexingshusheng.com/2023/11/2023-zui-hei-an-de-yi-zhou.html</id>
+    <published>2023-11-04T15:42:04.000Z</published>
+    <updated>2023-11-04T17:47:05.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于两个自由领域…</p><span id="more"></span><p>两个时间点：10 月 27 日 和 11 月 2 日。</p><p>两个时间点间隔一周整，我愿称之为 2023 年最黑暗的一周，没有之一。</p><h2 id="经济领域"><a href="#经济领域" class="headerlink" title="经济领域"></a>经济领域</h2><p>自由经济领域——巨人李克强逝世。</p><p>关于他，我只记住最重要的几句总结性热评：</p><ol><li>他将作为自由市场和穷人的倡导者而被铭记；</li><li>“Likonomics”这个词已深入人心；</li><li>那是创业的黄金时代；</li><li>他改变了经济学家衡量国家发展的方式；</li><li>他是一位非常热情、开放的人，真正致力于推动中国前进；</li><li>他以随和的风格而闻名；</li><li>斯人已逝，愿他安息，和他的才华、未竟的愿望一起。</li></ol><h2 id="网络领域"><a href="#网络领域" class="headerlink" title="网络领域"></a>网络领域</h2><p>自由网络领域——clash for windows（cfw） 删库。</p><p><a href="https://t.me/fndroid_news/724">Fndroid（开发者） 表示</a>：“停止更新了，江湖再见吧😅”，随后，整个 clash 生态出现寒蝉效应。</p><p>截至目前（11 月 4 日），clash 系的工具列表统计如下：</p><ol><li>Clash.Meta 「已archived」</li><li>Clash Core「已删库」</li><li>Clash for Windows 「已删库」</li><li>Tuic协议 「已archived」</li><li>Helloworld 路由器插件「已删库」</li><li>Gui.For.Clash「已删库」</li><li>ClashForAndroid 「已删库」</li><li>homeproxy 「已archived」</li><li>ClashMetaForAndroid「已archived」</li><li>Fclash「已archived」</li><li>Clash verge「已archived」</li></ol><p>两大自由领域的损失，足以让 11 月 2 日值得铭记，这一天也可能成为改革开放以来，自由领域的一个重大分水岭。</p><hr><p>2023.11.05 补充：</p><p>至于说到是最黑暗的一周，线上不过多解释，勿杠！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;关于两个自由领域…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="自由领域" scheme="https://yexingshusheng.com/tags/%E8%87%AA%E7%94%B1%E9%A2%86%E5%9F%9F/"/>
+    
+    <category term="自由经济" scheme="https://yexingshusheng.com/tags/%E8%87%AA%E7%94%B1%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="自由网络" scheme="https://yexingshusheng.com/tags/%E8%87%AA%E7%94%B1%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="李克强" scheme="https://yexingshusheng.com/tags/%E6%9D%8E%E5%85%8B%E5%BC%BA/"/>
+    
+    <category term="clash" scheme="https://yexingshusheng.com/tags/clash/"/>
+    
+  </entry>
   
   <entry>
     <title>开源人工智能现状</title>
@@ -424,9 +453,9 @@
     <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
     
     
-    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
-    
     <category term="202303" scheme="https://yexingshusheng.com/tags/202303/"/>
+    
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
     
     <category term="比尔盖茨" scheme="https://yexingshusheng.com/tags/%E6%AF%94%E5%B0%94%E7%9B%96%E8%8C%A8/"/>
     
@@ -478,35 +507,6 @@
     <category term="202303" scheme="https://yexingshusheng.com/tags/202303/"/>
     
     <category term="iPhone" scheme="https://yexingshusheng.com/tags/iPhone/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Stack Overflow 调查显示开源、云计算和机器学习是最得到认可的技术</title>
-    <link href="https://yexingshusheng.com/2023/03/stack-overflow-diao-cha-xian-shi-kai-yuan-yun-ji-suan-he-ji-qi-xue-xi-shi-zui-de-dao-ren-ke-de-ji-zhu.html"/>
-    <id>https://yexingshusheng.com/2023/03/stack-overflow-diao-cha-xian-shi-kai-yuan-yun-ji-suan-he-ji-qi-xue-xi-shi-zui-de-dao-ren-ke-de-ji-zhu.html</id>
-    <published>2023-03-18T12:15:05.000Z</published>
-    <updated>2023-03-22T17:19:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>结论：开源 6.9、云计算 6.5 和机器学习 5.9，被认为尚未证明的技术包括量子计算 3.7，纳米技术 4.5，低代码/零代码 4.6。</p><span id="more"></span><p>Stack Overflow 调查显示开源、云计算和机器学习是最得到认可的技术</p><p>Stack Overflow原文：<a href="https://stackoverflow.blog/2023/03/09/after-the-buzz-fades-what-our-data-tells-us-about-emerging-technology-sentiment/">After the buzz fades: What our data tells us about emerging technology sentiment</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;结论：开源 6.9、云计算 6.5 和机器学习 5.9，被认为尚未证明的技术包括量子计算 3.7，纳米技术 4.5，低代码/零代码 4.6。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202303" scheme="https://yexingshusheng.com/tags/202303/"/>
-    
-    <category term="Stack Overflow" scheme="https://yexingshusheng.com/tags/Stack-Overflow/"/>
-    
-    <category term="开源" scheme="https://yexingshusheng.com/tags/%E5%BC%80%E6%BA%90/"/>
-    
-    <category term="云计算" scheme="https://yexingshusheng.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
-    
-    <category term="机器学习" scheme="https://yexingshusheng.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
