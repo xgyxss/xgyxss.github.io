@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2023-11-13T06:24:16.315Z</updated>
+  <updated>2023-12-04T02:51:50.927Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI生成图片著作权侵权第一案宣判</title>
+    <link href="https://yexingshusheng.com/2023/11/ai-sheng-cheng-tu-pian-zhu-zuo-quan-qin-quan-di-yi-an-xuan-pan.html"/>
+    <id>https://yexingshusheng.com/2023/11/ai-sheng-cheng-tu-pian-zhu-zuo-quan-qin-quan-di-yi-an-xuan-pan.html</id>
+    <published>2023-11-29T15:47:51.000Z</published>
+    <updated>2023-12-04T02:51:50.927Z</updated>
+    
+    <content type="html"><![CDATA[<p>结果竟然是 AI 生成图像受到法律保护！！</p><span id="more"></span><h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>原告李某使用 AI 生成涉案图片后发布于小红书平台；被告系百家号博主，发布文章配图使用了原告该 AI 生成的图片，原告遂起诉。</p><p>北京互联网法院审理认为涉案人工智能生成图片（AI 绘画图片）具备“独创性”要件，体现了人的独创性智力投入（比如设计人物的呈现方式、选择提示词、安排提示词的顺序、设置相关的参数、选定哪个图片符合预期等等），应当被认定为作品，受到著作权法保护。</p><h2 id="感触"><a href="#感触" class="headerlink" title="感触"></a>感触</h2><p>如果后续这法律不完善的话，可能出现新岗位——AI 图像制造者之类的职业，然后各大厂在两三年内，创建各种 AI 生成图像上架到市场，将常见类、易创建类、高复用类图像通过大量制作形成基本垄断，这时其他人再使用该 AI 工具，通过相同关键词，制作了极似图像，是否构成侵权？如果属于，那么新的合法矿机就产生了——AI 生成矿机，只需要安装对应的模型，每天通过各类关键词，不停地生成…</p><p>其他的发散，细思极恐…</p><blockquote><p>rf.</p><p>原文地址：<a href="https://mp.weixin.qq.com/s/Wu3-GuFvMJvJKJobqqq7vQ">https://mp.weixin.qq.com/s/Wu3-GuFvMJvJKJobqqq7vQ</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;结果竟然是 AI 生成图像受到法律保护！！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="202311" scheme="https://yexingshusheng.com/tags/202311/"/>
+    
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
+    
+    <category term="著作权" scheme="https://yexingshusheng.com/tags/%E8%91%97%E4%BD%9C%E6%9D%83/"/>
+    
+  </entry>
   
   <entry>
     <title>谷歌向帐户持有者发出三周警告</title>
@@ -56,9 +81,9 @@
     <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
-    
     <category term="202311" scheme="https://yexingshusheng.com/tags/202311/"/>
+    
+    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
     
     <category term="外脑" scheme="https://yexingshusheng.com/tags/%E5%A4%96%E8%84%91/"/>
     
@@ -333,9 +358,9 @@
     <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
     
     
-    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
-    
     <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
+    
+    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
     
   </entry>
   
@@ -357,9 +382,9 @@
     <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
-    
     <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
+    
+    <category term="202305" scheme="https://yexingshusheng.com/tags/202305/"/>
     
     <category term="ChatGPT" scheme="https://yexingshusheng.com/tags/ChatGPT/"/>
     
@@ -483,33 +508,6 @@
     <category term="202304" scheme="https://yexingshusheng.com/tags/202304/"/>
     
     <category term="愚人节" scheme="https://yexingshusheng.com/tags/%E6%84%9A%E4%BA%BA%E8%8A%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>比尔盖茨的公开信</title>
-    <link href="https://yexingshusheng.com/2023/03/bi-er-gai-ci-de-gong-kai-xin.html"/>
-    <id>https://yexingshusheng.com/2023/03/bi-er-gai-ci-de-gong-kai-xin.html</id>
-    <published>2023-03-25T14:33:49.000Z</published>
-    <updated>2023-03-23T17:26:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>标题名为《人工智能时代已经开始》，是比尔盖茨近一两年来少有的预测性长文。</p><span id="more"></span><p>相信大部分人，对于 AI 的发展预测，都以为在两三年后，包括博主在 <a href="https://yexingshusheng.com/2023/02/quan-qiu-huo-bao-de-chatgpt-yin-fa-de-si-kao.html#%E7%AE%80%E8%A6%81%E6%A6%82%E8%BF%B0">全球火爆的ChatGPT引发的思考</a> 一文中，提到“等到真正的人工智能时代到来时…”，发表了个人的预测和观点。但是，毕竟普通人（包括一些专家）的信息源距离跟亲自实验的比尔盖茨来说，还是相隔甚远。所以，与其听专家的长篇大论，还不如仔细看看比尔盖茨的公开信，抛开对他的个人背景和成见，毕竟他也是 AI 超百亿美金的项目投资者，看看他对于人工智能的未来是如何思考的？对于今后就业、择业、创业都能提供一些新的启发和新的思考。</p><p>长文简单梳理：</p><ul><li><p>比尔盖茨关于“人工智能时代已经开始”的说法，是基于 AI 通过大学生物考试的挑战。</p></li><li><p>AI 应该去改变的三大领域——劳动力、医疗和教育。</p></li><li><p>AI 对于人类的威胁——无法理解人类的请求，包括上下文理解，以及抽象推理能力。</p></li><li><p>AI 的前沿方向——1.石墨烯纳米光学器件的应用；2.芯片；3.通用人工智能和专用人工智能。</p></li><li><p>人工智能充满机遇和责任。</p></li></ul><p>细节部分，更推荐看原文。</p><blockquote><p>rf.</p><p><a href="https://www.gatesnotes.com/The-Age-of-AI-Has-Begun">The Age of AI has begun</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;标题名为《人工智能时代已经开始》，是比尔盖茨近一两年来少有的预测性长文。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="202303" scheme="https://yexingshusheng.com/tags/202303/"/>
-    
-    <category term="AI" scheme="https://yexingshusheng.com/tags/AI/"/>
-    
-    <category term="比尔盖茨" scheme="https://yexingshusheng.com/tags/%E6%AF%94%E5%B0%94%E7%9B%96%E8%8C%A8/"/>
-    
-    <category term="公开信" scheme="https://yexingshusheng.com/tags/%E5%85%AC%E5%BC%80%E4%BF%A1/"/>
     
   </entry>
   
