@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>因为我只是一只茶壶:)</title>
+      <link href="/2024/04/yin-wei-wo-zhi-shi-yi-zhi-cha-hu.html"/>
+      <url>/2024/04/yin-wei-wo-zhi-shi-yi-zhi-cha-hu.html</url>
+      
+        <content type="html"><![CDATA[<p>HTTP 418 ！</p><span id="more"></span><p>I’m a teapot.</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%A0%E4%B8%BA%E6%88%91%E5%8F%AA%E6%98%AF%E4%B8%80%E5%8F%AA%E8%8C%B6%E5%A3%B6.gif" alt="因为我只是一只茶壶"></p><p>今天是愚人节，可以把 404 和 403 之类的状态码换成 418。</p><p>在 <code>HTTP 418 I&#39;m a teapot</code> 客户端错误响应代码中表示，服务器拒绝冲泡咖啡，因为它是个茶壶。</p><p>该错误是超文本咖啡壶控制协议的参考，和 1998 年愚人节的玩笑。</p><blockquote><p>rf.</p><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/418#:~:text=%E8%AF%B7%E5%8F%82%E8%A7%81%E5%8F%82%E8%80%83-,418%20I%27m%20a%20teapot,-HTTP%20418%20I%27m">418 I’m a teapot</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202404 </tag>
+            
+            <tag> 愚人节 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>different perspective</title>
+      <link href="/2024/03/different-perspective.html"/>
+      <url>/2024/03/different-perspective.html</url>
+      
+        <content type="html"><![CDATA[<p>一幅小画…</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/different%20perspective.webp" alt="有时候，你得从另一个角度，去看看你的生活。"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转录归档 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 一些有意思的画 </tag>
+            
+            <tag> 202403 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这个世界疯成了我不敢想象的样子</title>
+      <link href="/2024/03/zhe-ge-shi-jie-feng-cheng-liao-wo-bu-gan-xiang-xiang-de-yang-zi.html"/>
+      <url>/2024/03/zhe-ge-shi-jie-feng-cheng-liao-wo-bu-gan-xiang-xiang-de-yang-zi.html</url>
+      
+        <content type="html"><![CDATA[<p>起诉莫言？荒唐的闹剧…</p><span id="more"></span><p>事情的原因简述：用多年以前出版的文学作品《红高粱家族》去攻击一个作家。</p><p>令我没想到的是，这竟引来成千上万人的疯癫，起诉莫言的投票有 8000 多人支持。</p><p>如果一个人通过发表仇恨言论来吸引大量粉丝，以获取曝光走红，就会有更多人效仿，导致社会的戾气越来越重，甚至不断迭代下限，让社会同时代的精神世界越来越逼仄。</p><p>更令人气愤的是：作协目前甚至没有一位中国作家挺身而出为莫言说话！</p><p>令人扼腕叹息的是：“莫言空前，莫言绝后”成为了既定事实，文学终于开始在这片土地上迎来寒冬…</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 202403 </tag>
+            
+            <tag> 莫言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>iPhone落水怎么办</title>
       <link href="/2024/02/iphone-luo-shui-zen-me-ban.html"/>
       <url>/2024/02/iphone-luo-shui-zen-me-ban.html</url>
@@ -654,9 +735,9 @@
       
         <tags>
             
-            <tag> 202305 </tag>
-            
             <tag> AI </tag>
+            
+            <tag> 202305 </tag>
             
         </tags>
       
@@ -681,9 +762,9 @@
       
         <tags>
             
-            <tag> 202305 </tag>
-            
             <tag> AI </tag>
+            
+            <tag> 202305 </tag>
             
             <tag> ChatGPT </tag>
             
@@ -1681,9 +1762,9 @@
             
             <tag> Mac </tag>
             
-            <tag> 202207 </tag>
-            
             <tag> Mac维修 </tag>
+            
+            <tag> 202207 </tag>
             
         </tags>
       
