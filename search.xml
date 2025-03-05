@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>iphone如何登陆163邮箱</title>
+      <link href="/2025/03/iphone-ru-he-deng-lu-163-you-xiang.html"/>
+      <url>/2025/03/iphone-ru-he-deng-lu-163-you-xiang.html</url>
+      
+        <content type="html"><![CDATA[<p>163 邮箱，苹果设置不成功…</p><span id="more"></span><p>今天突然想到 163 邮箱一直闲置。</p><p>然后在一顿操作下，遇到这样的问题：</p><ul><li>提示登录名或密码不正确；</li></ul><p>反复确认和网页端的登陆密码一致，回想起曾经折腾 QQ 邮箱的某个操作有用到一个 SMTP 之类的东西。</p><p>照猫画虎，登陆网页端的 163 邮箱后，点击【设置】-【POP3/SMTP/IMAP】，果然，【IMAP/SMTP服务】和【POP3/SMTP服务】都没开启，开启后就出现了一个有效期 180 天的授权码。</p><p>值得一提的是，在网页端的授权码处，有一行字：【授权码是用于登录第三方邮件客户端的专用密码。】</p><p>登陆手机端的邮件，将密码处改填为这个授权码，成功！</p><p>如果不成功的话，看看【收件服务器】和【发件服务器】处的密码是否也换成了授权码。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2025 </tag>
+            
+            <tag> 202503 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>规则不改，再怎么努力，你我仍皆是草芥</title>
       <link href="/2025/02/gui-ze-bu-gai-zai-zen-me-nu-li-ni-wo-reng-jie-shi-cao-jie.html"/>
       <url>/2025/02/gui-ze-bu-gai-zai-zen-me-nu-li-ni-wo-reng-jie-shi-cao-jie.html</url>
@@ -532,9 +559,9 @@
       
         <tags>
             
-            <tag> 一些有意思的画 </tag>
-            
             <tag> 202403 </tag>
+            
+            <tag> 一些有意思的画 </tag>
             
         </tags>
       
@@ -2168,9 +2195,9 @@
       
         <tags>
             
-            <tag> 202209 </tag>
-            
             <tag> 一些有意思的画 </tag>
+            
+            <tag> 202209 </tag>
             
         </tags>
       

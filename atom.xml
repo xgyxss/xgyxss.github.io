@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2025-02-22T03:48:30.856Z</updated>
+  <updated>2025-03-05T14:17:17.237Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iphone如何登陆163邮箱</title>
+    <link href="https://yexingshusheng.com/2025/03/iphone-ru-he-deng-lu-163-you-xiang.html"/>
+    <id>https://yexingshusheng.com/2025/03/iphone-ru-he-deng-lu-163-you-xiang.html</id>
+    <published>2025-03-05T13:44:55.000Z</published>
+    <updated>2025-03-05T14:17:17.237Z</updated>
+    
+    <content type="html"><![CDATA[<p>163 邮箱，苹果设置不成功…</p><span id="more"></span><p>今天突然想到 163 邮箱一直闲置。</p><p>然后在一顿操作下，遇到这样的问题：</p><ul><li>提示登录名或密码不正确；</li></ul><p>反复确认和网页端的登陆密码一致，回想起曾经折腾 QQ 邮箱的某个操作有用到一个 SMTP 之类的东西。</p><p>照猫画虎，登陆网页端的 163 邮箱后，点击【设置】-【POP3/SMTP/IMAP】，果然，【IMAP/SMTP服务】和【POP3/SMTP服务】都没开启，开启后就出现了一个有效期 180 天的授权码。</p><p>值得一提的是，在网页端的授权码处，有一行字：【授权码是用于登录第三方邮件客户端的专用密码。】</p><p>登陆手机端的邮件，将密码处改填为这个授权码，成功！</p><p>如果不成功的话，看看【收件服务器】和【发件服务器】处的密码是否也换成了授权码。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;163 邮箱，苹果设置不成功…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2025" scheme="https://yexingshusheng.com/tags/2025/"/>
+    
+    <category term="202503" scheme="https://yexingshusheng.com/tags/202503/"/>
+    
+  </entry>
   
   <entry>
     <title>规则不改，再怎么努力，你我仍皆是草芥</title>
@@ -473,34 +496,9 @@
     <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
     
     
+    <category term="202403" scheme="https://yexingshusheng.com/tags/202403/"/>
+    
     <category term="一些有意思的画" scheme="https://yexingshusheng.com/tags/%E4%B8%80%E4%BA%9B%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%94%BB/"/>
-    
-    <category term="202403" scheme="https://yexingshusheng.com/tags/202403/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这个世界疯成了我不敢想象的样子</title>
-    <link href="https://yexingshusheng.com/2024/03/zhe-ge-shi-jie-feng-cheng-liao-wo-bu-gan-xiang-xiang-de-yang-zi.html"/>
-    <id>https://yexingshusheng.com/2024/03/zhe-ge-shi-jie-feng-cheng-liao-wo-bu-gan-xiang-xiang-de-yang-zi.html</id>
-    <published>2024-03-11T11:35:39.000Z</published>
-    <updated>2024-04-09T06:15:58.261Z</updated>
-    
-    <content type="html"><![CDATA[<p>起诉莫言？荒唐的闹剧…</p><span id="more"></span><p>事情的原因简述：用多年以前出版的文学作品《红高粱家族》去攻击一个作家。</p><p>令我没想到的是，这竟引来成千上万人的疯癫，起诉莫言的投票有 8000 多人支持。</p><p>如果一个人通过发表仇恨言论来吸引大量粉丝，以获取曝光走红，就会有更多人效仿，导致社会的戾气越来越重，甚至不断迭代下限，让社会同时代的精神世界越来越逼仄。</p><p>更令人气愤的是：作协目前甚至没有一位中国作家挺身而出为莫言说话！</p><p>令人扼腕叹息的是：“莫言空前，莫言绝后”成为了既定事实，文学终于开始在这片土地上迎来寒冬…</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;起诉莫言？荒唐的闹剧…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="2024" scheme="https://yexingshusheng.com/tags/2024/"/>
-    
-    <category term="202403" scheme="https://yexingshusheng.com/tags/202403/"/>
-    
-    <category term="莫言" scheme="https://yexingshusheng.com/tags/%E8%8E%AB%E8%A8%80/"/>
     
   </entry>
   
