@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2025-03-12T06:53:39.116Z</updated>
+  <updated>2025-03-24T14:37:19.376Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>还有明天</title>
+    <link href="https://yexingshusheng.com/2025/03/huan-you-ming-tian.html"/>
+    <id>https://yexingshusheng.com/2025/03/huan-you-ming-tian.html</id>
+    <published>2025-03-21T15:29:31.000Z</published>
+    <updated>2025-03-24T14:37:19.376Z</updated>
+    
+    <content type="html"><![CDATA[<p>如题，推荐这部电影…</p><span id="more"></span><p>个人心中的 2025 最佳女性电影。</p><p>电影整体偏压抑，虽是没有色彩的黑白电影，但不妨碍它让人拍案叫绝的反转。</p><p>本该是血腥的家暴，却用了浪漫轻巧的双人舞，影史上堪称绝无仅有。</p><p>在一次次的家庭剥削、暴力、虐待中，似乎不再相信还有明天。</p><p>她无法逃走，却主动炸掉女儿未来注定悲惨的婚姻。</p><p>电影的最后，当所有人都以为她手里紧握的是那封初恋的情书，她所有的密谋都是为了跟汽修店的初恋私奔时，她却一路没有停下，来到了选举投票的地方。</p><p>只有参与其中，才能做出改变。</p><p>她做到了！</p><hr><p>政治背景：</p><p>1946年6月2日至3日，意大利首次允许妇女投票的政治选举日，就是迪里娅神圣的“明天”。</p><p>1970年，意大利通过离婚法。1978年通过194法条实现堕胎合法化。2013年通过《反家暴法》。</p><p>也就是说，在1970年以前，离婚在意大利还是非法的。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;如题，推荐这部电影…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日记随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E8%AE%B0%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2025" scheme="https://yexingshusheng.com/tags/2025/"/>
+    
+    <category term="202503" scheme="https://yexingshusheng.com/tags/202503/"/>
+    
+  </entry>
   
   <entry>
     <title>How Can China Boost Consumption?</title>
@@ -474,31 +497,6 @@
     <category term="宫崎骏" scheme="https://yexingshusheng.com/tags/%E5%AE%AB%E5%B4%8E%E9%AA%8F/"/>
     
     <category term="人生" scheme="https://yexingshusheng.com/tags/%E4%BA%BA%E7%94%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>因为我只是一只茶壶:)</title>
-    <link href="https://yexingshusheng.com/2024/04/yin-wei-wo-zhi-shi-yi-zhi-cha-hu.html"/>
-    <id>https://yexingshusheng.com/2024/04/yin-wei-wo-zhi-shi-yi-zhi-cha-hu.html</id>
-    <published>2024-04-01T12:45:09.000Z</published>
-    <updated>2024-04-09T06:11:40.136Z</updated>
-    
-    <content type="html"><![CDATA[<p>HTTP 418 ！</p><span id="more"></span><p>I’m a teapot.</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E5%9B%A0%E4%B8%BA%E6%88%91%E5%8F%AA%E6%98%AF%E4%B8%80%E5%8F%AA%E8%8C%B6%E5%A3%B6.gif" alt="因为我只是一只茶壶"></p><p>今天是愚人节，可以把 404 和 403 之类的状态码换成 418。</p><p>在 <code>HTTP 418 I&#39;m a teapot</code> 客户端错误响应代码中表示，服务器拒绝冲泡咖啡，因为它是个茶壶。</p><p>该错误是超文本咖啡壶控制协议的参考，和 1998 年愚人节的玩笑。</p><blockquote><p>rf.</p><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/418#:~:text=%E8%AF%B7%E5%8F%82%E8%A7%81%E5%8F%82%E8%80%83-,418%20I%27m%20a%20teapot,-HTTP%20418%20I%27m">418 I’m a teapot</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;HTTP 418 ！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="2024" scheme="https://yexingshusheng.com/tags/2024/"/>
-    
-    <category term="202404" scheme="https://yexingshusheng.com/tags/202404/"/>
-    
-    <category term="愚人节" scheme="https://yexingshusheng.com/tags/%E6%84%9A%E4%BA%BA%E8%8A%82/"/>
     
   </entry>
   
