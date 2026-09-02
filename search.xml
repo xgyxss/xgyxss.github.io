@@ -4,6 +4,174 @@
   
     
     <entry>
+      <title>外卖纸杯遇热释放数百万微塑料</title>
+      <link href="/2026/09/wai-mai-zhi-bei-yu-re-shi-fang-shu-bai-wan-wei-su-liao.html"/>
+      <url>/2026/09/wai-mai-zhi-bei-yu-re-shi-fang-shu-bai-wan-wei-su-liao.html</url>
+      
+        <content type="html"><![CDATA[<p>昆士兰大学研究人员发现…</p><span id="more"></span><p>一次性外卖纸杯在盛装热饮时会释放数百万个微塑料颗粒。研究对比聚乙烯（PE）与可降解聚乳酸（PLA）内衬纸杯，两种均释放塑料颗粒，但 PLA 释放的颗粒总质量约为 PE 的 12 倍，每毫升约 430 万个纳米颗粒，PE 约 270 万个。</p><p>研究人员称，这不意味着应停用纸杯或 PLA 本身不安全，但塑料颗粒对健康影响尚不明确；呼吁监管机构考虑安全指南或产品标签警示。</p><blockquote><p>rf.</p><p><a href="https://news.uq.edu.au/2026-08-takeaway-cups-release-microplastics-your-coffee">The University of Queensland</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转录归档 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2026 </tag>
+            
+            <tag> 202609 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>修复algolia</title>
+      <link href="/2026/09/xiu-fu-algolia.html"/>
+      <url>/2026/09/xiu-fu-algolia.html</url>
+      
+        <content type="html"><![CDATA[<p>今天收到 algolia 的邮件…</p><span id="more"></span><p>不用想，应该是太久没使用搜索功能，项目暂停了。</p><p>记得第一次暂停时，我还发邮件给官方，然后给我恢复了。</p><p>今天修复一下，需要修改一些配置文件：</p><p>1、<code>~/.zshrc</code>中的<code>Admin API Key</code>；</p><p>2、博客配置文件中的 algolia 部分：</p><p>重新创建 Application 和 Index，找到 Application ID、Search-Only API Key、Admin API Key。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">applicationID: <span class="string">&#x27;Your Algolia Application ID&#x27;</span></span><br><span class="line">apiKey: <span class="string">&#x27;A Search-Only API key&#x27;</span></span><br><span class="line">indexName: <span class="string">&#x27;The name of the Algolia index to use&#x27;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 播客站务 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2026 </tag>
+            
+            <tag> 202609 </tag>
+            
+            <tag> algolia </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2026夏日摘录</title>
+      <link href="/2026/08/2026-xia-ri-zhai-lu.html"/>
+      <url>/2026/08/2026-xia-ri-zhai-lu.html</url>
+      
+        <content type="html"><![CDATA[<p>回顾整个夏日…</p><span id="more"></span><p>闲暇之余，看电影，看脱口秀，溯溪，漂流，爬山…相比于室内活动，更偏好户外是真的。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/26%E5%A4%8F%E6%97%A5%E6%91%98%E5%BD%95.webp" alt="26夏日摘录"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2026 </tag>
+            
+            <tag> 202608 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>神牛溪漂流</title>
+      <link href="/2026/08/shen-niu-xi-piao-liu.html"/>
+      <url>/2026/08/shen-niu-xi-piao-liu.html</url>
+      
+        <content type="html"><![CDATA[<p>夏日游玩好去处…</p><span id="more"></span><p>唯一美中不足的是：回家洗澡才发现，头被磕出血了。</p><p>当时被后面的皮划艇撞了一下，头有点晕，我还以为鼻子被磕破了，还问了工作人员。</p><p>洗澡发现结痂了，应该只是渗了一点，无大碍。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E7%A5%9E%E7%89%9B%E6%BA%AA%E6%BC%82%E6%B5%81.webp" alt="神牛溪漂流"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2026 </tag>
+            
+            <tag> 202608 </tag>
+            
+            <tag> 自驾游 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>云梦博物馆</title>
+      <link href="/2026/08/yun-meng-bo-wu-guan.html"/>
+      <url>/2026/08/yun-meng-bo-wu-guan.html</url>
+      
+        <content type="html"><![CDATA[<p>天气太热了，找个博物馆逛逛。</p><span id="more"></span><p>上午逛博物馆，中午去吃了云梦鱼面，下午分别去了两个溯溪、玩水的景点，结果大家都忘了带游玩装备，租赁小商店也关门了。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E4%BA%91%E6%A2%A6%E5%8D%9A%E7%89%A9%E9%A6%86.webp" alt="云梦博物馆"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2026 </tag>
+            
+            <tag> 202608 </tag>
+            
+            <tag> 自驾游 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>作者东野圭吾逝世</title>
+      <link href="/2026/07/zuo-zhe-dong-ye-gui-wu-shi-shi.html"/>
+      <url>/2026/07/zuo-zhe-dong-ye-gui-wu-shi-shi.html</url>
+      
+        <content type="html"><![CDATA[<p>日本作家东野圭吾因大肠癌去世，享年 68 岁…</p><span id="more"></span><p>以《嫌疑人 X 的献身》等作品引领日本推理文坛的作家东野圭吾于 7 月 23 日因大肠癌去世，享年 68 岁。</p><p>东野圭吾出生于大阪市，1985 年凭《放学后》获江户川乱步奖出道，此后相继发表《秘密》《白夜行》等作品，2006 年以《嫌疑人 X 的献身》获直木奖。以物理学家为主角的「伽利略」系列等多部作品被影视化，其作品在中国、韩国等地也广泛翻译出版，日本国内累计发行超过 1 亿册。他于 2023 年获菊池宽奖，2025 年获日本推理文学大奖。</p><blockquote><p>rf.</p><p><a href="https://www.asahi.com/articles/ASV7W1RFSV7WUCVL01HM.html">朝日新闻</a></p></blockquote><hr><p>8.5</p><p>遗作《永恒的记忆》在日本正式发售。</p><hr><p>看到新闻，很是惊讶。</p><p>意外之余，想起 kindle 里，曾满是他的作品。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转录归档 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2026 </tag>
+            
+            <tag> 202607 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AppleInsider：OpenAI 亏损扩大，Apple AI 支出仍较低</title>
       <link href="/2026/05/appleinsider-openai-yu-sun-kuo-da-apple-ai-zhi-chu-reng-jiao-di.html"/>
       <url>/2026/05/appleinsider-openai-yu-sun-kuo-da-apple-ai-zhi-chu-reng-jiao-di.html</url>
@@ -3038,9 +3206,9 @@
             
             <tag> Mac </tag>
             
-            <tag> 202401 </tag>
-            
             <tag> Mac维修 </tag>
+            
+            <tag> 202401 </tag>
             
         </tags>
       
@@ -4633,9 +4801,9 @@
             
             <tag> Mac </tag>
             
-            <tag> Mac维修 </tag>
-            
             <tag> 202207 </tag>
+            
+            <tag> Mac维修 </tag>
             
         </tags>
       

@@ -6,7 +6,7 @@
   <link href="https://yexingshusheng.com/atom.xml" rel="self"/>
   
   <link href="https://yexingshusheng.com/"/>
-  <updated>2026-05-25T14:27:04.077Z</updated>
+  <updated>2026-09-02T15:26:28.795Z</updated>
   <id>https://yexingshusheng.com/</id>
   
   <author>
@@ -15,6 +15,150 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>外卖纸杯遇热释放数百万微塑料</title>
+    <link href="https://yexingshusheng.com/2026/09/wai-mai-zhi-bei-yu-re-shi-fang-shu-bai-wan-wei-su-liao.html"/>
+    <id>https://yexingshusheng.com/2026/09/wai-mai-zhi-bei-yu-re-shi-fang-shu-bai-wan-wei-su-liao.html</id>
+    <published>2026-09-02T15:23:56.000Z</published>
+    <updated>2026-09-02T15:26:28.795Z</updated>
+    
+    <content type="html"><![CDATA[<p>昆士兰大学研究人员发现…</p><span id="more"></span><p>一次性外卖纸杯在盛装热饮时会释放数百万个微塑料颗粒。研究对比聚乙烯（PE）与可降解聚乳酸（PLA）内衬纸杯，两种均释放塑料颗粒，但 PLA 释放的颗粒总质量约为 PE 的 12 倍，每毫升约 430 万个纳米颗粒，PE 约 270 万个。</p><p>研究人员称，这不意味着应停用纸杯或 PLA 本身不安全，但塑料颗粒对健康影响尚不明确；呼吁监管机构考虑安全指南或产品标签警示。</p><blockquote><p>rf.</p><p><a href="https://news.uq.edu.au/2026-08-takeaway-cups-release-microplastics-your-coffee">The University of Queensland</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;昆士兰大学研究人员发现…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
+    
+    <category term="202609" scheme="https://yexingshusheng.com/tags/202609/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修复algolia</title>
+    <link href="https://yexingshusheng.com/2026/09/xiu-fu-algolia.html"/>
+    <id>https://yexingshusheng.com/2026/09/xiu-fu-algolia.html</id>
+    <published>2026-09-01T14:26:30.000Z</published>
+    <updated>2026-09-02T14:45:41.367Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天收到 algolia 的邮件…</p><span id="more"></span><p>不用想，应该是太久没使用搜索功能，项目暂停了。</p><p>记得第一次暂停时，我还发邮件给官方，然后给我恢复了。</p><p>今天修复一下，需要修改一些配置文件：</p><p>1、<code>~/.zshrc</code>中的<code>Admin API Key</code>；</p><p>2、博客配置文件中的 algolia 部分：</p><p>重新创建 Application 和 Index，找到 Application ID、Search-Only API Key、Admin API Key。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">applicationID: <span class="string">&#x27;Your Algolia Application ID&#x27;</span></span><br><span class="line">apiKey: <span class="string">&#x27;A Search-Only API key&#x27;</span></span><br><span class="line">indexName: <span class="string">&#x27;The name of the Algolia index to use&#x27;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;今天收到 algolia 的邮件…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="播客站务" scheme="https://yexingshusheng.com/categories/%E6%92%AD%E5%AE%A2%E7%AB%99%E5%8A%A1/"/>
+    
+    
+    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
+    
+    <category term="202609" scheme="https://yexingshusheng.com/tags/202609/"/>
+    
+    <category term="algolia" scheme="https://yexingshusheng.com/tags/algolia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2026夏日摘录</title>
+    <link href="https://yexingshusheng.com/2026/08/2026-xia-ri-zhai-lu.html"/>
+    <id>https://yexingshusheng.com/2026/08/2026-xia-ri-zhai-lu.html</id>
+    <published>2026-08-31T14:07:15.000Z</published>
+    <updated>2026-09-02T16:19:20.419Z</updated>
+    
+    <content type="html"><![CDATA[<p>回顾整个夏日…</p><span id="more"></span><p>闲暇之余，看电影，看脱口秀，溯溪，漂流，爬山…相比于室内活动，更偏好户外是真的。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/26%E5%A4%8F%E6%97%A5%E6%91%98%E5%BD%95.webp" alt="26夏日摘录"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;回顾整个夏日…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
+    
+    <category term="202608" scheme="https://yexingshusheng.com/tags/202608/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>神牛溪漂流</title>
+    <link href="https://yexingshusheng.com/2026/08/shen-niu-xi-piao-liu.html"/>
+    <id>https://yexingshusheng.com/2026/08/shen-niu-xi-piao-liu.html</id>
+    <published>2026-08-09T15:55:23.000Z</published>
+    <updated>2026-09-02T16:04:08.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>夏日游玩好去处…</p><span id="more"></span><p>唯一美中不足的是：回家洗澡才发现，头被磕出血了。</p><p>当时被后面的皮划艇撞了一下，头有点晕，我还以为鼻子被磕破了，还问了工作人员。</p><p>洗澡发现结痂了，应该只是渗了一点，无大碍。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E7%A5%9E%E7%89%9B%E6%BA%AA%E6%BC%82%E6%B5%81.webp" alt="神牛溪漂流"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;夏日游玩好去处…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
+    
+    <category term="202608" scheme="https://yexingshusheng.com/tags/202608/"/>
+    
+    <category term="自驾游" scheme="https://yexingshusheng.com/tags/%E8%87%AA%E9%A9%BE%E6%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云梦博物馆</title>
+    <link href="https://yexingshusheng.com/2026/08/yun-meng-bo-wu-guan.html"/>
+    <id>https://yexingshusheng.com/2026/08/yun-meng-bo-wu-guan.html</id>
+    <published>2026-08-01T15:29:00.000Z</published>
+    <updated>2026-09-02T16:06:35.532Z</updated>
+    
+    <content type="html"><![CDATA[<p>天气太热了，找个博物馆逛逛。</p><span id="more"></span><p>上午逛博物馆，中午去吃了云梦鱼面，下午分别去了两个溯溪、玩水的景点，结果大家都忘了带游玩装备，租赁小商店也关门了。</p><p><img src="https://cdn.jsdelivr.net/gh/xgyxss/picgo@main/img/hexo/%E4%BA%91%E6%A2%A6%E5%8D%9A%E7%89%A9%E9%A6%86.webp" alt="云梦博物馆"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;天气太热了，找个博物馆逛逛。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
+    
+    <category term="202608" scheme="https://yexingshusheng.com/tags/202608/"/>
+    
+    <category term="自驾游" scheme="https://yexingshusheng.com/tags/%E8%87%AA%E9%A9%BE%E6%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>作者东野圭吾逝世</title>
+    <link href="https://yexingshusheng.com/2026/07/zuo-zhe-dong-ye-gui-wu-shi-shi.html"/>
+    <id>https://yexingshusheng.com/2026/07/zuo-zhe-dong-ye-gui-wu-shi-shi.html</id>
+    <published>2026-07-27T14:48:29.000Z</published>
+    <updated>2026-09-02T15:24:30.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>日本作家东野圭吾因大肠癌去世，享年 68 岁…</p><span id="more"></span><p>以《嫌疑人 X 的献身》等作品引领日本推理文坛的作家东野圭吾于 7 月 23 日因大肠癌去世，享年 68 岁。</p><p>东野圭吾出生于大阪市，1985 年凭《放学后》获江户川乱步奖出道，此后相继发表《秘密》《白夜行》等作品，2006 年以《嫌疑人 X 的献身》获直木奖。以物理学家为主角的「伽利略」系列等多部作品被影视化，其作品在中国、韩国等地也广泛翻译出版，日本国内累计发行超过 1 亿册。他于 2023 年获菊池宽奖，2025 年获日本推理文学大奖。</p><blockquote><p>rf.</p><p><a href="https://www.asahi.com/articles/ASV7W1RFSV7WUCVL01HM.html">朝日新闻</a></p></blockquote><hr><p>8.5</p><p>遗作《永恒的记忆》在日本正式发售。</p><hr><p>看到新闻，很是惊讶。</p><p>意外之余，想起 kindle 里，曾满是他的作品。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;日本作家东野圭吾因大肠癌去世，享年 68 岁…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
+    
+    
+    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
+    
+    <category term="202607" scheme="https://yexingshusheng.com/tags/202607/"/>
+    
+  </entry>
   
   <entry>
     <title>AppleInsider：OpenAI 亏损扩大，Apple AI 支出仍较低</title>
@@ -349,144 +493,6 @@
     <category term="202602" scheme="https://yexingshusheng.com/tags/202602/"/>
     
     <category term="自驾游" scheme="https://yexingshusheng.com/tags/%E8%87%AA%E9%A9%BE%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>互联网出现新流行语“AI;DR”，旨在抵制 AI 生成的低质量内容</title>
-    <link href="https://yexingshusheng.com/2026/02/hu-lian-wang-chu-xian-xin-liu-xing-yu-ai-dr-zhi-zai-di-zhi-ai-sheng-cheng-de-di-zhi-liang-nei-rong.html"/>
-    <id>https://yexingshusheng.com/2026/02/hu-lian-wang-chu-xian-xin-liu-xing-yu-ai-dr-zhi-zai-di-zhi-ai-sheng-cheng-de-di-zhi-liang-nei-rong.html</id>
-    <published>2026-02-18T11:48:50.000Z</published>
-    <updated>2026-05-19T06:52:15.721Z</updated>
-    
-    <content type="html"><![CDATA[<p>针对互联网充斥 AI 生成内容的现状…</p><span id="more"></span><p>社交媒体近期出现新缩写“AI;DR”（AI, didn’t read），意为“AI 生成，不读”。</p><p>该词效仿经典用语“TL;DR”，旨在识别并标记低质量的 AI 内容（slop），提醒用户避免浪费时间。</p><p>此前，Merriam-Webster 已将“slop”评为 2025 年度词汇，反映出公众对 AI 泛滥的抵触情绪。</p><p>该术语在 Threads 和 Bluesky 等平台获得关注。有观点认为，写作是展示思想的窗口，若将其外包给大语言模型（LLM），将使阅读行为失去价值。</p><blockquote><p>rf.</p><p><a href="https://futurism.com/artificial-intelligence/aidr-meaning">There’s a Grim New Expression: “AI;DR”</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;针对互联网充斥 AI 生成内容的现状…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
-    
-    <category term="202602" scheme="https://yexingshusheng.com/tags/202602/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2026年该如何布局自己？</title>
-    <link href="https://yexingshusheng.com/2026/02/2026-nian-gai-ru-he-bu-ju-zi-ji.html"/>
-    <id>https://yexingshusheng.com/2026/02/2026-nian-gai-ru-he-bu-ju-zi-ji.html</id>
-    <published>2026-02-01T14:47:27.000Z</published>
-    <updated>2026-02-06T03:38:36.968Z</updated>
-    
-    <content type="html"><![CDATA[<p>时间过得很快，有必要进行一些规划…</p><span id="more"></span><p>2026 年初步计划的几件小事（本文仅讨论 AI 方向）：</p><ul><li>延续搭建自己的知识库。不学习新的笔记管理工具，无意义。</li><li>给自己配一个顶配 AI 会员。首选「海外御三家 AI」之一——ChatGPT、Gemini、Claude。</li><li>比自己 2025 年的读书量，至少多一本。</li><li>建立长期输出账号。</li><li>其他部分，动态调整完善。</li></ul><hr><p>注意到，从 2025 年到 2026 年初，AI 产品突破性产出：Claude Code、豆包手机、Manus、OpenClaw、MoltBook、Chrome Gemini。</p><p>至于其他领域的 AI 工具也层出不穷。</p><p>但背后本质的问题只有一个：怎么让 AI 真正帮你干活？</p><p>直观且简单的方式，建立一个输出账号，用输出倒逼输入，期间会遇到各种问题，尽量用 AI 去解决。</p><p>输入的话，读书永远是最便宜、最高效吸取经验的地方，搭配独特的 bot 工具，轻松解锁全球书库。</p><p>观看了油管的几场访谈节目，简单总结：</p><ul><li>Elon Musk：<ul><li>人类存在的意义在于：追求真理、追求审美、保持好奇。</li><li>AI 会极大提升生产力，但不会替代意义创造。</li><li>文明前进的燃料不是效率，而是好奇。</li></ul></li><li>Sam Altman（OpenAI CEO）：<ul><li>未来属于“判断力”和“品味”。</li><li>未来最稀缺的不是知识，而是判断力。</li><li>他提出三种不可替代能力：判断力、品味和主动性。</li></ul></li><li>Demis Hassabis（DeepMind 创始人）<ul><li>想象力是人类文明核心。</li><li>他强调三种能力：跨领域想象力、价值设定能力、长期文明视角。</li></ul></li><li>Jensen Huang（英伟达 CEO）<ul><li>人类真正价值是创造梦想.</li><li>AI 不会取代人，但会放大人的野心。</li><li>人类独特性的三个点：梦想能力、情感驱动创新和社会协作能力。</li></ul></li><li>Satya Nadella（微软 CEO）<ul><li>同理心是AI时代的核心竞争力。</li><li>未来最重要的不是 IQ，而是 EQ。</li><li>人类最独特的能力：同理心、伦理判断和价值共识构建。</li></ul></li><li>Geoffrey Hinton（深度学习之父）<ul><li>AI 可能会超越理性能力，但未必拥有主观体验。</li><li>人类最特殊的是Consciousness（意识体验）。</li></ul></li></ul><p>把这些大佬观点融合，其实能得到一个非常漂亮的框架：</p><p>在 AI 时代，人类五大独特能力：</p><ol><li>价值定义能力。人类负责：设定目标、决定方向。</li><li>想象与梦想能力。人类文明来自：好奇心、想象力和野心。</li><li>审美和品味能力。决定什么是好设计、什么是好文化。</li><li>情感与共情能力。社会稳定核心来源。</li><li>主观体验能力。决定幸福、意义和人生感受。</li></ol><p>总结成一句话就是：AI 负责效率，人类负责意义。</p><p>未来的比拼，更多的是，你保留了多大程度上，作为人的、不可被机器替代的独特价值。</p><blockquote><p>rf.</p><p>不全</p><p>【Elon Musk：<a href="https://www.youtube.com/watch?v=La93tzudO9s%E3%80%91">https://www.youtube.com/watch?v=La93tzudO9s】</a></p><p>【Elon Musk：<a href="https://www.youtube.com/watch?v=lCf7Iy5BU84%E3%80%91">https://www.youtube.com/watch?v=lCf7Iy5BU84】</a></p><p>【Sam Altman：<a href="https://www.youtube.com/watch?v=A5uMNMAWi3E%E3%80%91">https://www.youtube.com/watch?v=A5uMNMAWi3E】</a></p><p>【Sam Altman：<a href="https://www.youtube.com/watch?v=PkXELH6Y2lM%E3%80%91">https://www.youtube.com/watch?v=PkXELH6Y2lM】</a></p><p>【Sam Altman：<a href="https://www.youtube.com/watch?v=c0NqpG--Pzw%E3%80%91">https://www.youtube.com/watch?v=c0NqpG--Pzw】</a></p><p>【Demis Hassabis：<a href="https://www.futurefast.ai/videos/video-_ltuZlGdMsg%E3%80%91">https://www.futurefast.ai/videos/video-_ltuZlGdMsg】</a></p><p>【Jensen Huang：<a href="https://www.cnbc.com/video/2025/09/22/watch-cnbcs-full-interview-with-nvidia-ceo-jensen-huang-and-openai-leaders-sam-altman-and-greg-brockman.html%E3%80%91">https://www.cnbc.com/video/2025/09/22/watch-cnbcs-full-interview-with-nvidia-ceo-jensen-huang-and-openai-leaders-sam-altman-and-greg-brockman.html】</a></p><p>【Geoffrey Hinton：<a href="https://www.youtube.com/watch?v=mZUG0pr5hBo%E3%80%91">https://www.youtube.com/watch?v=mZUG0pr5hBo】</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;时间过得很快，有必要进行一些规划…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日志随笔" scheme="https://yexingshusheng.com/categories/%E6%97%A5%E5%BF%97%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
-    
-    <category term="202602" scheme="https://yexingshusheng.com/tags/202602/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这算不算庞氏骗局</title>
-    <link href="https://yexingshusheng.com/2026/01/han-guo-pang-shi-pian-ju.html"/>
-    <id>https://yexingshusheng.com/2026/01/han-guo-pang-shi-pian-ju.html</id>
-    <published>2026-01-31T13:30:53.000Z</published>
-    <updated>2026-02-05T09:16:16.821Z</updated>
-    
-    <content type="html"><![CDATA[<p>虽说是两年前的文章，毕竟是先遣服，仍有启示意义…</p><span id="more"></span><p>养老金（pension）这个历史庞氏骗局，韩国最新的数据显示，韩国老年人平均每个月收到的养老金，已经不够基本生活成本开销了。</p><p>别嘲笑今天的韩国，这是未来绝大多数国家的真实写照，而且发展中国家的情况未来只会更惨。</p><p>原文转录：</p><blockquote><p>周一公布的数据显示，2023年韩国老年人平均每月领取69.5万韩元（约合501.15美元）的养老金，低于最低生活成本估计值。</p><p>根据韩国统计厅汇编的数据，截至 2023 年，共有 864 万 65 岁及以上的老年人（占该年龄组人口的 90.9%）领取了至少一种养老金计划的养老金，其中包括国家养老金。</p><p>数据显示，平均每月养老金数额比上一年增长了 6.9%，并且一直在稳步增长。</p><p>然而，政府的另一项数据显示，老年人每月至少需要 158 万韩元才能支付基本生活开支。</p><p>随着国家人口老龄化速度加快，政府一直在扩大养老金计划，以帮助改善老年公民的经济保障。</p><p>尽管韩国做出了诸多努力，但2023年韩国老年贫困率仍高达39.7%，在经济合作与发展组织（OECD）成员国中位居榜首。近年来，这一数字呈恶化趋势，且女性贫困率明显高于男性。</p></blockquote><blockquote><p>rf.</p><p><a href="https://www.koreatimes.co.kr/economy/20250825/monthly-pension-for-senior-citizens-falls-short-of-minimum-living-expenses-in-2023-data">Monthly pension for senior citizens falls short of minimum living expenses in 2023: data</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;虽说是两年前的文章，毕竟是先遣服，仍有启示意义…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
-    
-    <category term="202601" scheme="https://yexingshusheng.com/tags/202601/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大多数CEO报告AI投资零回报</title>
-    <link href="https://yexingshusheng.com/2026/01/da-duo-shu-ceo-bao-gao-ai-tou-zi-ling-hui-bao.html"/>
-    <id>https://yexingshusheng.com/2026/01/da-duo-shu-ceo-bao-gao-ai-tou-zi-ling-hui-bao.html</id>
-    <published>2026-01-24T15:18:23.000Z</published>
-    <updated>2026-02-05T09:05:20.223Z</updated>
-    
-    <content type="html"><![CDATA[<p>普华永道（PwC）调查了逾 4500 位 CEO …</p><span id="more"></span><p>发现尽管在 AI 上投入了大量资金，但大部分 CEO 表示 AI 投资未带来收入增长或成本降低。接受调查的 4454 位商界领袖中只有 12% 同时实现了成本降低和收入增长，56% 既没有降低成本也没有增加收入，26% 实现了成本降低，但类似比例的人增加了成本。AI 的普及度仍然有限，即使在需求生成（22%）、支持服务（20%）和产品开发（19%）等热门应用场景中，只有少数企业广泛部署 AI。从更宏观的角度，普华永道报告 CEO 们的信心跌至五年以来的最低点，仅 30% 的 CEO 对营收增长乐观（低于去年的 38%），表明地缘政治风险日益加剧，网络威胁升级，同时 AI 的利弊也存在不确定性。</p><blockquote><p>rf.</p><p><a href="https://www.solidot.org/story?sid=83357">大多数 CEO 报告 AI 投资零回报</a></p><p><a href="https://slashdot.org/story/26/01/20/2133237/majority-of-ceos-report-zero-payoff-from-ai-splurge">https://slashdot.org/story/26/01/20/2133237/majority-of-ceos-report-zero-payoff-from-ai-splurge</a></p><p><a href="https://www.pwc.com/gx/en/issues/c-suite-insights/ceo-survey.html">https://www.pwc.com/gx/en/issues/c-suite-insights/ceo-survey.html</a></p></blockquote><hr><p>OpenAI 于 2026 年 1 月 16 日（周五） 正式宣布，将在未来几周内在 ChatGPT 中开始测试广告，这是该公司首次在这款热门聊天机器人中引入广告变现模式。</p><p>两年前，<a href="https://www.youtube.com/watch?v=FVRHTWWEIz4&t=2295s">Sam Altman 就曾表示</a>，他认为广告与人工智能的结合 “独特地令人不安”，对 OpenAI 而言，这将是 “最后的手段”。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;普华永道（PwC）调查了逾 4500 位 CEO …&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
-    
-    <category term="202601" scheme="https://yexingshusheng.com/tags/202601/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fix Your robots.txt or Your Site Disappears from Google</title>
-    <link href="https://yexingshusheng.com/2026/01/fix-your-robots-txt-or-your-site-disappears-from-google.html"/>
-    <id>https://yexingshusheng.com/2026/01/fix-your-robots-txt-or-your-site-disappears-from-google.html</id>
-    <published>2026-01-24T13:05:25.000Z</published>
-    <updated>2026-02-05T05:10:22.198Z</updated>
-    
-    <content type="html"><![CDATA[<p>来自站长 Adam Coster 发布的消息…</p><span id="more"></span><p>如果网站没有 robots.txt 文件，谷歌搜索会直接清除网站所有搜索结果。</p><blockquote><p>rf.</p><p><a href="https://www.alanwsmith.com/en/37/wa/jz/s1/">Fix Your robots.txt or Your Site Disappears from Google</a></p><p><a href="https://www.landiannews.com/archives/111584.html?utm_source=landiansub&utm_medium=social&utm_campaign=%E5%A6%82%E6%9E%9C%E7%BD%91%E7%AB%99%E6%B2%A1%E6%9C%89robots.txt%E6%96%87%E4%BB%B6+%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E4%BC%9A%E7%9B%B4%E6%8E%A5%E6%B8%85%E9%99%A4%E7%BD%91%E7%AB%99%E6%89%80%E6%9C%89%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C">如果网站没有robots.txt文件 谷歌搜索会直接清除网站所有搜索结果</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;来自站长 Adam Coster 发布的消息…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
-    
-    <category term="202601" scheme="https://yexingshusheng.com/tags/202601/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《麻省理工科技评论》发布2026年十大突破性技术</title>
-    <link href="https://yexingshusheng.com/2026/01/ma-sheng-li-gong-ke-ji-ping-lun-fa-bu-2026-nian-shi-da-tu-po-xing-ji-zhu.html"/>
-    <id>https://yexingshusheng.com/2026/01/ma-sheng-li-gong-ke-ji-ping-lun-fa-bu-2026-nian-shi-da-tu-po-xing-ji-zhu.html</id>
-    <published>2026-01-17T14:58:13.000Z</published>
-    <updated>2026-02-05T05:04:52.252Z</updated>
-    
-    <content type="html"><![CDATA[<p>看看那些尚未成熟、但终将改变世界的技术，是一件有意义的事…</p><span id="more"></span><p>省流：</p><ol><li>超大规模 AI 数据中心</li><li>钠离子电池</li><li>碱基编辑婴儿</li><li>机制可解释性</li><li>下一代核能</li><li>胚胎评分</li><li>AI 陪伴</li><li>基因复活</li><li>声称式编码</li><li>商业空间站</li></ol><blockquote><p>rf.</p><p><a href="https://www.mittrchina.com/news/detail/15766">《麻省理工科技评论》发布2026年“十大突破性技术”</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;看看那些尚未成熟、但终将改变世界的技术，是一件有意义的事…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="转录归档" scheme="https://yexingshusheng.com/categories/%E8%BD%AC%E5%BD%95%E5%BD%92%E6%A1%A3/"/>
-    
-    
-    <category term="2026" scheme="https://yexingshusheng.com/tags/2026/"/>
-    
-    <category term="202601" scheme="https://yexingshusheng.com/tags/202601/"/>
     
   </entry>
   
